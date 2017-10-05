@@ -15922,12 +15922,10 @@ var Headquarters = (function () {
     }
     Headquarters.prototype.ngOnitInit = function () {
         var id = this.route.snapshot.params['id'];
-        console.log(id);
-        if (!id) {
-            var link = ['pages/accountmanagement/businessdata'];
-            this.router.navigate(link);
-        }
         this.id_empresa = id;
+        if (!id)
+            return;
+        console.log(id);
     };
     Headquarters.prototype.loadTypeEmployees = function () {
         var _this = this;
