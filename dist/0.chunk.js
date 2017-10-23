@@ -9,55 +9,56 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_nga_module__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_moment__ = __webpack_require__(1043);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_moment__ = __webpack_require__(1044);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_angular2_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__accountmanagement_routing__ = __webpack_require__(1028);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__accountmanagement_component__ = __webpack_require__(938);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_headquarters_headquarters_component__ = __webpack_require__(942);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__accountmanagement_routing__ = __webpack_require__(1029);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__accountmanagement_component__ = __webpack_require__(937);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_headquarters_headquarters_component__ = __webpack_require__(941);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_businessdata_businessdata_component__ = __webpack_require__(939);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_contacts_contacts_component__ = __webpack_require__(940);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_servicelevels_servicelevels_component__ = __webpack_require__(944);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_generaldata_generaldata_component__ = __webpack_require__(941);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_opposition_opposition_component__ = __webpack_require__(943);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__theme_services_totalService_keyAccount_service__ = __webpack_require__(987);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__theme_services_totalService_EjecutivoNegocios_service__ = __webpack_require__(971);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__theme_services_totalService_sector_service__ = __webpack_require__(998);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__theme_services_totalService_typeEmployees_service__ = __webpack_require__(1000);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__theme_services_totalService_regionals_service__ = __webpack_require__(995);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__theme_services_headQuartersService_headQuarters_service__ = __webpack_require__(684);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__theme_services_businessDataService_businessData_service__ = __webpack_require__(955);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__theme_services_generalDataService_generalData_service__ = __webpack_require__(963);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__theme_services_contactsService_contacts_service__ = __webpack_require__(959);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__theme_services_contactsService_contactoCartera_service__ = __webpack_require__(957);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__theme_services_contactsService_contactoHseq_service__ = __webpack_require__(958);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__theme_services_serviceLevelsService_serviceLevels_service__ = __webpack_require__(968);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__theme_services_oppositionService_opposition_service__ = __webpack_require__(965);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__theme_services_totalService_category_service__ = __webpack_require__(982);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__theme_services_totalService_categoryOpposition_service__ = __webpack_require__(983);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__theme_services_totalService_listPrices_service__ = __webpack_require__(988);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__theme_services_totalService_typeMachine_service__ = __webpack_require__(686);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__theme_services_totalService_typeNegociation_service__ = __webpack_require__(1001);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__theme_services_totalService_anchorage_service__ = __webpack_require__(980);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__theme_services_totalService_purse_service__ = __webpack_require__(993);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__theme_services_totalService_correctivos_service__ = __webpack_require__(984);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__theme_services_totalService_fumigaciones_service__ = __webpack_require__(986);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__theme_services_totalService_preventivos_service__ = __webpack_require__(992);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__theme_services_totalService_tipoVenta_service__ = __webpack_require__(999);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__theme_services_totalService_plazoCartera_service__ = __webpack_require__(991);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__theme_services_totalService_plazoArriendo_service__ = __webpack_require__(990);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__theme_services_totalService_cruceCartera_service__ = __webpack_require__(985);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__theme_services_totalService_requiereCompra_service__ = __webpack_require__(997);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__theme_services_totalService_TipoCliente_service__ = __webpack_require__(977);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__theme_services_cache__ = __webpack_require__(646);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__theme_services_Utilidades_service__ = __webpack_require__(635);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__theme_services_totalService_Modo_service__ = __webpack_require__(975);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__theme_services_totalService_InfluenciaCompra_service__ = __webpack_require__(974);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__theme_services_totalService_GradoInfluencia_service__ = __webpack_require__(973);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__app_pages_dashboard_calendar_calendar_component__ = __webpack_require__(683);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__theme_pipes_validaciones_validarTexto_pipe__ = __webpack_require__(1039);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__theme_pipes_validaciones_validarNumero_pipe__ = __webpack_require__(1038);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52_mydatepicker__ = __webpack_require__(1077);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_businessdata_businessdata_component__ = __webpack_require__(938);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_contacts_contacts_component__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_servicelevels_servicelevels_component__ = __webpack_require__(943);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_generaldata_generaldata_component__ = __webpack_require__(940);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_opposition_opposition_component__ = __webpack_require__(942);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__theme_services_totalService_keyAccount_service__ = __webpack_require__(985);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__theme_services_totalService_EjecutivoNegocios_service__ = __webpack_require__(969);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__theme_services_totalService_sector_service__ = __webpack_require__(996);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__theme_services_totalService_typeEmployees_service__ = __webpack_require__(998);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__theme_services_totalService_regionals_service__ = __webpack_require__(993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__theme_services_headQuartersService_headQuarters_service__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__theme_services_businessDataService_businessData_service__ = __webpack_require__(953);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__theme_services_generalDataService_generalData_service__ = __webpack_require__(961);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__theme_services_contactsService_contacts_service__ = __webpack_require__(957);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__theme_services_contactsService_contactoCartera_service__ = __webpack_require__(955);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__theme_services_contactsService_contactoHseq_service__ = __webpack_require__(956);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__theme_services_serviceLevelsService_serviceLevels_service__ = __webpack_require__(966);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__theme_services_oppositionService_opposition_service__ = __webpack_require__(963);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__theme_services_totalService_category_service__ = __webpack_require__(980);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__theme_services_totalService_categoryOpposition_service__ = __webpack_require__(981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__theme_services_totalService_listPrices_service__ = __webpack_require__(986);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__theme_services_totalService_typeMachine_service__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__theme_services_totalService_typeGlass_service__ = __webpack_require__(999);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__theme_services_totalService_typeNegociation_service__ = __webpack_require__(1000);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__theme_services_totalService_anchorage_service__ = __webpack_require__(978);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__theme_services_totalService_purse_service__ = __webpack_require__(991);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__theme_services_totalService_correctivos_service__ = __webpack_require__(982);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__theme_services_totalService_fumigaciones_service__ = __webpack_require__(984);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__theme_services_totalService_preventivos_service__ = __webpack_require__(990);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__theme_services_totalService_tipoVenta_service__ = __webpack_require__(997);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__theme_services_totalService_plazoCartera_service__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__theme_services_totalService_plazoArriendo_service__ = __webpack_require__(988);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__theme_services_totalService_cruceCartera_service__ = __webpack_require__(983);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__theme_services_totalService_requiereCompra_service__ = __webpack_require__(995);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__theme_services_totalService_TipoCliente_service__ = __webpack_require__(975);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__theme_services_cache__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__theme_services_Utilidades_service__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__theme_services_totalService_Modo_service__ = __webpack_require__(973);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__theme_services_totalService_InfluenciaCompra_service__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__theme_services_totalService_GradoInfluencia_service__ = __webpack_require__(971);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__app_pages_dashboard_calendar_calendar_component__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__theme_pipes_validaciones_validarTexto_pipe__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__theme_pipes_validaciones_validarNumero_pipe__ = __webpack_require__(1039);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53_mydatepicker__ = __webpack_require__(1077);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AccountmanagementModule", function() { return AccountmanagementModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -65,6 +66,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -133,13 +135,13 @@ AccountmanagementModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__["b" /* NgbModalModule */],
             __WEBPACK_IMPORTED_MODULE_9__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_6__accountmanagement_routing__["a" /* routing */],
-            __WEBPACK_IMPORTED_MODULE_52_mydatepicker__["MyDatePickerModule"],
+            __WEBPACK_IMPORTED_MODULE_53_mydatepicker__["MyDatePickerModule"],
             __WEBPACK_IMPORTED_MODULE_5_angular2_moment__["MomentModule"],
         ],
         declarations: [
             __WEBPACK_IMPORTED_MODULE_8__components_headquarters_headquarters_component__["a" /* Headquarters */],
-            __WEBPACK_IMPORTED_MODULE_50__theme_pipes_validaciones_validarTexto_pipe__["a" /* ValidarTexto */],
-            __WEBPACK_IMPORTED_MODULE_51__theme_pipes_validaciones_validarNumero_pipe__["a" /* ValidarNumero */],
+            __WEBPACK_IMPORTED_MODULE_51__theme_pipes_validaciones_validarTexto_pipe__["a" /* ValidarTexto */],
+            __WEBPACK_IMPORTED_MODULE_52__theme_pipes_validaciones_validarNumero_pipe__["a" /* ValidarNumero */],
             __WEBPACK_IMPORTED_MODULE_10__components_businessdata_businessdata_component__["a" /* Businessdata */],
             __WEBPACK_IMPORTED_MODULE_11__components_contacts_contacts_component__["a" /* Contacts */],
             __WEBPACK_IMPORTED_MODULE_12__components_servicelevels_servicelevels_component__["a" /* Servicelevels */],
@@ -160,30 +162,31 @@ AccountmanagementModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_15__theme_services_totalService_keyAccount_service__["a" /* KeyAccountService */],
             __WEBPACK_IMPORTED_MODULE_16__theme_services_totalService_EjecutivoNegocios_service__["a" /* EjecutivoNegociosService */],
             __WEBPACK_IMPORTED_MODULE_19__theme_services_totalService_regionals_service__["a" /* RegionalsService */],
-            __WEBPACK_IMPORTED_MODULE_33__theme_services_totalService_anchorage_service__["a" /* AnchorageService */],
+            __WEBPACK_IMPORTED_MODULE_34__theme_services_totalService_anchorage_service__["a" /* AnchorageService */],
             __WEBPACK_IMPORTED_MODULE_30__theme_services_totalService_listPrices_service__["a" /* ListPricesService */],
-            __WEBPACK_IMPORTED_MODULE_32__theme_services_totalService_typeNegociation_service__["a" /* TypeNegociationService */],
+            __WEBPACK_IMPORTED_MODULE_33__theme_services_totalService_typeNegociation_service__["a" /* TypeNegociationService */],
             __WEBPACK_IMPORTED_MODULE_31__theme_services_totalService_typeMachine_service__["a" /* TypeMachineService */],
             __WEBPACK_IMPORTED_MODULE_28__theme_services_totalService_category_service__["a" /* CategoryService */],
             __WEBPACK_IMPORTED_MODULE_29__theme_services_totalService_categoryOpposition_service__["a" /* CategoryOppositionService */],
-            __WEBPACK_IMPORTED_MODULE_34__theme_services_totalService_purse_service__["a" /* PurseService */],
-            __WEBPACK_IMPORTED_MODULE_35__theme_services_totalService_correctivos_service__["a" /* CorrectivosService */],
-            __WEBPACK_IMPORTED_MODULE_43__theme_services_totalService_TipoCliente_service__["a" /* TipoClienteService */],
-            __WEBPACK_IMPORTED_MODULE_44__theme_services_cache__["a" /* cache */],
-            __WEBPACK_IMPORTED_MODULE_45__theme_services_Utilidades_service__["a" /* Utilidades */],
-            __WEBPACK_IMPORTED_MODULE_46__theme_services_totalService_Modo_service__["a" /* ModoService */],
-            __WEBPACK_IMPORTED_MODULE_47__theme_services_totalService_InfluenciaCompra_service__["a" /* InfluenciaCompra */],
-            __WEBPACK_IMPORTED_MODULE_48__theme_services_totalService_GradoInfluencia_service__["a" /* GradoInfluencia */],
+            __WEBPACK_IMPORTED_MODULE_35__theme_services_totalService_purse_service__["a" /* PurseService */],
+            __WEBPACK_IMPORTED_MODULE_36__theme_services_totalService_correctivos_service__["a" /* CorrectivosService */],
+            __WEBPACK_IMPORTED_MODULE_44__theme_services_totalService_TipoCliente_service__["a" /* TipoClienteService */],
+            __WEBPACK_IMPORTED_MODULE_45__theme_services_cache__["a" /* cache */],
+            __WEBPACK_IMPORTED_MODULE_46__theme_services_Utilidades_service__["a" /* Utilidades */],
+            __WEBPACK_IMPORTED_MODULE_47__theme_services_totalService_Modo_service__["a" /* ModoService */],
+            __WEBPACK_IMPORTED_MODULE_48__theme_services_totalService_InfluenciaCompra_service__["a" /* InfluenciaCompra */],
+            __WEBPACK_IMPORTED_MODULE_49__theme_services_totalService_GradoInfluencia_service__["a" /* GradoInfluencia */],
             __WEBPACK_IMPORTED_MODULE_24__theme_services_contactsService_contactoCartera_service__["a" /* contactoCarteraService */],
             __WEBPACK_IMPORTED_MODULE_25__theme_services_contactsService_contactoHseq_service__["a" /* ContactoHseqService */],
-            __WEBPACK_IMPORTED_MODULE_49__app_pages_dashboard_calendar_calendar_component__["a" /* Calendar */],
-            __WEBPACK_IMPORTED_MODULE_36__theme_services_totalService_fumigaciones_service__["a" /* FumigacionesService */],
-            __WEBPACK_IMPORTED_MODULE_37__theme_services_totalService_preventivos_service__["a" /* PreventivosService */],
-            __WEBPACK_IMPORTED_MODULE_38__theme_services_totalService_tipoVenta_service__["a" /* TipoVentaService */],
-            __WEBPACK_IMPORTED_MODULE_39__theme_services_totalService_plazoCartera_service__["a" /* PlazoCarteraService */],
-            __WEBPACK_IMPORTED_MODULE_40__theme_services_totalService_plazoArriendo_service__["a" /* PlazoArriendoService */],
-            __WEBPACK_IMPORTED_MODULE_41__theme_services_totalService_cruceCartera_service__["a" /* CruceCarteraService */],
-            __WEBPACK_IMPORTED_MODULE_42__theme_services_totalService_requiereCompra_service__["a" /* RequiereCompraService */],
+            __WEBPACK_IMPORTED_MODULE_50__app_pages_dashboard_calendar_calendar_component__["a" /* Calendar */],
+            __WEBPACK_IMPORTED_MODULE_37__theme_services_totalService_fumigaciones_service__["a" /* FumigacionesService */],
+            __WEBPACK_IMPORTED_MODULE_38__theme_services_totalService_preventivos_service__["a" /* PreventivosService */],
+            __WEBPACK_IMPORTED_MODULE_39__theme_services_totalService_tipoVenta_service__["a" /* TipoVentaService */],
+            __WEBPACK_IMPORTED_MODULE_40__theme_services_totalService_plazoCartera_service__["a" /* PlazoCarteraService */],
+            __WEBPACK_IMPORTED_MODULE_41__theme_services_totalService_plazoArriendo_service__["a" /* PlazoArriendoService */],
+            __WEBPACK_IMPORTED_MODULE_42__theme_services_totalService_cruceCartera_service__["a" /* CruceCarteraService */],
+            __WEBPACK_IMPORTED_MODULE_43__theme_services_totalService_requiereCompra_service__["a" /* RequiereCompraService */],
+            __WEBPACK_IMPORTED_MODULE_32__theme_services_totalService_typeGlass_service__["a" /* TypeGlass */],
         ],
         exports: [],
     })
@@ -221,294 +224,6 @@ Observable_1.Observable.prototype.first = first_1.first;
 
 /***/ }),
 /* 633 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/* tslint:disable:no-unused-variable */
-// Subject imported before Observable to bypass circular dependency issue since
-// Subject extends Observable and Observable references Subject in it's
-// definition
-var Subject_1 = __webpack_require__(32);
-exports.Subject = Subject_1.Subject;
-exports.AnonymousSubject = Subject_1.AnonymousSubject;
-/* tslint:enable:no-unused-variable */
-var Observable_1 = __webpack_require__(4);
-exports.Observable = Observable_1.Observable;
-// statics
-/* tslint:disable:no-use-before-declare */
-__webpack_require__(697);
-__webpack_require__(698);
-__webpack_require__(699);
-__webpack_require__(700);
-__webpack_require__(701);
-__webpack_require__(704);
-__webpack_require__(705);
-__webpack_require__(706);
-__webpack_require__(707);
-__webpack_require__(708);
-__webpack_require__(709);
-__webpack_require__(710);
-__webpack_require__(711);
-__webpack_require__(712);
-__webpack_require__(713);
-__webpack_require__(717);
-__webpack_require__(714);
-__webpack_require__(399);
-__webpack_require__(715);
-__webpack_require__(716);
-__webpack_require__(718);
-__webpack_require__(720);
-__webpack_require__(719);
-__webpack_require__(682);
-__webpack_require__(721);
-//dom
-__webpack_require__(702);
-__webpack_require__(703);
-//operators
-__webpack_require__(724);
-__webpack_require__(725);
-__webpack_require__(726);
-__webpack_require__(727);
-__webpack_require__(728);
-__webpack_require__(631);
-__webpack_require__(729);
-__webpack_require__(730);
-__webpack_require__(731);
-__webpack_require__(732);
-__webpack_require__(733);
-__webpack_require__(734);
-__webpack_require__(735);
-__webpack_require__(740);
-__webpack_require__(736);
-__webpack_require__(647);
-__webpack_require__(737);
-__webpack_require__(738);
-__webpack_require__(739);
-__webpack_require__(741);
-__webpack_require__(653);
-__webpack_require__(742);
-__webpack_require__(743);
-__webpack_require__(746);
-__webpack_require__(747);
-__webpack_require__(748);
-__webpack_require__(744);
-__webpack_require__(749);
-__webpack_require__(750);
-__webpack_require__(751);
-__webpack_require__(752);
-__webpack_require__(632);
-__webpack_require__(753);
-__webpack_require__(754);
-__webpack_require__(755);
-__webpack_require__(722);
-__webpack_require__(723);
-__webpack_require__(756);
-__webpack_require__(757);
-__webpack_require__(745);
-__webpack_require__(164);
-__webpack_require__(758);
-__webpack_require__(759);
-__webpack_require__(760);
-__webpack_require__(400);
-__webpack_require__(761);
-__webpack_require__(762);
-__webpack_require__(763);
-__webpack_require__(764);
-__webpack_require__(765);
-__webpack_require__(766);
-__webpack_require__(767);
-__webpack_require__(768);
-__webpack_require__(769);
-__webpack_require__(770);
-__webpack_require__(771);
-__webpack_require__(772);
-__webpack_require__(773);
-__webpack_require__(775);
-__webpack_require__(774);
-__webpack_require__(776);
-__webpack_require__(777);
-__webpack_require__(778);
-__webpack_require__(779);
-__webpack_require__(780);
-__webpack_require__(781);
-__webpack_require__(782);
-__webpack_require__(783);
-__webpack_require__(784);
-__webpack_require__(785);
-__webpack_require__(401);
-__webpack_require__(786);
-__webpack_require__(787);
-__webpack_require__(788);
-__webpack_require__(789);
-__webpack_require__(790);
-__webpack_require__(791);
-__webpack_require__(792);
-__webpack_require__(793);
-__webpack_require__(794);
-__webpack_require__(638);
-__webpack_require__(795);
-__webpack_require__(402);
-__webpack_require__(796);
-__webpack_require__(797);
-__webpack_require__(798);
-__webpack_require__(799);
-__webpack_require__(800);
-__webpack_require__(801);
-__webpack_require__(802);
-__webpack_require__(803);
-__webpack_require__(804);
-__webpack_require__(403);
-__webpack_require__(805);
-__webpack_require__(806);
-__webpack_require__(807);
-__webpack_require__(808);
-__webpack_require__(809);
-__webpack_require__(810);
-__webpack_require__(811);
-__webpack_require__(812);
-__webpack_require__(813);
-/* tslint:disable:no-unused-variable */
-var Subscription_1 = __webpack_require__(41);
-exports.Subscription = Subscription_1.Subscription;
-var Subscriber_1 = __webpack_require__(6);
-exports.Subscriber = Subscriber_1.Subscriber;
-var AsyncSubject_1 = __webpack_require__(641);
-exports.AsyncSubject = AsyncSubject_1.AsyncSubject;
-var ReplaySubject_1 = __webpack_require__(642);
-exports.ReplaySubject = ReplaySubject_1.ReplaySubject;
-var BehaviorSubject_1 = __webpack_require__(169);
-exports.BehaviorSubject = BehaviorSubject_1.BehaviorSubject;
-var ConnectableObservable_1 = __webpack_require__(404);
-exports.ConnectableObservable = ConnectableObservable_1.ConnectableObservable;
-var Notification_1 = __webpack_require__(392);
-exports.Notification = Notification_1.Notification;
-var EmptyError_1 = __webpack_require__(117);
-exports.EmptyError = EmptyError_1.EmptyError;
-var ArgumentOutOfRangeError_1 = __webpack_require__(393);
-exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError_1.ArgumentOutOfRangeError;
-var ObjectUnsubscribedError_1 = __webpack_require__(170);
-exports.ObjectUnsubscribedError = ObjectUnsubscribedError_1.ObjectUnsubscribedError;
-var TimeoutError_1 = __webpack_require__(672);
-exports.TimeoutError = TimeoutError_1.TimeoutError;
-var UnsubscriptionError_1 = __webpack_require__(418);
-exports.UnsubscriptionError = UnsubscriptionError_1.UnsubscriptionError;
-var timeInterval_1 = __webpack_require__(665);
-exports.TimeInterval = timeInterval_1.TimeInterval;
-var timestamp_1 = __webpack_require__(666);
-exports.Timestamp = timestamp_1.Timestamp;
-var TestScheduler_1 = __webpack_require__(929);
-exports.TestScheduler = TestScheduler_1.TestScheduler;
-var VirtualTimeScheduler_1 = __webpack_require__(667);
-exports.VirtualTimeScheduler = VirtualTimeScheduler_1.VirtualTimeScheduler;
-var AjaxObservable_1 = __webpack_require__(658);
-exports.AjaxResponse = AjaxObservable_1.AjaxResponse;
-exports.AjaxError = AjaxObservable_1.AjaxError;
-exports.AjaxTimeoutError = AjaxObservable_1.AjaxTimeoutError;
-var asap_1 = __webpack_require__(668);
-var async_1 = __webpack_require__(634);
-var queue_1 = __webpack_require__(669);
-var animationFrame_1 = __webpack_require__(926);
-var rxSubscriber_1 = __webpack_require__(119);
-var iterator_1 = __webpack_require__(116);
-var observable_1 = __webpack_require__(118);
-/* tslint:enable:no-unused-variable */
-/**
- * @typedef {Object} Rx.Scheduler
- * @property {Scheduler} queue Schedules on a queue in the current event frame
- * (trampoline scheduler). Use this for iteration operations.
- * @property {Scheduler} asap Schedules on the micro task queue, which uses the
- * fastest transport mechanism available, either Node.js' `process.nextTick()`
- * or Web Worker MessageChannel or setTimeout or others. Use this for
- * asynchronous conversions.
- * @property {Scheduler} async Schedules work with `setInterval`. Use this for
- * time-based operations.
- * @property {Scheduler} animationFrame Schedules work with `requestAnimationFrame`.
- * Use this for synchronizing with the platform's painting
- */
-var Scheduler = {
-    asap: asap_1.asap,
-    queue: queue_1.queue,
-    animationFrame: animationFrame_1.animationFrame,
-    async: async_1.async
-};
-exports.Scheduler = Scheduler;
-/**
- * @typedef {Object} Rx.Symbol
- * @property {Symbol|string} rxSubscriber A symbol to use as a property name to
- * retrieve an "Rx safe" Observer from an object. "Rx safety" can be defined as
- * an object that has all of the traits of an Rx Subscriber, including the
- * ability to add and remove subscriptions to the subscription chain and
- * guarantees involving event triggering (can't "next" after unsubscription,
- * etc).
- * @property {Symbol|string} observable A symbol to use as a property name to
- * retrieve an Observable as defined by the [ECMAScript "Observable" spec](https://github.com/zenparsing/es-observable).
- * @property {Symbol|string} iterator The ES6 symbol to use as a property name
- * to retrieve an iterator from an object.
- */
-var Symbol = {
-    rxSubscriber: rxSubscriber_1.rxSubscriber,
-    observable: observable_1.observable,
-    iterator: iterator_1.iterator
-};
-exports.Symbol = Symbol;
-//# sourceMappingURL=Rx.js.map
-
-/***/ }),
-/* 634 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var AsyncAction_1 = __webpack_require__(639);
-var AsyncScheduler_1 = __webpack_require__(640);
-/**
- *
- * Async Scheduler
- *
- * <span class="informal">Schedule task as if you used setTimeout(task, duration)</span>
- *
- * `async` scheduler schedules tasks asynchronously, by putting them on the JavaScript
- * event loop queue. It is best used to delay tasks in time or to schedule tasks repeating
- * in intervals.
- *
- * If you just want to "defer" task, that is to perform it right after currently
- * executing synchronous code ends (commonly achieved by `setTimeout(deferredTask, 0)`),
- * better choice will be the {@link asap} scheduler.
- *
- * @example <caption>Use async scheduler to delay task</caption>
- * const task = () => console.log('it works!');
- *
- * Rx.Scheduler.async.schedule(task, 2000);
- *
- * // After 2 seconds logs:
- * // "it works!"
- *
- *
- * @example <caption>Use async scheduler to repeat task in intervals</caption>
- * function task(state) {
- *   console.log(state);
- *   this.schedule(state + 1, 1000); // `this` references currently executing Action,
- *                                   // which we reschedule with new state and delay
- * }
- *
- * Rx.Scheduler.async.schedule(task, 3000, 0);
- *
- * // Logs:
- * // 0 after 3s
- * // 1 after 4s
- * // 2 after 5s
- * // 3 after 6s
- *
- * @static true
- * @name async
- * @owner Scheduler
- */
-exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
-//# sourceMappingURL=async.js.map
-
-/***/ }),
-/* 635 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -581,13 +296,41 @@ var Utilidades = (function () {
         var copy = JSON.parse(JSON.stringify(retorno));
         return copy;
     };
+    Utilidades.prototype.validarNumerosDocumentos = function (value) {
+        var retorno = '';
+        if (!value) {
+            retorno = '';
+        }
+        else {
+            var lista = value.replace(/[^\d\w\x2D .]/g, '').split('');
+            lista.forEach(function (element) {
+                retorno = retorno + element;
+            });
+        }
+        var copy = JSON.parse(JSON.stringify(retorno));
+        return copy;
+    };
+    Utilidades.prototype.validarTextoNumeros = function (value) {
+        var retorno = '';
+        if (!value) {
+            retorno = '';
+        }
+        else {
+            var lista = value.replace(/[^a-zA-Z0-9 .]/g, '').split('');
+            lista.forEach(function (element) {
+                retorno = retorno + element;
+            });
+        }
+        var copy = JSON.parse(JSON.stringify(retorno));
+        return copy;
+    };
     Utilidades.prototype.validarTelefono = function (value) {
         var retorno = '';
         if (!value) {
             retorno = '';
         }
         else {
-            var lista = value.replace(/[^0-9]/g, '').split('');
+            var lista = value.toString().replace(/[^0-9]/g, '').split('');
             lista.forEach(function (element) {
                 retorno = retorno + element;
             });
@@ -609,6 +352,294 @@ Utilidades = __decorate([
 //# sourceMappingURL=Utilidades.service.js.map
 
 /***/ }),
+/* 634 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/* tslint:disable:no-unused-variable */
+// Subject imported before Observable to bypass circular dependency issue since
+// Subject extends Observable and Observable references Subject in it's
+// definition
+var Subject_1 = __webpack_require__(32);
+exports.Subject = Subject_1.Subject;
+exports.AnonymousSubject = Subject_1.AnonymousSubject;
+/* tslint:enable:no-unused-variable */
+var Observable_1 = __webpack_require__(4);
+exports.Observable = Observable_1.Observable;
+// statics
+/* tslint:disable:no-use-before-declare */
+__webpack_require__(696);
+__webpack_require__(697);
+__webpack_require__(698);
+__webpack_require__(699);
+__webpack_require__(700);
+__webpack_require__(703);
+__webpack_require__(704);
+__webpack_require__(705);
+__webpack_require__(706);
+__webpack_require__(707);
+__webpack_require__(708);
+__webpack_require__(709);
+__webpack_require__(710);
+__webpack_require__(711);
+__webpack_require__(712);
+__webpack_require__(716);
+__webpack_require__(713);
+__webpack_require__(399);
+__webpack_require__(714);
+__webpack_require__(715);
+__webpack_require__(717);
+__webpack_require__(719);
+__webpack_require__(718);
+__webpack_require__(679);
+__webpack_require__(720);
+//dom
+__webpack_require__(701);
+__webpack_require__(702);
+//operators
+__webpack_require__(723);
+__webpack_require__(724);
+__webpack_require__(725);
+__webpack_require__(726);
+__webpack_require__(727);
+__webpack_require__(631);
+__webpack_require__(728);
+__webpack_require__(729);
+__webpack_require__(730);
+__webpack_require__(731);
+__webpack_require__(732);
+__webpack_require__(733);
+__webpack_require__(734);
+__webpack_require__(739);
+__webpack_require__(735);
+__webpack_require__(647);
+__webpack_require__(736);
+__webpack_require__(737);
+__webpack_require__(738);
+__webpack_require__(740);
+__webpack_require__(653);
+__webpack_require__(741);
+__webpack_require__(742);
+__webpack_require__(745);
+__webpack_require__(746);
+__webpack_require__(747);
+__webpack_require__(743);
+__webpack_require__(748);
+__webpack_require__(749);
+__webpack_require__(750);
+__webpack_require__(751);
+__webpack_require__(632);
+__webpack_require__(752);
+__webpack_require__(753);
+__webpack_require__(754);
+__webpack_require__(721);
+__webpack_require__(722);
+__webpack_require__(755);
+__webpack_require__(756);
+__webpack_require__(744);
+__webpack_require__(164);
+__webpack_require__(757);
+__webpack_require__(758);
+__webpack_require__(759);
+__webpack_require__(400);
+__webpack_require__(760);
+__webpack_require__(761);
+__webpack_require__(762);
+__webpack_require__(763);
+__webpack_require__(764);
+__webpack_require__(765);
+__webpack_require__(766);
+__webpack_require__(767);
+__webpack_require__(768);
+__webpack_require__(769);
+__webpack_require__(770);
+__webpack_require__(771);
+__webpack_require__(772);
+__webpack_require__(774);
+__webpack_require__(773);
+__webpack_require__(775);
+__webpack_require__(776);
+__webpack_require__(777);
+__webpack_require__(778);
+__webpack_require__(779);
+__webpack_require__(780);
+__webpack_require__(781);
+__webpack_require__(782);
+__webpack_require__(783);
+__webpack_require__(784);
+__webpack_require__(401);
+__webpack_require__(785);
+__webpack_require__(786);
+__webpack_require__(787);
+__webpack_require__(788);
+__webpack_require__(789);
+__webpack_require__(790);
+__webpack_require__(791);
+__webpack_require__(792);
+__webpack_require__(793);
+__webpack_require__(639);
+__webpack_require__(794);
+__webpack_require__(402);
+__webpack_require__(795);
+__webpack_require__(796);
+__webpack_require__(797);
+__webpack_require__(798);
+__webpack_require__(799);
+__webpack_require__(800);
+__webpack_require__(801);
+__webpack_require__(802);
+__webpack_require__(803);
+__webpack_require__(403);
+__webpack_require__(804);
+__webpack_require__(805);
+__webpack_require__(806);
+__webpack_require__(807);
+__webpack_require__(808);
+__webpack_require__(809);
+__webpack_require__(810);
+__webpack_require__(811);
+__webpack_require__(812);
+/* tslint:disable:no-unused-variable */
+var Subscription_1 = __webpack_require__(41);
+exports.Subscription = Subscription_1.Subscription;
+var Subscriber_1 = __webpack_require__(6);
+exports.Subscriber = Subscriber_1.Subscriber;
+var AsyncSubject_1 = __webpack_require__(642);
+exports.AsyncSubject = AsyncSubject_1.AsyncSubject;
+var ReplaySubject_1 = __webpack_require__(643);
+exports.ReplaySubject = ReplaySubject_1.ReplaySubject;
+var BehaviorSubject_1 = __webpack_require__(169);
+exports.BehaviorSubject = BehaviorSubject_1.BehaviorSubject;
+var ConnectableObservable_1 = __webpack_require__(404);
+exports.ConnectableObservable = ConnectableObservable_1.ConnectableObservable;
+var Notification_1 = __webpack_require__(392);
+exports.Notification = Notification_1.Notification;
+var EmptyError_1 = __webpack_require__(117);
+exports.EmptyError = EmptyError_1.EmptyError;
+var ArgumentOutOfRangeError_1 = __webpack_require__(393);
+exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError_1.ArgumentOutOfRangeError;
+var ObjectUnsubscribedError_1 = __webpack_require__(170);
+exports.ObjectUnsubscribedError = ObjectUnsubscribedError_1.ObjectUnsubscribedError;
+var TimeoutError_1 = __webpack_require__(672);
+exports.TimeoutError = TimeoutError_1.TimeoutError;
+var UnsubscriptionError_1 = __webpack_require__(418);
+exports.UnsubscriptionError = UnsubscriptionError_1.UnsubscriptionError;
+var timeInterval_1 = __webpack_require__(665);
+exports.TimeInterval = timeInterval_1.TimeInterval;
+var timestamp_1 = __webpack_require__(666);
+exports.Timestamp = timestamp_1.Timestamp;
+var TestScheduler_1 = __webpack_require__(928);
+exports.TestScheduler = TestScheduler_1.TestScheduler;
+var VirtualTimeScheduler_1 = __webpack_require__(667);
+exports.VirtualTimeScheduler = VirtualTimeScheduler_1.VirtualTimeScheduler;
+var AjaxObservable_1 = __webpack_require__(658);
+exports.AjaxResponse = AjaxObservable_1.AjaxResponse;
+exports.AjaxError = AjaxObservable_1.AjaxError;
+exports.AjaxTimeoutError = AjaxObservable_1.AjaxTimeoutError;
+var asap_1 = __webpack_require__(668);
+var async_1 = __webpack_require__(635);
+var queue_1 = __webpack_require__(669);
+var animationFrame_1 = __webpack_require__(925);
+var rxSubscriber_1 = __webpack_require__(119);
+var iterator_1 = __webpack_require__(116);
+var observable_1 = __webpack_require__(118);
+/* tslint:enable:no-unused-variable */
+/**
+ * @typedef {Object} Rx.Scheduler
+ * @property {Scheduler} queue Schedules on a queue in the current event frame
+ * (trampoline scheduler). Use this for iteration operations.
+ * @property {Scheduler} asap Schedules on the micro task queue, which uses the
+ * fastest transport mechanism available, either Node.js' `process.nextTick()`
+ * or Web Worker MessageChannel or setTimeout or others. Use this for
+ * asynchronous conversions.
+ * @property {Scheduler} async Schedules work with `setInterval`. Use this for
+ * time-based operations.
+ * @property {Scheduler} animationFrame Schedules work with `requestAnimationFrame`.
+ * Use this for synchronizing with the platform's painting
+ */
+var Scheduler = {
+    asap: asap_1.asap,
+    queue: queue_1.queue,
+    animationFrame: animationFrame_1.animationFrame,
+    async: async_1.async
+};
+exports.Scheduler = Scheduler;
+/**
+ * @typedef {Object} Rx.Symbol
+ * @property {Symbol|string} rxSubscriber A symbol to use as a property name to
+ * retrieve an "Rx safe" Observer from an object. "Rx safety" can be defined as
+ * an object that has all of the traits of an Rx Subscriber, including the
+ * ability to add and remove subscriptions to the subscription chain and
+ * guarantees involving event triggering (can't "next" after unsubscription,
+ * etc).
+ * @property {Symbol|string} observable A symbol to use as a property name to
+ * retrieve an Observable as defined by the [ECMAScript "Observable" spec](https://github.com/zenparsing/es-observable).
+ * @property {Symbol|string} iterator The ES6 symbol to use as a property name
+ * to retrieve an iterator from an object.
+ */
+var Symbol = {
+    rxSubscriber: rxSubscriber_1.rxSubscriber,
+    observable: observable_1.observable,
+    iterator: iterator_1.iterator
+};
+exports.Symbol = Symbol;
+//# sourceMappingURL=Rx.js.map
+
+/***/ }),
+/* 635 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var AsyncAction_1 = __webpack_require__(640);
+var AsyncScheduler_1 = __webpack_require__(641);
+/**
+ *
+ * Async Scheduler
+ *
+ * <span class="informal">Schedule task as if you used setTimeout(task, duration)</span>
+ *
+ * `async` scheduler schedules tasks asynchronously, by putting them on the JavaScript
+ * event loop queue. It is best used to delay tasks in time or to schedule tasks repeating
+ * in intervals.
+ *
+ * If you just want to "defer" task, that is to perform it right after currently
+ * executing synchronous code ends (commonly achieved by `setTimeout(deferredTask, 0)`),
+ * better choice will be the {@link asap} scheduler.
+ *
+ * @example <caption>Use async scheduler to delay task</caption>
+ * const task = () => console.log('it works!');
+ *
+ * Rx.Scheduler.async.schedule(task, 2000);
+ *
+ * // After 2 seconds logs:
+ * // "it works!"
+ *
+ *
+ * @example <caption>Use async scheduler to repeat task in intervals</caption>
+ * function task(state) {
+ *   console.log(state);
+ *   this.schedule(state + 1, 1000); // `this` references currently executing Action,
+ *                                   // which we reschedule with new state and delay
+ * }
+ *
+ * Rx.Scheduler.async.schedule(task, 3000, 0);
+ *
+ * // Logs:
+ * // 0 after 3s
+ * // 1 after 4s
+ * // 2 after 5s
+ * // 3 after 6s
+ *
+ * @static true
+ * @name async
+ * @owner Scheduler
+ */
+exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
+//# sourceMappingURL=async.js.map
+
+/***/ }),
 /* 636 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -625,17 +656,58 @@ var ParametroGenerico = (function () {
 /***/ }),
 /* 637 */,
 /* 638 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return cache; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var cache = (function () {
+    function cache() {
+    }
+    cache.prototype.getid = function () {
+        return this.id;
+    };
+    cache.prototype.setid = function (idd) {
+        this.id = idd;
+    };
+    cache.prototype.getrolUsuario = function () {
+        return this.rolUsuarios;
+    };
+    cache.prototype.setrolUsuario = function (idd) {
+        this.rolUsuarios = idd;
+    };
+    return cache;
+}());
+cache = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [])
+], cache);
+
+//# sourceMappingURL=cache.js.map
+
+/***/ }),
+/* 639 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var switchMap_1 = __webpack_require__(903);
+var switchMap_1 = __webpack_require__(902);
 Observable_1.Observable.prototype.switchMap = switchMap_1.switchMap;
 //# sourceMappingURL=switchMap.js.map
 
 /***/ }),
-/* 639 */
+/* 640 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -646,7 +718,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var root_1 = __webpack_require__(33);
-var Action_1 = __webpack_require__(919);
+var Action_1 = __webpack_require__(918);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -783,7 +855,7 @@ exports.AsyncAction = AsyncAction;
 //# sourceMappingURL=AsyncAction.js.map
 
 /***/ }),
-/* 640 */
+/* 641 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -793,7 +865,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Scheduler_1 = __webpack_require__(696);
+var Scheduler_1 = __webpack_require__(695);
 var AsyncScheduler = (function (_super) {
     __extends(AsyncScheduler, _super);
     function AsyncScheduler() {
@@ -840,7 +912,7 @@ exports.AsyncScheduler = AsyncScheduler;
 //# sourceMappingURL=AsyncScheduler.js.map
 
 /***/ }),
-/* 641 */
+/* 642 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -899,7 +971,7 @@ exports.AsyncSubject = AsyncSubject;
 //# sourceMappingURL=AsyncSubject.js.map
 
 /***/ }),
-/* 642 */
+/* 643 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1007,7 +1079,7 @@ var ReplayEvent = (function () {
 //# sourceMappingURL=ReplaySubject.js.map
 
 /***/ }),
-/* 643 */
+/* 644 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1019,7 +1091,7 @@ exports.isDate = isDate;
 //# sourceMappingURL=isDate.js.map
 
 /***/ }),
-/* 644 */
+/* 645 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1037,49 +1109,14 @@ exports.isNumeric = isNumeric;
 //# sourceMappingURL=isNumeric.js.map
 
 /***/ }),
-/* 645 */,
-/* 646 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return cache; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var cache = (function () {
-    function cache() {
-    }
-    cache.prototype.getid = function () {
-        return this.id;
-    };
-    cache.prototype.setid = function (idd) {
-        this.id = idd;
-    };
-    return cache;
-}());
-cache = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [])
-], cache);
-
-//# sourceMappingURL=cache.js.map
-
-/***/ }),
+/* 646 */,
 /* 647 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var debounceTime_1 = __webpack_require__(858);
+var debounceTime_1 = __webpack_require__(857);
 Observable_1.Observable.prototype.debounceTime = debounceTime_1.debounceTime;
 //# sourceMappingURL=debounceTime.js.map
 
@@ -2944,7 +2981,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 /**
  * @param scheduler
  * @return {Observable<TimeInterval<any>>|WebSocketSubject<T>|Observable<T>}
@@ -3009,7 +3046,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 /**
  * @param scheduler
  * @return {Observable<Timestamp<any>>|WebSocketSubject<T>|Observable<T>}
@@ -3064,8 +3101,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(639);
-var AsyncScheduler_1 = __webpack_require__(640);
+var AsyncAction_1 = __webpack_require__(640);
+var AsyncScheduler_1 = __webpack_require__(641);
 var VirtualTimeScheduler = (function (_super) {
     __extends(VirtualTimeScheduler, _super);
     function VirtualTimeScheduler(SchedulerAction, maxFrames) {
@@ -3178,8 +3215,8 @@ exports.VirtualAction = VirtualAction;
 
 "use strict";
 
-var AsapAction_1 = __webpack_require__(922);
-var AsapScheduler_1 = __webpack_require__(923);
+var AsapAction_1 = __webpack_require__(921);
+var AsapScheduler_1 = __webpack_require__(922);
 /**
  *
  * Asap Scheduler
@@ -3223,8 +3260,8 @@ exports.asap = new AsapScheduler_1.AsapScheduler(AsapAction_1.AsapAction);
 
 "use strict";
 
-var QueueAction_1 = __webpack_require__(924);
-var QueueScheduler_1 = __webpack_require__(925);
+var QueueAction_1 = __webpack_require__(923);
+var QueueScheduler_1 = __webpack_require__(924);
 /**
  *
  * Queue Scheduler
@@ -3467,21 +3504,18 @@ var _a;
 /* 676 */,
 /* 677 */,
 /* 678 */,
-/* 679 */,
-/* 680 */,
-/* 681 */,
-/* 682 */
+/* 679 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var timer_1 = __webpack_require__(844);
+var timer_1 = __webpack_require__(843);
 Observable_1.Observable.timer = timer_1.timer;
 //# sourceMappingURL=timer.js.map
 
 /***/ }),
-/* 683 */
+/* 680 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3532,8 +3566,8 @@ var Calendar = (function () {
 Calendar = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'calendar',
-        template: __webpack_require__(695),
-        styles: [__webpack_require__(687)]
+        template: __webpack_require__(694),
+        styles: [__webpack_require__(686)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__calendar_service__["a" /* CalendarService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__calendar_service__["a" /* CalendarService */]) === "function" && _a || Object])
 ], Calendar);
@@ -3542,14 +3576,14 @@ var _a;
 //# sourceMappingURL=calendar.component.js.map
 
 /***/ }),
-/* 684 */
+/* 681 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__headQuarters__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__headQuarters__ = __webpack_require__(682);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -3557,7 +3591,7 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeadQuartersService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3646,7 +3680,7 @@ var _a, _b;
 //# sourceMappingURL=headQuarters.service.js.map
 
 /***/ }),
-/* 685 */
+/* 682 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3660,15 +3694,15 @@ var HeadQuarters = (function () {
 //# sourceMappingURL=headQuarters.js.map
 
 /***/ }),
-/* 686 */
+/* 683 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_totalService_genericoParametro__ = __webpack_require__(636);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -3758,7 +3792,9 @@ var _a, _b;
 //# sourceMappingURL=typeMachine.service.js.map
 
 /***/ }),
-/* 687 */
+/* 684 */,
+/* 685 */,
+/* 686 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(false);
@@ -3775,20 +3811,20 @@ exports.push([module.i, ":host /deep/ ba-full-calendar div.blurCalendar {\n  fon
 module.exports = module.exports.toString();
 
 /***/ }),
+/* 687 */,
 /* 688 */,
 /* 689 */,
 /* 690 */,
 /* 691 */,
 /* 692 */,
 /* 693 */,
-/* 694 */,
-/* 695 */
+/* 694 */
 /***/ (function(module, exports) {
 
 module.exports = "<ba-full-calendar [baFullCalendarConfiguration]=\"calendarConfiguration\" baFullCalendarClass=\"blurCalendar\" (onCalendarReady)=\"onCalendarReady($event)\"></ba-full-calendar>\r\n"
 
 /***/ }),
-/* 696 */
+/* 695 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3843,15 +3879,26 @@ exports.Scheduler = Scheduler;
 //# sourceMappingURL=Scheduler.js.map
 
 /***/ }),
+/* 696 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var bindCallback_1 = __webpack_require__(827);
+Observable_1.Observable.bindCallback = bindCallback_1.bindCallback;
+//# sourceMappingURL=bindCallback.js.map
+
+/***/ }),
 /* 697 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var bindCallback_1 = __webpack_require__(828);
-Observable_1.Observable.bindCallback = bindCallback_1.bindCallback;
-//# sourceMappingURL=bindCallback.js.map
+var bindNodeCallback_1 = __webpack_require__(828);
+Observable_1.Observable.bindNodeCallback = bindNodeCallback_1.bindNodeCallback;
+//# sourceMappingURL=bindNodeCallback.js.map
 
 /***/ }),
 /* 698 */
@@ -3860,9 +3907,9 @@ Observable_1.Observable.bindCallback = bindCallback_1.bindCallback;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var bindNodeCallback_1 = __webpack_require__(829);
-Observable_1.Observable.bindNodeCallback = bindNodeCallback_1.bindNodeCallback;
-//# sourceMappingURL=bindNodeCallback.js.map
+var combineLatest_1 = __webpack_require__(829);
+Observable_1.Observable.combineLatest = combineLatest_1.combineLatest;
+//# sourceMappingURL=combineLatest.js.map
 
 /***/ }),
 /* 699 */
@@ -3871,9 +3918,9 @@ Observable_1.Observable.bindNodeCallback = bindNodeCallback_1.bindNodeCallback;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var combineLatest_1 = __webpack_require__(830);
-Observable_1.Observable.combineLatest = combineLatest_1.combineLatest;
-//# sourceMappingURL=combineLatest.js.map
+var concat_1 = __webpack_require__(830);
+Observable_1.Observable.concat = concat_1.concat;
+//# sourceMappingURL=concat.js.map
 
 /***/ }),
 /* 700 */
@@ -3882,9 +3929,9 @@ Observable_1.Observable.combineLatest = combineLatest_1.combineLatest;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var concat_1 = __webpack_require__(831);
-Observable_1.Observable.concat = concat_1.concat;
-//# sourceMappingURL=concat.js.map
+var defer_1 = __webpack_require__(831);
+Observable_1.Observable.defer = defer_1.defer;
+//# sourceMappingURL=defer.js.map
 
 /***/ }),
 /* 701 */
@@ -3893,9 +3940,9 @@ Observable_1.Observable.concat = concat_1.concat;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var defer_1 = __webpack_require__(832);
-Observable_1.Observable.defer = defer_1.defer;
-//# sourceMappingURL=defer.js.map
+var ajax_1 = __webpack_require__(833);
+Observable_1.Observable.ajax = ajax_1.ajax;
+//# sourceMappingURL=ajax.js.map
 
 /***/ }),
 /* 702 */
@@ -3904,9 +3951,9 @@ Observable_1.Observable.defer = defer_1.defer;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var ajax_1 = __webpack_require__(834);
-Observable_1.Observable.ajax = ajax_1.ajax;
-//# sourceMappingURL=ajax.js.map
+var webSocket_1 = __webpack_require__(834);
+Observable_1.Observable.webSocket = webSocket_1.webSocket;
+//# sourceMappingURL=webSocket.js.map
 
 /***/ }),
 /* 703 */
@@ -3915,23 +3962,12 @@ Observable_1.Observable.ajax = ajax_1.ajax;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var webSocket_1 = __webpack_require__(835);
-Observable_1.Observable.webSocket = webSocket_1.webSocket;
-//# sourceMappingURL=webSocket.js.map
-
-/***/ }),
-/* 704 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var empty_1 = __webpack_require__(836);
+var empty_1 = __webpack_require__(835);
 Observable_1.Observable.empty = empty_1.empty;
 //# sourceMappingURL=empty.js.map
 
 /***/ }),
-/* 705 */
+/* 704 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3942,7 +3978,7 @@ Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 //# sourceMappingURL=forkJoin.js.map
 
 /***/ }),
-/* 706 */
+/* 705 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3953,7 +3989,7 @@ Observable_1.Observable.from = from_1.from;
 //# sourceMappingURL=from.js.map
 
 /***/ }),
-/* 707 */
+/* 706 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3964,18 +4000,18 @@ Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
-/* 708 */
+/* 707 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var fromEventPattern_1 = __webpack_require__(837);
+var fromEventPattern_1 = __webpack_require__(836);
 Observable_1.Observable.fromEventPattern = fromEventPattern_1.fromEventPattern;
 //# sourceMappingURL=fromEventPattern.js.map
 
 /***/ }),
-/* 709 */
+/* 708 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3986,15 +4022,26 @@ Observable_1.Observable.fromPromise = fromPromise_1.fromPromise;
 //# sourceMappingURL=fromPromise.js.map
 
 /***/ }),
+/* 709 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var GenerateObservable_1 = __webpack_require__(818);
+Observable_1.Observable.generate = GenerateObservable_1.GenerateObservable.create;
+//# sourceMappingURL=generate.js.map
+
+/***/ }),
 /* 710 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var GenerateObservable_1 = __webpack_require__(819);
-Observable_1.Observable.generate = GenerateObservable_1.GenerateObservable.create;
-//# sourceMappingURL=generate.js.map
+var if_1 = __webpack_require__(837);
+Observable_1.Observable.if = if_1._if;
+//# sourceMappingURL=if.js.map
 
 /***/ }),
 /* 711 */
@@ -4003,23 +4050,12 @@ Observable_1.Observable.generate = GenerateObservable_1.GenerateObservable.creat
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var if_1 = __webpack_require__(838);
-Observable_1.Observable.if = if_1._if;
-//# sourceMappingURL=if.js.map
-
-/***/ }),
-/* 712 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var interval_1 = __webpack_require__(839);
+var interval_1 = __webpack_require__(838);
 Observable_1.Observable.interval = interval_1.interval;
 //# sourceMappingURL=interval.js.map
 
 /***/ }),
-/* 713 */
+/* 712 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4030,18 +4066,18 @@ Observable_1.Observable.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
 /***/ }),
-/* 714 */
+/* 713 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var never_1 = __webpack_require__(840);
+var never_1 = __webpack_require__(839);
 Observable_1.Observable.never = never_1.never;
 //# sourceMappingURL=never.js.map
 
 /***/ }),
-/* 715 */
+/* 714 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4052,18 +4088,18 @@ Observable_1.Observable.onErrorResumeNext = onErrorResumeNext_1.onErrorResumeNex
 //# sourceMappingURL=onErrorResumeNext.js.map
 
 /***/ }),
-/* 716 */
+/* 715 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var pairs_1 = __webpack_require__(841);
+var pairs_1 = __webpack_require__(840);
 Observable_1.Observable.pairs = pairs_1.pairs;
 //# sourceMappingURL=pairs.js.map
 
 /***/ }),
-/* 717 */
+/* 716 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4074,15 +4110,26 @@ Observable_1.Observable.race = race_1.raceStatic;
 //# sourceMappingURL=race.js.map
 
 /***/ }),
+/* 717 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var range_1 = __webpack_require__(841);
+Observable_1.Observable.range = range_1.range;
+//# sourceMappingURL=range.js.map
+
+/***/ }),
 /* 718 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var range_1 = __webpack_require__(842);
-Observable_1.Observable.range = range_1.range;
-//# sourceMappingURL=range.js.map
+var throw_1 = __webpack_require__(842);
+Observable_1.Observable.throw = throw_1._throw;
+//# sourceMappingURL=throw.js.map
 
 /***/ }),
 /* 719 */
@@ -4091,9 +4138,9 @@ Observable_1.Observable.range = range_1.range;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var throw_1 = __webpack_require__(843);
-Observable_1.Observable.throw = throw_1._throw;
-//# sourceMappingURL=throw.js.map
+var using_1 = __webpack_require__(844);
+Observable_1.Observable.using = using_1.using;
+//# sourceMappingURL=using.js.map
 
 /***/ }),
 /* 720 */
@@ -4102,9 +4149,9 @@ Observable_1.Observable.throw = throw_1._throw;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var using_1 = __webpack_require__(845);
-Observable_1.Observable.using = using_1.using;
-//# sourceMappingURL=using.js.map
+var zip_1 = __webpack_require__(845);
+Observable_1.Observable.zip = zip_1.zip;
+//# sourceMappingURL=zip.js.map
 
 /***/ }),
 /* 721 */
@@ -4113,9 +4160,9 @@ Observable_1.Observable.using = using_1.using;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var zip_1 = __webpack_require__(846);
-Observable_1.Observable.zip = zip_1.zip;
-//# sourceMappingURL=zip.js.map
+var audit_1 = __webpack_require__(846);
+Observable_1.Observable.prototype.audit = audit_1.audit;
+//# sourceMappingURL=audit.js.map
 
 /***/ }),
 /* 722 */
@@ -4124,9 +4171,9 @@ Observable_1.Observable.zip = zip_1.zip;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var audit_1 = __webpack_require__(847);
-Observable_1.Observable.prototype.audit = audit_1.audit;
-//# sourceMappingURL=audit.js.map
+var auditTime_1 = __webpack_require__(847);
+Observable_1.Observable.prototype.auditTime = auditTime_1.auditTime;
+//# sourceMappingURL=auditTime.js.map
 
 /***/ }),
 /* 723 */
@@ -4135,9 +4182,9 @@ Observable_1.Observable.prototype.audit = audit_1.audit;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var auditTime_1 = __webpack_require__(848);
-Observable_1.Observable.prototype.auditTime = auditTime_1.auditTime;
-//# sourceMappingURL=auditTime.js.map
+var buffer_1 = __webpack_require__(848);
+Observable_1.Observable.prototype.buffer = buffer_1.buffer;
+//# sourceMappingURL=buffer.js.map
 
 /***/ }),
 /* 724 */
@@ -4146,9 +4193,9 @@ Observable_1.Observable.prototype.auditTime = auditTime_1.auditTime;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var buffer_1 = __webpack_require__(849);
-Observable_1.Observable.prototype.buffer = buffer_1.buffer;
-//# sourceMappingURL=buffer.js.map
+var bufferCount_1 = __webpack_require__(849);
+Observable_1.Observable.prototype.bufferCount = bufferCount_1.bufferCount;
+//# sourceMappingURL=bufferCount.js.map
 
 /***/ }),
 /* 725 */
@@ -4157,9 +4204,9 @@ Observable_1.Observable.prototype.buffer = buffer_1.buffer;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var bufferCount_1 = __webpack_require__(850);
-Observable_1.Observable.prototype.bufferCount = bufferCount_1.bufferCount;
-//# sourceMappingURL=bufferCount.js.map
+var bufferTime_1 = __webpack_require__(850);
+Observable_1.Observable.prototype.bufferTime = bufferTime_1.bufferTime;
+//# sourceMappingURL=bufferTime.js.map
 
 /***/ }),
 /* 726 */
@@ -4168,9 +4215,9 @@ Observable_1.Observable.prototype.bufferCount = bufferCount_1.bufferCount;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var bufferTime_1 = __webpack_require__(851);
-Observable_1.Observable.prototype.bufferTime = bufferTime_1.bufferTime;
-//# sourceMappingURL=bufferTime.js.map
+var bufferToggle_1 = __webpack_require__(851);
+Observable_1.Observable.prototype.bufferToggle = bufferToggle_1.bufferToggle;
+//# sourceMappingURL=bufferToggle.js.map
 
 /***/ }),
 /* 727 */
@@ -4179,9 +4226,9 @@ Observable_1.Observable.prototype.bufferTime = bufferTime_1.bufferTime;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var bufferToggle_1 = __webpack_require__(852);
-Observable_1.Observable.prototype.bufferToggle = bufferToggle_1.bufferToggle;
-//# sourceMappingURL=bufferToggle.js.map
+var bufferWhen_1 = __webpack_require__(852);
+Observable_1.Observable.prototype.bufferWhen = bufferWhen_1.bufferWhen;
+//# sourceMappingURL=bufferWhen.js.map
 
 /***/ }),
 /* 728 */
@@ -4190,23 +4237,12 @@ Observable_1.Observable.prototype.bufferToggle = bufferToggle_1.bufferToggle;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var bufferWhen_1 = __webpack_require__(853);
-Observable_1.Observable.prototype.bufferWhen = bufferWhen_1.bufferWhen;
-//# sourceMappingURL=bufferWhen.js.map
-
-/***/ }),
-/* 729 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var combineAll_1 = __webpack_require__(854);
+var combineAll_1 = __webpack_require__(853);
 Observable_1.Observable.prototype.combineAll = combineAll_1.combineAll;
 //# sourceMappingURL=combineAll.js.map
 
 /***/ }),
-/* 730 */
+/* 729 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4217,7 +4253,7 @@ Observable_1.Observable.prototype.combineLatest = combineLatest_1.combineLatest;
 //# sourceMappingURL=combineLatest.js.map
 
 /***/ }),
-/* 731 */
+/* 730 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4228,7 +4264,7 @@ Observable_1.Observable.prototype.concat = concat_1.concat;
 //# sourceMappingURL=concat.js.map
 
 /***/ }),
-/* 732 */
+/* 731 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4239,7 +4275,7 @@ Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 //# sourceMappingURL=concatAll.js.map
 
 /***/ }),
-/* 733 */
+/* 732 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4250,15 +4286,26 @@ Observable_1.Observable.prototype.concatMap = concatMap_1.concatMap;
 //# sourceMappingURL=concatMap.js.map
 
 /***/ }),
+/* 733 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var concatMapTo_1 = __webpack_require__(854);
+Observable_1.Observable.prototype.concatMapTo = concatMapTo_1.concatMapTo;
+//# sourceMappingURL=concatMapTo.js.map
+
+/***/ }),
 /* 734 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var concatMapTo_1 = __webpack_require__(855);
-Observable_1.Observable.prototype.concatMapTo = concatMapTo_1.concatMapTo;
-//# sourceMappingURL=concatMapTo.js.map
+var count_1 = __webpack_require__(855);
+Observable_1.Observable.prototype.count = count_1.count;
+//# sourceMappingURL=count.js.map
 
 /***/ }),
 /* 735 */
@@ -4267,9 +4314,9 @@ Observable_1.Observable.prototype.concatMapTo = concatMapTo_1.concatMapTo;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var count_1 = __webpack_require__(856);
-Observable_1.Observable.prototype.count = count_1.count;
-//# sourceMappingURL=count.js.map
+var debounce_1 = __webpack_require__(856);
+Observable_1.Observable.prototype.debounce = debounce_1.debounce;
+//# sourceMappingURL=debounce.js.map
 
 /***/ }),
 /* 736 */
@@ -4278,9 +4325,9 @@ Observable_1.Observable.prototype.count = count_1.count;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var debounce_1 = __webpack_require__(857);
-Observable_1.Observable.prototype.debounce = debounce_1.debounce;
-//# sourceMappingURL=debounce.js.map
+var defaultIfEmpty_1 = __webpack_require__(858);
+Observable_1.Observable.prototype.defaultIfEmpty = defaultIfEmpty_1.defaultIfEmpty;
+//# sourceMappingURL=defaultIfEmpty.js.map
 
 /***/ }),
 /* 737 */
@@ -4289,9 +4336,9 @@ Observable_1.Observable.prototype.debounce = debounce_1.debounce;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var defaultIfEmpty_1 = __webpack_require__(859);
-Observable_1.Observable.prototype.defaultIfEmpty = defaultIfEmpty_1.defaultIfEmpty;
-//# sourceMappingURL=defaultIfEmpty.js.map
+var delay_1 = __webpack_require__(859);
+Observable_1.Observable.prototype.delay = delay_1.delay;
+//# sourceMappingURL=delay.js.map
 
 /***/ }),
 /* 738 */
@@ -4300,9 +4347,9 @@ Observable_1.Observable.prototype.defaultIfEmpty = defaultIfEmpty_1.defaultIfEmp
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var delay_1 = __webpack_require__(860);
-Observable_1.Observable.prototype.delay = delay_1.delay;
-//# sourceMappingURL=delay.js.map
+var delayWhen_1 = __webpack_require__(860);
+Observable_1.Observable.prototype.delayWhen = delayWhen_1.delayWhen;
+//# sourceMappingURL=delayWhen.js.map
 
 /***/ }),
 /* 739 */
@@ -4311,9 +4358,9 @@ Observable_1.Observable.prototype.delay = delay_1.delay;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var delayWhen_1 = __webpack_require__(861);
-Observable_1.Observable.prototype.delayWhen = delayWhen_1.delayWhen;
-//# sourceMappingURL=delayWhen.js.map
+var dematerialize_1 = __webpack_require__(861);
+Observable_1.Observable.prototype.dematerialize = dematerialize_1.dematerialize;
+//# sourceMappingURL=dematerialize.js.map
 
 /***/ }),
 /* 740 */
@@ -4322,9 +4369,9 @@ Observable_1.Observable.prototype.delayWhen = delayWhen_1.delayWhen;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var dematerialize_1 = __webpack_require__(862);
-Observable_1.Observable.prototype.dematerialize = dematerialize_1.dematerialize;
-//# sourceMappingURL=dematerialize.js.map
+var distinct_1 = __webpack_require__(862);
+Observable_1.Observable.prototype.distinct = distinct_1.distinct;
+//# sourceMappingURL=distinct.js.map
 
 /***/ }),
 /* 741 */
@@ -4333,23 +4380,12 @@ Observable_1.Observable.prototype.dematerialize = dematerialize_1.dematerialize;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var distinct_1 = __webpack_require__(863);
-Observable_1.Observable.prototype.distinct = distinct_1.distinct;
-//# sourceMappingURL=distinct.js.map
-
-/***/ }),
-/* 742 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var distinctUntilKeyChanged_1 = __webpack_require__(864);
+var distinctUntilKeyChanged_1 = __webpack_require__(863);
 Observable_1.Observable.prototype.distinctUntilKeyChanged = distinctUntilKeyChanged_1.distinctUntilKeyChanged;
 //# sourceMappingURL=distinctUntilKeyChanged.js.map
 
 /***/ }),
-/* 743 */
+/* 742 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4361,18 +4397,18 @@ Observable_1.Observable.prototype._do = do_1._do;
 //# sourceMappingURL=do.js.map
 
 /***/ }),
-/* 744 */
+/* 743 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var elementAt_1 = __webpack_require__(865);
+var elementAt_1 = __webpack_require__(864);
 Observable_1.Observable.prototype.elementAt = elementAt_1.elementAt;
 //# sourceMappingURL=elementAt.js.map
 
 /***/ }),
-/* 745 */
+/* 744 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4383,15 +4419,26 @@ Observable_1.Observable.prototype.every = every_1.every;
 //# sourceMappingURL=every.js.map
 
 /***/ }),
+/* 745 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var exhaust_1 = __webpack_require__(865);
+Observable_1.Observable.prototype.exhaust = exhaust_1.exhaust;
+//# sourceMappingURL=exhaust.js.map
+
+/***/ }),
 /* 746 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var exhaust_1 = __webpack_require__(866);
-Observable_1.Observable.prototype.exhaust = exhaust_1.exhaust;
-//# sourceMappingURL=exhaust.js.map
+var exhaustMap_1 = __webpack_require__(866);
+Observable_1.Observable.prototype.exhaustMap = exhaustMap_1.exhaustMap;
+//# sourceMappingURL=exhaustMap.js.map
 
 /***/ }),
 /* 747 */
@@ -4400,23 +4447,12 @@ Observable_1.Observable.prototype.exhaust = exhaust_1.exhaust;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var exhaustMap_1 = __webpack_require__(867);
-Observable_1.Observable.prototype.exhaustMap = exhaustMap_1.exhaustMap;
-//# sourceMappingURL=exhaustMap.js.map
-
-/***/ }),
-/* 748 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var expand_1 = __webpack_require__(868);
+var expand_1 = __webpack_require__(867);
 Observable_1.Observable.prototype.expand = expand_1.expand;
 //# sourceMappingURL=expand.js.map
 
 /***/ }),
-/* 749 */
+/* 748 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4427,19 +4463,19 @@ Observable_1.Observable.prototype.filter = filter_1.filter;
 //# sourceMappingURL=filter.js.map
 
 /***/ }),
-/* 750 */
+/* 749 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var finally_1 = __webpack_require__(869);
+var finally_1 = __webpack_require__(868);
 Observable_1.Observable.prototype.finally = finally_1._finally;
 Observable_1.Observable.prototype._finally = finally_1._finally;
 //# sourceMappingURL=finally.js.map
 
 /***/ }),
-/* 751 */
+/* 750 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4450,15 +4486,26 @@ Observable_1.Observable.prototype.find = find_1.find;
 //# sourceMappingURL=find.js.map
 
 /***/ }),
+/* 751 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var findIndex_1 = __webpack_require__(869);
+Observable_1.Observable.prototype.findIndex = findIndex_1.findIndex;
+//# sourceMappingURL=findIndex.js.map
+
+/***/ }),
 /* 752 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var findIndex_1 = __webpack_require__(870);
-Observable_1.Observable.prototype.findIndex = findIndex_1.findIndex;
-//# sourceMappingURL=findIndex.js.map
+var groupBy_1 = __webpack_require__(870);
+Observable_1.Observable.prototype.groupBy = groupBy_1.groupBy;
+//# sourceMappingURL=groupBy.js.map
 
 /***/ }),
 /* 753 */
@@ -4467,9 +4514,9 @@ Observable_1.Observable.prototype.findIndex = findIndex_1.findIndex;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var groupBy_1 = __webpack_require__(871);
-Observable_1.Observable.prototype.groupBy = groupBy_1.groupBy;
-//# sourceMappingURL=groupBy.js.map
+var ignoreElements_1 = __webpack_require__(871);
+Observable_1.Observable.prototype.ignoreElements = ignoreElements_1.ignoreElements;
+//# sourceMappingURL=ignoreElements.js.map
 
 /***/ }),
 /* 754 */
@@ -4478,23 +4525,12 @@ Observable_1.Observable.prototype.groupBy = groupBy_1.groupBy;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var ignoreElements_1 = __webpack_require__(872);
-Observable_1.Observable.prototype.ignoreElements = ignoreElements_1.ignoreElements;
-//# sourceMappingURL=ignoreElements.js.map
-
-/***/ }),
-/* 755 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var isEmpty_1 = __webpack_require__(873);
+var isEmpty_1 = __webpack_require__(872);
 Observable_1.Observable.prototype.isEmpty = isEmpty_1.isEmpty;
 //# sourceMappingURL=isEmpty.js.map
 
 /***/ }),
-/* 756 */
+/* 755 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4505,7 +4541,7 @@ Observable_1.Observable.prototype.last = last_1.last;
 //# sourceMappingURL=last.js.map
 
 /***/ }),
-/* 757 */
+/* 756 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4517,15 +4553,26 @@ Observable_1.Observable.prototype.letBind = let_1.letProto;
 //# sourceMappingURL=let.js.map
 
 /***/ }),
+/* 757 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var mapTo_1 = __webpack_require__(873);
+Observable_1.Observable.prototype.mapTo = mapTo_1.mapTo;
+//# sourceMappingURL=mapTo.js.map
+
+/***/ }),
 /* 758 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var mapTo_1 = __webpack_require__(874);
-Observable_1.Observable.prototype.mapTo = mapTo_1.mapTo;
-//# sourceMappingURL=mapTo.js.map
+var materialize_1 = __webpack_require__(874);
+Observable_1.Observable.prototype.materialize = materialize_1.materialize;
+//# sourceMappingURL=materialize.js.map
 
 /***/ }),
 /* 759 */
@@ -4534,23 +4581,12 @@ Observable_1.Observable.prototype.mapTo = mapTo_1.mapTo;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var materialize_1 = __webpack_require__(875);
-Observable_1.Observable.prototype.materialize = materialize_1.materialize;
-//# sourceMappingURL=materialize.js.map
-
-/***/ }),
-/* 760 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var max_1 = __webpack_require__(876);
+var max_1 = __webpack_require__(875);
 Observable_1.Observable.prototype.max = max_1.max;
 //# sourceMappingURL=max.js.map
 
 /***/ }),
-/* 761 */
+/* 760 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4561,7 +4597,7 @@ Observable_1.Observable.prototype.mergeAll = mergeAll_1.mergeAll;
 //# sourceMappingURL=mergeAll.js.map
 
 /***/ }),
-/* 762 */
+/* 761 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4573,7 +4609,7 @@ Observable_1.Observable.prototype.flatMap = mergeMap_1.mergeMap;
 //# sourceMappingURL=mergeMap.js.map
 
 /***/ }),
-/* 763 */
+/* 762 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4585,29 +4621,29 @@ Observable_1.Observable.prototype.mergeMapTo = mergeMapTo_1.mergeMapTo;
 //# sourceMappingURL=mergeMapTo.js.map
 
 /***/ }),
+/* 763 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var mergeScan_1 = __webpack_require__(876);
+Observable_1.Observable.prototype.mergeScan = mergeScan_1.mergeScan;
+//# sourceMappingURL=mergeScan.js.map
+
+/***/ }),
 /* 764 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var mergeScan_1 = __webpack_require__(877);
-Observable_1.Observable.prototype.mergeScan = mergeScan_1.mergeScan;
-//# sourceMappingURL=mergeScan.js.map
-
-/***/ }),
-/* 765 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var min_1 = __webpack_require__(878);
+var min_1 = __webpack_require__(877);
 Observable_1.Observable.prototype.min = min_1.min;
 //# sourceMappingURL=min.js.map
 
 /***/ }),
-/* 766 */
+/* 765 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4618,7 +4654,7 @@ Observable_1.Observable.prototype.multicast = multicast_1.multicast;
 //# sourceMappingURL=multicast.js.map
 
 /***/ }),
-/* 767 */
+/* 766 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4629,7 +4665,7 @@ Observable_1.Observable.prototype.observeOn = observeOn_1.observeOn;
 //# sourceMappingURL=observeOn.js.map
 
 /***/ }),
-/* 768 */
+/* 767 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4640,15 +4676,26 @@ Observable_1.Observable.prototype.onErrorResumeNext = onErrorResumeNext_1.onErro
 //# sourceMappingURL=onErrorResumeNext.js.map
 
 /***/ }),
+/* 768 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var pairwise_1 = __webpack_require__(878);
+Observable_1.Observable.prototype.pairwise = pairwise_1.pairwise;
+//# sourceMappingURL=pairwise.js.map
+
+/***/ }),
 /* 769 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var pairwise_1 = __webpack_require__(879);
-Observable_1.Observable.prototype.pairwise = pairwise_1.pairwise;
-//# sourceMappingURL=pairwise.js.map
+var partition_1 = __webpack_require__(879);
+Observable_1.Observable.prototype.partition = partition_1.partition;
+//# sourceMappingURL=partition.js.map
 
 /***/ }),
 /* 770 */
@@ -4657,9 +4704,9 @@ Observable_1.Observable.prototype.pairwise = pairwise_1.pairwise;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var partition_1 = __webpack_require__(880);
-Observable_1.Observable.prototype.partition = partition_1.partition;
-//# sourceMappingURL=partition.js.map
+var pluck_1 = __webpack_require__(880);
+Observable_1.Observable.prototype.pluck = pluck_1.pluck;
+//# sourceMappingURL=pluck.js.map
 
 /***/ }),
 /* 771 */
@@ -4668,9 +4715,9 @@ Observable_1.Observable.prototype.partition = partition_1.partition;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var pluck_1 = __webpack_require__(881);
-Observable_1.Observable.prototype.pluck = pluck_1.pluck;
-//# sourceMappingURL=pluck.js.map
+var publish_1 = __webpack_require__(881);
+Observable_1.Observable.prototype.publish = publish_1.publish;
+//# sourceMappingURL=publish.js.map
 
 /***/ }),
 /* 772 */
@@ -4679,9 +4726,9 @@ Observable_1.Observable.prototype.pluck = pluck_1.pluck;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var publish_1 = __webpack_require__(882);
-Observable_1.Observable.prototype.publish = publish_1.publish;
-//# sourceMappingURL=publish.js.map
+var publishBehavior_1 = __webpack_require__(882);
+Observable_1.Observable.prototype.publishBehavior = publishBehavior_1.publishBehavior;
+//# sourceMappingURL=publishBehavior.js.map
 
 /***/ }),
 /* 773 */
@@ -4690,9 +4737,9 @@ Observable_1.Observable.prototype.publish = publish_1.publish;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var publishBehavior_1 = __webpack_require__(883);
-Observable_1.Observable.prototype.publishBehavior = publishBehavior_1.publishBehavior;
-//# sourceMappingURL=publishBehavior.js.map
+var publishLast_1 = __webpack_require__(883);
+Observable_1.Observable.prototype.publishLast = publishLast_1.publishLast;
+//# sourceMappingURL=publishLast.js.map
 
 /***/ }),
 /* 774 */
@@ -4701,23 +4748,12 @@ Observable_1.Observable.prototype.publishBehavior = publishBehavior_1.publishBeh
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var publishLast_1 = __webpack_require__(884);
-Observable_1.Observable.prototype.publishLast = publishLast_1.publishLast;
-//# sourceMappingURL=publishLast.js.map
-
-/***/ }),
-/* 775 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var publishReplay_1 = __webpack_require__(885);
+var publishReplay_1 = __webpack_require__(884);
 Observable_1.Observable.prototype.publishReplay = publishReplay_1.publishReplay;
 //# sourceMappingURL=publishReplay.js.map
 
 /***/ }),
-/* 776 */
+/* 775 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4728,7 +4764,7 @@ Observable_1.Observable.prototype.race = race_1.race;
 //# sourceMappingURL=race.js.map
 
 /***/ }),
-/* 777 */
+/* 776 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4739,15 +4775,26 @@ Observable_1.Observable.prototype.reduce = reduce_1.reduce;
 //# sourceMappingURL=reduce.js.map
 
 /***/ }),
+/* 777 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var repeat_1 = __webpack_require__(885);
+Observable_1.Observable.prototype.repeat = repeat_1.repeat;
+//# sourceMappingURL=repeat.js.map
+
+/***/ }),
 /* 778 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var repeat_1 = __webpack_require__(886);
-Observable_1.Observable.prototype.repeat = repeat_1.repeat;
-//# sourceMappingURL=repeat.js.map
+var repeatWhen_1 = __webpack_require__(886);
+Observable_1.Observable.prototype.repeatWhen = repeatWhen_1.repeatWhen;
+//# sourceMappingURL=repeatWhen.js.map
 
 /***/ }),
 /* 779 */
@@ -4756,9 +4803,9 @@ Observable_1.Observable.prototype.repeat = repeat_1.repeat;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var repeatWhen_1 = __webpack_require__(887);
-Observable_1.Observable.prototype.repeatWhen = repeatWhen_1.repeatWhen;
-//# sourceMappingURL=repeatWhen.js.map
+var retry_1 = __webpack_require__(887);
+Observable_1.Observable.prototype.retry = retry_1.retry;
+//# sourceMappingURL=retry.js.map
 
 /***/ }),
 /* 780 */
@@ -4767,9 +4814,9 @@ Observable_1.Observable.prototype.repeatWhen = repeatWhen_1.repeatWhen;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var retry_1 = __webpack_require__(888);
-Observable_1.Observable.prototype.retry = retry_1.retry;
-//# sourceMappingURL=retry.js.map
+var retryWhen_1 = __webpack_require__(888);
+Observable_1.Observable.prototype.retryWhen = retryWhen_1.retryWhen;
+//# sourceMappingURL=retryWhen.js.map
 
 /***/ }),
 /* 781 */
@@ -4778,9 +4825,9 @@ Observable_1.Observable.prototype.retry = retry_1.retry;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var retryWhen_1 = __webpack_require__(889);
-Observable_1.Observable.prototype.retryWhen = retryWhen_1.retryWhen;
-//# sourceMappingURL=retryWhen.js.map
+var sample_1 = __webpack_require__(889);
+Observable_1.Observable.prototype.sample = sample_1.sample;
+//# sourceMappingURL=sample.js.map
 
 /***/ }),
 /* 782 */
@@ -4789,9 +4836,9 @@ Observable_1.Observable.prototype.retryWhen = retryWhen_1.retryWhen;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var sample_1 = __webpack_require__(890);
-Observable_1.Observable.prototype.sample = sample_1.sample;
-//# sourceMappingURL=sample.js.map
+var sampleTime_1 = __webpack_require__(890);
+Observable_1.Observable.prototype.sampleTime = sampleTime_1.sampleTime;
+//# sourceMappingURL=sampleTime.js.map
 
 /***/ }),
 /* 783 */
@@ -4800,9 +4847,9 @@ Observable_1.Observable.prototype.sample = sample_1.sample;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var sampleTime_1 = __webpack_require__(891);
-Observable_1.Observable.prototype.sampleTime = sampleTime_1.sampleTime;
-//# sourceMappingURL=sampleTime.js.map
+var scan_1 = __webpack_require__(891);
+Observable_1.Observable.prototype.scan = scan_1.scan;
+//# sourceMappingURL=scan.js.map
 
 /***/ }),
 /* 784 */
@@ -4811,9 +4858,9 @@ Observable_1.Observable.prototype.sampleTime = sampleTime_1.sampleTime;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var scan_1 = __webpack_require__(892);
-Observable_1.Observable.prototype.scan = scan_1.scan;
-//# sourceMappingURL=scan.js.map
+var sequenceEqual_1 = __webpack_require__(892);
+Observable_1.Observable.prototype.sequenceEqual = sequenceEqual_1.sequenceEqual;
+//# sourceMappingURL=sequenceEqual.js.map
 
 /***/ }),
 /* 785 */
@@ -4822,9 +4869,9 @@ Observable_1.Observable.prototype.scan = scan_1.scan;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var sequenceEqual_1 = __webpack_require__(893);
-Observable_1.Observable.prototype.sequenceEqual = sequenceEqual_1.sequenceEqual;
-//# sourceMappingURL=sequenceEqual.js.map
+var shareReplay_1 = __webpack_require__(893);
+Observable_1.Observable.prototype.shareReplay = shareReplay_1.shareReplay;
+//# sourceMappingURL=shareReplay.js.map
 
 /***/ }),
 /* 786 */
@@ -4833,9 +4880,9 @@ Observable_1.Observable.prototype.sequenceEqual = sequenceEqual_1.sequenceEqual;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var shareReplay_1 = __webpack_require__(894);
-Observable_1.Observable.prototype.shareReplay = shareReplay_1.shareReplay;
-//# sourceMappingURL=shareReplay.js.map
+var single_1 = __webpack_require__(894);
+Observable_1.Observable.prototype.single = single_1.single;
+//# sourceMappingURL=single.js.map
 
 /***/ }),
 /* 787 */
@@ -4844,9 +4891,9 @@ Observable_1.Observable.prototype.shareReplay = shareReplay_1.shareReplay;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var single_1 = __webpack_require__(895);
-Observable_1.Observable.prototype.single = single_1.single;
-//# sourceMappingURL=single.js.map
+var skip_1 = __webpack_require__(895);
+Observable_1.Observable.prototype.skip = skip_1.skip;
+//# sourceMappingURL=skip.js.map
 
 /***/ }),
 /* 788 */
@@ -4855,9 +4902,9 @@ Observable_1.Observable.prototype.single = single_1.single;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var skip_1 = __webpack_require__(896);
-Observable_1.Observable.prototype.skip = skip_1.skip;
-//# sourceMappingURL=skip.js.map
+var skipLast_1 = __webpack_require__(896);
+Observable_1.Observable.prototype.skipLast = skipLast_1.skipLast;
+//# sourceMappingURL=skipLast.js.map
 
 /***/ }),
 /* 789 */
@@ -4866,9 +4913,9 @@ Observable_1.Observable.prototype.skip = skip_1.skip;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var skipLast_1 = __webpack_require__(897);
-Observable_1.Observable.prototype.skipLast = skipLast_1.skipLast;
-//# sourceMappingURL=skipLast.js.map
+var skipUntil_1 = __webpack_require__(897);
+Observable_1.Observable.prototype.skipUntil = skipUntil_1.skipUntil;
+//# sourceMappingURL=skipUntil.js.map
 
 /***/ }),
 /* 790 */
@@ -4877,9 +4924,9 @@ Observable_1.Observable.prototype.skipLast = skipLast_1.skipLast;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var skipUntil_1 = __webpack_require__(898);
-Observable_1.Observable.prototype.skipUntil = skipUntil_1.skipUntil;
-//# sourceMappingURL=skipUntil.js.map
+var skipWhile_1 = __webpack_require__(898);
+Observable_1.Observable.prototype.skipWhile = skipWhile_1.skipWhile;
+//# sourceMappingURL=skipWhile.js.map
 
 /***/ }),
 /* 791 */
@@ -4888,9 +4935,9 @@ Observable_1.Observable.prototype.skipUntil = skipUntil_1.skipUntil;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var skipWhile_1 = __webpack_require__(899);
-Observable_1.Observable.prototype.skipWhile = skipWhile_1.skipWhile;
-//# sourceMappingURL=skipWhile.js.map
+var startWith_1 = __webpack_require__(899);
+Observable_1.Observable.prototype.startWith = startWith_1.startWith;
+//# sourceMappingURL=startWith.js.map
 
 /***/ }),
 /* 792 */
@@ -4899,9 +4946,9 @@ Observable_1.Observable.prototype.skipWhile = skipWhile_1.skipWhile;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var startWith_1 = __webpack_require__(900);
-Observable_1.Observable.prototype.startWith = startWith_1.startWith;
-//# sourceMappingURL=startWith.js.map
+var subscribeOn_1 = __webpack_require__(900);
+Observable_1.Observable.prototype.subscribeOn = subscribeOn_1.subscribeOn;
+//# sourceMappingURL=subscribeOn.js.map
 
 /***/ }),
 /* 793 */
@@ -4910,9 +4957,10 @@ Observable_1.Observable.prototype.startWith = startWith_1.startWith;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var subscribeOn_1 = __webpack_require__(901);
-Observable_1.Observable.prototype.subscribeOn = subscribeOn_1.subscribeOn;
-//# sourceMappingURL=subscribeOn.js.map
+var switch_1 = __webpack_require__(901);
+Observable_1.Observable.prototype.switch = switch_1._switch;
+Observable_1.Observable.prototype._switch = switch_1._switch;
+//# sourceMappingURL=switch.js.map
 
 /***/ }),
 /* 794 */
@@ -4921,10 +4969,9 @@ Observable_1.Observable.prototype.subscribeOn = subscribeOn_1.subscribeOn;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var switch_1 = __webpack_require__(902);
-Observable_1.Observable.prototype.switch = switch_1._switch;
-Observable_1.Observable.prototype._switch = switch_1._switch;
-//# sourceMappingURL=switch.js.map
+var switchMapTo_1 = __webpack_require__(903);
+Observable_1.Observable.prototype.switchMapTo = switchMapTo_1.switchMapTo;
+//# sourceMappingURL=switchMapTo.js.map
 
 /***/ }),
 /* 795 */
@@ -4933,9 +4980,9 @@ Observable_1.Observable.prototype._switch = switch_1._switch;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var switchMapTo_1 = __webpack_require__(904);
-Observable_1.Observable.prototype.switchMapTo = switchMapTo_1.switchMapTo;
-//# sourceMappingURL=switchMapTo.js.map
+var takeLast_1 = __webpack_require__(904);
+Observable_1.Observable.prototype.takeLast = takeLast_1.takeLast;
+//# sourceMappingURL=takeLast.js.map
 
 /***/ }),
 /* 796 */
@@ -4944,9 +4991,9 @@ Observable_1.Observable.prototype.switchMapTo = switchMapTo_1.switchMapTo;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var takeLast_1 = __webpack_require__(905);
-Observable_1.Observable.prototype.takeLast = takeLast_1.takeLast;
-//# sourceMappingURL=takeLast.js.map
+var takeUntil_1 = __webpack_require__(905);
+Observable_1.Observable.prototype.takeUntil = takeUntil_1.takeUntil;
+//# sourceMappingURL=takeUntil.js.map
 
 /***/ }),
 /* 797 */
@@ -4955,23 +5002,12 @@ Observable_1.Observable.prototype.takeLast = takeLast_1.takeLast;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var takeUntil_1 = __webpack_require__(906);
-Observable_1.Observable.prototype.takeUntil = takeUntil_1.takeUntil;
-//# sourceMappingURL=takeUntil.js.map
-
-/***/ }),
-/* 798 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var takeWhile_1 = __webpack_require__(907);
+var takeWhile_1 = __webpack_require__(906);
 Observable_1.Observable.prototype.takeWhile = takeWhile_1.takeWhile;
 //# sourceMappingURL=takeWhile.js.map
 
 /***/ }),
-/* 799 */
+/* 798 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4982,18 +5018,18 @@ Observable_1.Observable.prototype.throttle = throttle_1.throttle;
 //# sourceMappingURL=throttle.js.map
 
 /***/ }),
-/* 800 */
+/* 799 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var throttleTime_1 = __webpack_require__(908);
+var throttleTime_1 = __webpack_require__(907);
 Observable_1.Observable.prototype.throttleTime = throttleTime_1.throttleTime;
 //# sourceMappingURL=throttleTime.js.map
 
 /***/ }),
-/* 801 */
+/* 800 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5004,29 +5040,29 @@ Observable_1.Observable.prototype.timeInterval = timeInterval_1.timeInterval;
 //# sourceMappingURL=timeInterval.js.map
 
 /***/ }),
+/* 801 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var timeout_1 = __webpack_require__(908);
+Observable_1.Observable.prototype.timeout = timeout_1.timeout;
+//# sourceMappingURL=timeout.js.map
+
+/***/ }),
 /* 802 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var timeout_1 = __webpack_require__(909);
-Observable_1.Observable.prototype.timeout = timeout_1.timeout;
-//# sourceMappingURL=timeout.js.map
-
-/***/ }),
-/* 803 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var timeoutWith_1 = __webpack_require__(910);
+var timeoutWith_1 = __webpack_require__(909);
 Observable_1.Observable.prototype.timeoutWith = timeoutWith_1.timeoutWith;
 //# sourceMappingURL=timeoutWith.js.map
 
 /***/ }),
-/* 804 */
+/* 803 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5037,15 +5073,26 @@ Observable_1.Observable.prototype.timestamp = timestamp_1.timestamp;
 //# sourceMappingURL=timestamp.js.map
 
 /***/ }),
+/* 804 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(4);
+var toPromise_1 = __webpack_require__(910);
+Observable_1.Observable.prototype.toPromise = toPromise_1.toPromise;
+//# sourceMappingURL=toPromise.js.map
+
+/***/ }),
 /* 805 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var toPromise_1 = __webpack_require__(911);
-Observable_1.Observable.prototype.toPromise = toPromise_1.toPromise;
-//# sourceMappingURL=toPromise.js.map
+var window_1 = __webpack_require__(911);
+Observable_1.Observable.prototype.window = window_1.window;
+//# sourceMappingURL=window.js.map
 
 /***/ }),
 /* 806 */
@@ -5054,9 +5101,9 @@ Observable_1.Observable.prototype.toPromise = toPromise_1.toPromise;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var window_1 = __webpack_require__(912);
-Observable_1.Observable.prototype.window = window_1.window;
-//# sourceMappingURL=window.js.map
+var windowCount_1 = __webpack_require__(912);
+Observable_1.Observable.prototype.windowCount = windowCount_1.windowCount;
+//# sourceMappingURL=windowCount.js.map
 
 /***/ }),
 /* 807 */
@@ -5065,9 +5112,9 @@ Observable_1.Observable.prototype.window = window_1.window;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var windowCount_1 = __webpack_require__(913);
-Observable_1.Observable.prototype.windowCount = windowCount_1.windowCount;
-//# sourceMappingURL=windowCount.js.map
+var windowTime_1 = __webpack_require__(913);
+Observable_1.Observable.prototype.windowTime = windowTime_1.windowTime;
+//# sourceMappingURL=windowTime.js.map
 
 /***/ }),
 /* 808 */
@@ -5076,9 +5123,9 @@ Observable_1.Observable.prototype.windowCount = windowCount_1.windowCount;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var windowTime_1 = __webpack_require__(914);
-Observable_1.Observable.prototype.windowTime = windowTime_1.windowTime;
-//# sourceMappingURL=windowTime.js.map
+var windowToggle_1 = __webpack_require__(914);
+Observable_1.Observable.prototype.windowToggle = windowToggle_1.windowToggle;
+//# sourceMappingURL=windowToggle.js.map
 
 /***/ }),
 /* 809 */
@@ -5087,9 +5134,9 @@ Observable_1.Observable.prototype.windowTime = windowTime_1.windowTime;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var windowToggle_1 = __webpack_require__(915);
-Observable_1.Observable.prototype.windowToggle = windowToggle_1.windowToggle;
-//# sourceMappingURL=windowToggle.js.map
+var windowWhen_1 = __webpack_require__(915);
+Observable_1.Observable.prototype.windowWhen = windowWhen_1.windowWhen;
+//# sourceMappingURL=windowWhen.js.map
 
 /***/ }),
 /* 810 */
@@ -5098,23 +5145,12 @@ Observable_1.Observable.prototype.windowToggle = windowToggle_1.windowToggle;
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var windowWhen_1 = __webpack_require__(916);
-Observable_1.Observable.prototype.windowWhen = windowWhen_1.windowWhen;
-//# sourceMappingURL=windowWhen.js.map
-
-/***/ }),
-/* 811 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(4);
-var withLatestFrom_1 = __webpack_require__(917);
+var withLatestFrom_1 = __webpack_require__(916);
 Observable_1.Observable.prototype.withLatestFrom = withLatestFrom_1.withLatestFrom;
 //# sourceMappingURL=withLatestFrom.js.map
 
 /***/ }),
-/* 812 */
+/* 811 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5125,18 +5161,18 @@ Observable_1.Observable.prototype.zip = zip_1.zipProto;
 //# sourceMappingURL=zip.js.map
 
 /***/ }),
-/* 813 */
+/* 812 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(4);
-var zipAll_1 = __webpack_require__(918);
+var zipAll_1 = __webpack_require__(917);
 Observable_1.Observable.prototype.zipAll = zipAll_1.zipAll;
 //# sourceMappingURL=zipAll.js.map
 
 /***/ }),
-/* 814 */
+/* 813 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5149,7 +5185,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Observable_1 = __webpack_require__(4);
 var tryCatch_1 = __webpack_require__(165);
 var errorObject_1 = __webpack_require__(111);
-var AsyncSubject_1 = __webpack_require__(641);
+var AsyncSubject_1 = __webpack_require__(642);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -5410,7 +5446,7 @@ function dispatchError(arg) {
 //# sourceMappingURL=BoundCallbackObservable.js.map
 
 /***/ }),
-/* 815 */
+/* 814 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5423,7 +5459,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Observable_1 = __webpack_require__(4);
 var tryCatch_1 = __webpack_require__(165);
 var errorObject_1 = __webpack_require__(111);
-var AsyncSubject_1 = __webpack_require__(641);
+var AsyncSubject_1 = __webpack_require__(642);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -5679,7 +5715,7 @@ function dispatchError(arg) {
 //# sourceMappingURL=BoundNodeCallbackObservable.js.map
 
 /***/ }),
-/* 816 */
+/* 815 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5784,7 +5820,7 @@ var DeferSubscriber = (function (_super) {
 //# sourceMappingURL=DeferObservable.js.map
 
 /***/ }),
-/* 817 */
+/* 816 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5872,7 +5908,7 @@ exports.ErrorObservable = ErrorObservable;
 //# sourceMappingURL=ErrorObservable.js.map
 
 /***/ }),
-/* 818 */
+/* 817 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5991,7 +6027,7 @@ exports.FromEventPatternObservable = FromEventPatternObservable;
 //# sourceMappingURL=FromEventPatternObservable.js.map
 
 /***/ }),
-/* 819 */
+/* 818 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6132,7 +6168,7 @@ exports.GenerateObservable = GenerateObservable;
 //# sourceMappingURL=GenerateObservable.js.map
 
 /***/ }),
-/* 820 */
+/* 819 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6199,7 +6235,7 @@ var IfSubscriber = (function (_super) {
 //# sourceMappingURL=IfObservable.js.map
 
 /***/ }),
-/* 821 */
+/* 820 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6209,9 +6245,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isNumeric_1 = __webpack_require__(644);
+var isNumeric_1 = __webpack_require__(645);
 var Observable_1 = __webpack_require__(4);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -6293,7 +6329,7 @@ exports.IntervalObservable = IntervalObservable;
 //# sourceMappingURL=IntervalObservable.js.map
 
 /***/ }),
-/* 822 */
+/* 821 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6358,7 +6394,7 @@ exports.NeverObservable = NeverObservable;
 //# sourceMappingURL=NeverObservable.js.map
 
 /***/ }),
-/* 823 */
+/* 822 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6449,7 +6485,7 @@ exports.PairsObservable = PairsObservable;
 //# sourceMappingURL=PairsObservable.js.map
 
 /***/ }),
-/* 824 */
+/* 823 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6551,7 +6587,7 @@ exports.RangeObservable = RangeObservable;
 //# sourceMappingURL=RangeObservable.js.map
 
 /***/ }),
-/* 825 */
+/* 824 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6563,7 +6599,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(4);
 var asap_1 = __webpack_require__(668);
-var isNumeric_1 = __webpack_require__(644);
+var isNumeric_1 = __webpack_require__(645);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -6608,7 +6644,7 @@ exports.SubscribeOnObservable = SubscribeOnObservable;
 //# sourceMappingURL=SubscribeOnObservable.js.map
 
 /***/ }),
-/* 826 */
+/* 825 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6618,11 +6654,11 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isNumeric_1 = __webpack_require__(644);
+var isNumeric_1 = __webpack_require__(645);
 var Observable_1 = __webpack_require__(4);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 var isScheduler_1 = __webpack_require__(166);
-var isDate_1 = __webpack_require__(643);
+var isDate_1 = __webpack_require__(644);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -6721,7 +6757,7 @@ exports.TimerObservable = TimerObservable;
 //# sourceMappingURL=TimerObservable.js.map
 
 /***/ }),
-/* 827 */
+/* 826 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6788,27 +6824,27 @@ var UsingSubscriber = (function (_super) {
 //# sourceMappingURL=UsingObservable.js.map
 
 /***/ }),
+/* 827 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var BoundCallbackObservable_1 = __webpack_require__(813);
+exports.bindCallback = BoundCallbackObservable_1.BoundCallbackObservable.create;
+//# sourceMappingURL=bindCallback.js.map
+
+/***/ }),
 /* 828 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var BoundCallbackObservable_1 = __webpack_require__(814);
-exports.bindCallback = BoundCallbackObservable_1.BoundCallbackObservable.create;
-//# sourceMappingURL=bindCallback.js.map
-
-/***/ }),
-/* 829 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var BoundNodeCallbackObservable_1 = __webpack_require__(815);
+var BoundNodeCallbackObservable_1 = __webpack_require__(814);
 exports.bindNodeCallback = BoundNodeCallbackObservable_1.BoundNodeCallbackObservable.create;
 //# sourceMappingURL=bindNodeCallback.js.map
 
 /***/ }),
-/* 830 */
+/* 829 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6950,7 +6986,7 @@ exports.combineLatest = combineLatest;
 //# sourceMappingURL=combineLatest.js.map
 
 /***/ }),
-/* 831 */
+/* 830 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6960,17 +6996,17 @@ exports.concat = concat_1.concatStatic;
 //# sourceMappingURL=concat.js.map
 
 /***/ }),
-/* 832 */
+/* 831 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var DeferObservable_1 = __webpack_require__(816);
+var DeferObservable_1 = __webpack_require__(815);
 exports.defer = DeferObservable_1.DeferObservable.create;
 //# sourceMappingURL=defer.js.map
 
 /***/ }),
-/* 833 */
+/* 832 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6985,10 +7021,10 @@ var Subscriber_1 = __webpack_require__(6);
 var Observable_1 = __webpack_require__(4);
 var Subscription_1 = __webpack_require__(41);
 var root_1 = __webpack_require__(33);
-var ReplaySubject_1 = __webpack_require__(642);
+var ReplaySubject_1 = __webpack_require__(643);
 var tryCatch_1 = __webpack_require__(165);
 var errorObject_1 = __webpack_require__(111);
-var assign_1 = __webpack_require__(936);
+var assign_1 = __webpack_require__(935);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -7226,7 +7262,7 @@ exports.WebSocketSubject = WebSocketSubject;
 //# sourceMappingURL=WebSocketSubject.js.map
 
 /***/ }),
-/* 834 */
+/* 833 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7236,17 +7272,17 @@ exports.ajax = AjaxObservable_1.AjaxObservable.create;
 //# sourceMappingURL=ajax.js.map
 
 /***/ }),
-/* 835 */
+/* 834 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var WebSocketSubject_1 = __webpack_require__(833);
+var WebSocketSubject_1 = __webpack_require__(832);
 exports.webSocket = WebSocketSubject_1.WebSocketSubject.create;
 //# sourceMappingURL=webSocket.js.map
 
 /***/ }),
-/* 836 */
+/* 835 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7256,14 +7292,24 @@ exports.empty = EmptyObservable_1.EmptyObservable.create;
 //# sourceMappingURL=empty.js.map
 
 /***/ }),
+/* 836 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var FromEventPatternObservable_1 = __webpack_require__(817);
+exports.fromEventPattern = FromEventPatternObservable_1.FromEventPatternObservable.create;
+//# sourceMappingURL=fromEventPattern.js.map
+
+/***/ }),
 /* 837 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromEventPatternObservable_1 = __webpack_require__(818);
-exports.fromEventPattern = FromEventPatternObservable_1.FromEventPatternObservable.create;
-//# sourceMappingURL=fromEventPattern.js.map
+var IfObservable_1 = __webpack_require__(819);
+exports._if = IfObservable_1.IfObservable.create;
+//# sourceMappingURL=if.js.map
 
 /***/ }),
 /* 838 */
@@ -7271,9 +7317,9 @@ exports.fromEventPattern = FromEventPatternObservable_1.FromEventPatternObservab
 
 "use strict";
 
-var IfObservable_1 = __webpack_require__(820);
-exports._if = IfObservable_1.IfObservable.create;
-//# sourceMappingURL=if.js.map
+var IntervalObservable_1 = __webpack_require__(820);
+exports.interval = IntervalObservable_1.IntervalObservable.create;
+//# sourceMappingURL=interval.js.map
 
 /***/ }),
 /* 839 */
@@ -7281,9 +7327,9 @@ exports._if = IfObservable_1.IfObservable.create;
 
 "use strict";
 
-var IntervalObservable_1 = __webpack_require__(821);
-exports.interval = IntervalObservable_1.IntervalObservable.create;
-//# sourceMappingURL=interval.js.map
+var NeverObservable_1 = __webpack_require__(821);
+exports.never = NeverObservable_1.NeverObservable.create;
+//# sourceMappingURL=never.js.map
 
 /***/ }),
 /* 840 */
@@ -7291,9 +7337,9 @@ exports.interval = IntervalObservable_1.IntervalObservable.create;
 
 "use strict";
 
-var NeverObservable_1 = __webpack_require__(822);
-exports.never = NeverObservable_1.NeverObservable.create;
-//# sourceMappingURL=never.js.map
+var PairsObservable_1 = __webpack_require__(822);
+exports.pairs = PairsObservable_1.PairsObservable.create;
+//# sourceMappingURL=pairs.js.map
 
 /***/ }),
 /* 841 */
@@ -7301,9 +7347,9 @@ exports.never = NeverObservable_1.NeverObservable.create;
 
 "use strict";
 
-var PairsObservable_1 = __webpack_require__(823);
-exports.pairs = PairsObservable_1.PairsObservable.create;
-//# sourceMappingURL=pairs.js.map
+var RangeObservable_1 = __webpack_require__(823);
+exports.range = RangeObservable_1.RangeObservable.create;
+//# sourceMappingURL=range.js.map
 
 /***/ }),
 /* 842 */
@@ -7311,9 +7357,9 @@ exports.pairs = PairsObservable_1.PairsObservable.create;
 
 "use strict";
 
-var RangeObservable_1 = __webpack_require__(824);
-exports.range = RangeObservable_1.RangeObservable.create;
-//# sourceMappingURL=range.js.map
+var ErrorObservable_1 = __webpack_require__(816);
+exports._throw = ErrorObservable_1.ErrorObservable.create;
+//# sourceMappingURL=throw.js.map
 
 /***/ }),
 /* 843 */
@@ -7321,9 +7367,9 @@ exports.range = RangeObservable_1.RangeObservable.create;
 
 "use strict";
 
-var ErrorObservable_1 = __webpack_require__(817);
-exports._throw = ErrorObservable_1.ErrorObservable.create;
-//# sourceMappingURL=throw.js.map
+var TimerObservable_1 = __webpack_require__(825);
+exports.timer = TimerObservable_1.TimerObservable.create;
+//# sourceMappingURL=timer.js.map
 
 /***/ }),
 /* 844 */
@@ -7331,22 +7377,12 @@ exports._throw = ErrorObservable_1.ErrorObservable.create;
 
 "use strict";
 
-var TimerObservable_1 = __webpack_require__(826);
-exports.timer = TimerObservable_1.TimerObservable.create;
-//# sourceMappingURL=timer.js.map
-
-/***/ }),
-/* 845 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var UsingObservable_1 = __webpack_require__(827);
+var UsingObservable_1 = __webpack_require__(826);
 exports.using = UsingObservable_1.UsingObservable.create;
 //# sourceMappingURL=using.js.map
 
 /***/ }),
-/* 846 */
+/* 845 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7356,7 +7392,7 @@ exports.zip = zip_1.zipStatic;
 //# sourceMappingURL=zip.js.map
 
 /***/ }),
-/* 847 */
+/* 846 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7472,7 +7508,7 @@ var AuditSubscriber = (function (_super) {
 //# sourceMappingURL=audit.js.map
 
 /***/ }),
-/* 848 */
+/* 847 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7482,7 +7518,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 var Subscriber_1 = __webpack_require__(6);
 /**
  * Ignores source values for `duration` milliseconds, then emits the most recent
@@ -7582,7 +7618,7 @@ function dispatchNext(subscriber) {
 //# sourceMappingURL=auditTime.js.map
 
 /***/ }),
-/* 849 */
+/* 848 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7664,7 +7700,7 @@ var BufferSubscriber = (function (_super) {
 //# sourceMappingURL=buffer.js.map
 
 /***/ }),
-/* 850 */
+/* 849 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7810,7 +7846,7 @@ var BufferSkipCountSubscriber = (function (_super) {
 //# sourceMappingURL=bufferCount.js.map
 
 /***/ }),
-/* 851 */
+/* 850 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7820,7 +7856,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 var Subscriber_1 = __webpack_require__(6);
 var isScheduler_1 = __webpack_require__(166);
 /* tslint:enable:max-line-length */
@@ -8015,7 +8051,7 @@ function dispatchBufferClose(arg) {
 //# sourceMappingURL=bufferTime.js.map
 
 /***/ }),
-/* 852 */
+/* 851 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8173,7 +8209,7 @@ var BufferToggleSubscriber = (function (_super) {
 //# sourceMappingURL=bufferToggle.js.map
 
 /***/ }),
-/* 853 */
+/* 852 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8301,7 +8337,7 @@ var BufferWhenSubscriber = (function (_super) {
 //# sourceMappingURL=bufferWhen.js.map
 
 /***/ }),
-/* 854 */
+/* 853 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8354,7 +8390,7 @@ exports.combineAll = combineAll;
 //# sourceMappingURL=combineAll.js.map
 
 /***/ }),
-/* 855 */
+/* 854 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8424,7 +8460,7 @@ exports.concatMapTo = concatMapTo;
 //# sourceMappingURL=concatMapTo.js.map
 
 /***/ }),
-/* 856 */
+/* 855 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8541,7 +8577,7 @@ var CountSubscriber = (function (_super) {
 //# sourceMappingURL=count.js.map
 
 /***/ }),
-/* 857 */
+/* 856 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8674,7 +8710,7 @@ var DebounceSubscriber = (function (_super) {
 //# sourceMappingURL=debounce.js.map
 
 /***/ }),
-/* 858 */
+/* 857 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8685,7 +8721,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 /**
  * Emits a value from the source Observable only after a particular time span
  * has passed without another source emission.
@@ -8796,7 +8832,7 @@ function dispatchNext(subscriber) {
 //# sourceMappingURL=debounceTime.js.map
 
 /***/ }),
-/* 859 */
+/* 858 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8879,7 +8915,7 @@ var DefaultIfEmptySubscriber = (function (_super) {
 //# sourceMappingURL=defaultIfEmpty.js.map
 
 /***/ }),
-/* 860 */
+/* 859 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8889,8 +8925,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(634);
-var isDate_1 = __webpack_require__(643);
+var async_1 = __webpack_require__(635);
+var isDate_1 = __webpack_require__(644);
 var Subscriber_1 = __webpack_require__(6);
 var Notification_1 = __webpack_require__(392);
 /**
@@ -9020,7 +9056,7 @@ var DelayMessage = (function () {
 //# sourceMappingURL=delay.js.map
 
 /***/ }),
-/* 861 */
+/* 860 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9218,7 +9254,7 @@ var SubscriptionDelaySubscriber = (function (_super) {
 //# sourceMappingURL=delayWhen.js.map
 
 /***/ }),
-/* 862 */
+/* 861 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9299,7 +9335,7 @@ var DeMaterializeSubscriber = (function (_super) {
 //# sourceMappingURL=dematerialize.js.map
 
 /***/ }),
-/* 863 */
+/* 862 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9311,7 +9347,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var OuterSubscriber_1 = __webpack_require__(52);
 var subscribeToResult_1 = __webpack_require__(53);
-var Set_1 = __webpack_require__(935);
+var Set_1 = __webpack_require__(934);
 /**
  * Returns an Observable that emits all items emitted by the source Observable that are distinct by comparison from previous items.
  *
@@ -9425,7 +9461,7 @@ exports.DistinctSubscriber = DistinctSubscriber;
 //# sourceMappingURL=distinct.js.map
 
 /***/ }),
-/* 864 */
+/* 863 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9501,7 +9537,7 @@ exports.distinctUntilKeyChanged = distinctUntilKeyChanged;
 //# sourceMappingURL=distinctUntilKeyChanged.js.map
 
 /***/ }),
-/* 865 */
+/* 864 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9607,7 +9643,7 @@ var ElementAtSubscriber = (function (_super) {
 //# sourceMappingURL=elementAt.js.map
 
 /***/ }),
-/* 866 */
+/* 865 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9702,7 +9738,7 @@ var SwitchFirstSubscriber = (function (_super) {
 //# sourceMappingURL=exhaust.js.map
 
 /***/ }),
-/* 867 */
+/* 866 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9846,7 +9882,7 @@ var SwitchFirstMapSubscriber = (function (_super) {
 //# sourceMappingURL=exhaustMap.js.map
 
 /***/ }),
-/* 868 */
+/* 867 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10003,7 +10039,7 @@ exports.ExpandSubscriber = ExpandSubscriber;
 //# sourceMappingURL=expand.js.map
 
 /***/ }),
-/* 869 */
+/* 868 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10052,7 +10088,7 @@ var FinallySubscriber = (function (_super) {
 //# sourceMappingURL=finally.js.map
 
 /***/ }),
-/* 870 */
+/* 869 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10099,7 +10135,7 @@ exports.findIndex = findIndex;
 //# sourceMappingURL=findIndex.js.map
 
 /***/ }),
-/* 871 */
+/* 870 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10113,8 +10149,8 @@ var Subscriber_1 = __webpack_require__(6);
 var Subscription_1 = __webpack_require__(41);
 var Observable_1 = __webpack_require__(4);
 var Subject_1 = __webpack_require__(32);
-var Map_1 = __webpack_require__(933);
-var FastMap_1 = __webpack_require__(931);
+var Map_1 = __webpack_require__(932);
+var FastMap_1 = __webpack_require__(930);
 /* tslint:enable:max-line-length */
 /**
  * Groups the items emitted by an Observable according to a specified criterion,
@@ -10386,7 +10422,7 @@ var InnerRefCountSubscription = (function (_super) {
 //# sourceMappingURL=groupBy.js.map
 
 /***/ }),
-/* 872 */
+/* 871 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10439,7 +10475,7 @@ var IgnoreElementsSubscriber = (function (_super) {
 //# sourceMappingURL=ignoreElements.js.map
 
 /***/ }),
-/* 873 */
+/* 872 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10497,7 +10533,7 @@ var IsEmptySubscriber = (function (_super) {
 //# sourceMappingURL=isEmpty.js.map
 
 /***/ }),
-/* 874 */
+/* 873 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10566,7 +10602,7 @@ var MapToSubscriber = (function (_super) {
 //# sourceMappingURL=mapTo.js.map
 
 /***/ }),
-/* 875 */
+/* 874 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10662,7 +10698,7 @@ var MaterializeSubscriber = (function (_super) {
 //# sourceMappingURL=materialize.js.map
 
 /***/ }),
-/* 876 */
+/* 875 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10709,7 +10745,7 @@ exports.max = max;
 //# sourceMappingURL=max.js.map
 
 /***/ }),
-/* 877 */
+/* 876 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10844,7 +10880,7 @@ exports.MergeScanSubscriber = MergeScanSubscriber;
 //# sourceMappingURL=mergeScan.js.map
 
 /***/ }),
-/* 878 */
+/* 877 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10891,7 +10927,7 @@ exports.min = min;
 //# sourceMappingURL=min.js.map
 
 /***/ }),
-/* 879 */
+/* 878 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10974,12 +11010,12 @@ var PairwiseSubscriber = (function (_super) {
 //# sourceMappingURL=pairwise.js.map
 
 /***/ }),
-/* 880 */
+/* 879 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var not_1 = __webpack_require__(937);
+var not_1 = __webpack_require__(936);
 var filter_1 = __webpack_require__(395);
 /**
  * Splits the source Observable into two, one with values that satisfy a
@@ -11032,7 +11068,7 @@ exports.partition = partition;
 //# sourceMappingURL=partition.js.map
 
 /***/ }),
-/* 881 */
+/* 880 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11095,7 +11131,7 @@ function plucker(props, length) {
 //# sourceMappingURL=pluck.js.map
 
 /***/ }),
-/* 882 */
+/* 881 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11124,7 +11160,7 @@ exports.publish = publish;
 //# sourceMappingURL=publish.js.map
 
 /***/ }),
-/* 883 */
+/* 882 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11144,12 +11180,12 @@ exports.publishBehavior = publishBehavior;
 //# sourceMappingURL=publishBehavior.js.map
 
 /***/ }),
-/* 884 */
+/* 883 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var AsyncSubject_1 = __webpack_require__(641);
+var AsyncSubject_1 = __webpack_require__(642);
 var multicast_1 = __webpack_require__(391);
 /**
  * @return {ConnectableObservable<T>}
@@ -11163,12 +11199,12 @@ exports.publishLast = publishLast;
 //# sourceMappingURL=publishLast.js.map
 
 /***/ }),
-/* 885 */
+/* 884 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ReplaySubject_1 = __webpack_require__(642);
+var ReplaySubject_1 = __webpack_require__(643);
 var multicast_1 = __webpack_require__(391);
 /**
  * @param bufferSize
@@ -11187,7 +11223,7 @@ exports.publishReplay = publishReplay;
 //# sourceMappingURL=publishReplay.js.map
 
 /***/ }),
-/* 886 */
+/* 885 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11263,7 +11299,7 @@ var RepeatSubscriber = (function (_super) {
 //# sourceMappingURL=repeat.js.map
 
 /***/ }),
-/* 887 */
+/* 886 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11377,7 +11413,7 @@ var RepeatWhenSubscriber = (function (_super) {
 //# sourceMappingURL=repeatWhen.js.map
 
 /***/ }),
-/* 888 */
+/* 887 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11448,7 +11484,7 @@ var RetrySubscriber = (function (_super) {
 //# sourceMappingURL=retry.js.map
 
 /***/ }),
-/* 889 */
+/* 888 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11555,7 +11591,7 @@ var RetryWhenSubscriber = (function (_super) {
 //# sourceMappingURL=retryWhen.js.map
 
 /***/ }),
-/* 890 */
+/* 889 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11649,7 +11685,7 @@ var SampleSubscriber = (function (_super) {
 //# sourceMappingURL=sample.js.map
 
 /***/ }),
-/* 891 */
+/* 890 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11660,7 +11696,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 /**
  * Emits the most recently emitted value from the source Observable within
  * periodic time intervals.
@@ -11746,7 +11782,7 @@ function dispatchNotification(state) {
 //# sourceMappingURL=sampleTime.js.map
 
 /***/ }),
-/* 892 */
+/* 891 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11871,7 +11907,7 @@ var ScanSubscriber = (function (_super) {
 //# sourceMappingURL=scan.js.map
 
 /***/ }),
-/* 893 */
+/* 892 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12041,13 +12077,13 @@ var SequenceEqualCompareToSubscriber = (function (_super) {
 //# sourceMappingURL=sequenceEqual.js.map
 
 /***/ }),
-/* 894 */
+/* 893 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var multicast_1 = __webpack_require__(391);
-var ReplaySubject_1 = __webpack_require__(642);
+var ReplaySubject_1 = __webpack_require__(643);
 /**
  * @method shareReplay
  * @owner Observable
@@ -12069,7 +12105,7 @@ exports.shareReplay = shareReplay;
 //# sourceMappingURL=shareReplay.js.map
 
 /***/ }),
-/* 895 */
+/* 894 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12168,7 +12204,7 @@ var SingleSubscriber = (function (_super) {
 //# sourceMappingURL=single.js.map
 
 /***/ }),
-/* 896 */
+/* 895 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12225,7 +12261,7 @@ var SkipSubscriber = (function (_super) {
 //# sourceMappingURL=skip.js.map
 
 /***/ }),
-/* 897 */
+/* 896 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12324,7 +12360,7 @@ var SkipLastSubscriber = (function (_super) {
 //# sourceMappingURL=skipLast.js.map
 
 /***/ }),
-/* 898 */
+/* 897 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12401,7 +12437,7 @@ var SkipUntilSubscriber = (function (_super) {
 //# sourceMappingURL=skipUntil.js.map
 
 /***/ }),
-/* 899 */
+/* 898 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12473,7 +12509,7 @@ var SkipWhileSubscriber = (function (_super) {
 //# sourceMappingURL=skipWhile.js.map
 
 /***/ }),
-/* 900 */
+/* 899 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12525,12 +12561,12 @@ exports.startWith = startWith;
 //# sourceMappingURL=startWith.js.map
 
 /***/ }),
-/* 901 */
+/* 900 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var SubscribeOnObservable_1 = __webpack_require__(825);
+var SubscribeOnObservable_1 = __webpack_require__(824);
 /**
  * Asynchronously subscribes Observers to this Observable on the specified IScheduler.
  *
@@ -12560,7 +12596,7 @@ var SubscribeOnOperator = (function () {
 //# sourceMappingURL=subscribeOn.js.map
 
 /***/ }),
-/* 902 */
+/* 901 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12674,7 +12710,7 @@ var SwitchSubscriber = (function (_super) {
 //# sourceMappingURL=switch.js.map
 
 /***/ }),
-/* 903 */
+/* 902 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12820,7 +12856,7 @@ var SwitchMapSubscriber = (function (_super) {
 //# sourceMappingURL=switchMap.js.map
 
 /***/ }),
-/* 904 */
+/* 903 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12951,7 +12987,7 @@ var SwitchMapToSubscriber = (function (_super) {
 //# sourceMappingURL=switchMapTo.js.map
 
 /***/ }),
-/* 905 */
+/* 904 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13064,7 +13100,7 @@ var TakeLastSubscriber = (function (_super) {
 //# sourceMappingURL=takeLast.js.map
 
 /***/ }),
-/* 906 */
+/* 905 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13145,7 +13181,7 @@ var TakeUntilSubscriber = (function (_super) {
 //# sourceMappingURL=takeUntil.js.map
 
 /***/ }),
-/* 907 */
+/* 906 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13243,7 +13279,7 @@ var TakeWhileSubscriber = (function (_super) {
 //# sourceMappingURL=takeWhile.js.map
 
 /***/ }),
-/* 908 */
+/* 907 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13254,7 +13290,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(6);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 var throttle_1 = __webpack_require__(664);
 /**
  * Emits a value from the source Observable, then ignores subsequent source
@@ -13365,7 +13401,7 @@ function dispatchNext(arg) {
 //# sourceMappingURL=throttleTime.js.map
 
 /***/ }),
-/* 909 */
+/* 908 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13375,8 +13411,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(634);
-var isDate_1 = __webpack_require__(643);
+var async_1 = __webpack_require__(635);
+var isDate_1 = __webpack_require__(644);
 var Subscriber_1 = __webpack_require__(6);
 var TimeoutError_1 = __webpack_require__(672);
 /**
@@ -13454,7 +13490,7 @@ var TimeoutSubscriber = (function (_super) {
 //# sourceMappingURL=timeout.js.map
 
 /***/ }),
-/* 910 */
+/* 909 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13464,8 +13500,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(634);
-var isDate_1 = __webpack_require__(643);
+var async_1 = __webpack_require__(635);
+var isDate_1 = __webpack_require__(644);
 var OuterSubscriber_1 = __webpack_require__(52);
 var subscribeToResult_1 = __webpack_require__(53);
 /* tslint:enable:max-line-length */
@@ -13547,7 +13583,7 @@ var TimeoutWithSubscriber = (function (_super) {
 //# sourceMappingURL=timeoutWith.js.map
 
 /***/ }),
-/* 911 */
+/* 910 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13625,7 +13661,7 @@ exports.toPromise = toPromise;
 //# sourceMappingURL=toPromise.js.map
 
 /***/ }),
-/* 912 */
+/* 911 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13741,7 +13777,7 @@ var WindowSubscriber = (function (_super) {
 //# sourceMappingURL=window.js.map
 
 /***/ }),
-/* 913 */
+/* 912 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13878,7 +13914,7 @@ var WindowCountSubscriber = (function (_super) {
 //# sourceMappingURL=windowCount.js.map
 
 /***/ }),
-/* 914 */
+/* 913 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13889,9 +13925,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subject_1 = __webpack_require__(32);
-var async_1 = __webpack_require__(634);
+var async_1 = __webpack_require__(635);
 var Subscriber_1 = __webpack_require__(6);
-var isNumeric_1 = __webpack_require__(644);
+var isNumeric_1 = __webpack_require__(645);
 var isScheduler_1 = __webpack_require__(166);
 function windowTime(windowTimeSpan) {
     var scheduler = async_1.async;
@@ -14045,7 +14081,7 @@ function dispatchWindowClose(state) {
 //# sourceMappingURL=windowTime.js.map
 
 /***/ }),
-/* 915 */
+/* 914 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14231,7 +14267,7 @@ var WindowToggleSubscriber = (function (_super) {
 //# sourceMappingURL=windowToggle.js.map
 
 /***/ }),
-/* 916 */
+/* 915 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14364,7 +14400,7 @@ var WindowSubscriber = (function (_super) {
 //# sourceMappingURL=windowWhen.js.map
 
 /***/ }),
-/* 917 */
+/* 916 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14500,7 +14536,7 @@ var WithLatestFromSubscriber = (function (_super) {
 //# sourceMappingURL=withLatestFrom.js.map
 
 /***/ }),
-/* 918 */
+/* 917 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14519,7 +14555,7 @@ exports.zipAll = zipAll;
 //# sourceMappingURL=zipAll.js.map
 
 /***/ }),
-/* 919 */
+/* 918 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14569,7 +14605,7 @@ exports.Action = Action;
 //# sourceMappingURL=Action.js.map
 
 /***/ }),
-/* 920 */
+/* 919 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14579,8 +14615,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(639);
-var AnimationFrame_1 = __webpack_require__(930);
+var AsyncAction_1 = __webpack_require__(640);
+var AnimationFrame_1 = __webpack_require__(929);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -14630,7 +14666,7 @@ exports.AnimationFrameAction = AnimationFrameAction;
 //# sourceMappingURL=AnimationFrameAction.js.map
 
 /***/ }),
-/* 921 */
+/* 920 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14640,7 +14676,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(640);
+var AsyncScheduler_1 = __webpack_require__(641);
 var AnimationFrameScheduler = (function (_super) {
     __extends(AnimationFrameScheduler, _super);
     function AnimationFrameScheduler() {
@@ -14673,7 +14709,7 @@ exports.AnimationFrameScheduler = AnimationFrameScheduler;
 //# sourceMappingURL=AnimationFrameScheduler.js.map
 
 /***/ }),
-/* 922 */
+/* 921 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14683,8 +14719,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Immediate_1 = __webpack_require__(932);
-var AsyncAction_1 = __webpack_require__(639);
+var Immediate_1 = __webpack_require__(931);
+var AsyncAction_1 = __webpack_require__(640);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -14734,7 +14770,7 @@ exports.AsapAction = AsapAction;
 //# sourceMappingURL=AsapAction.js.map
 
 /***/ }),
-/* 923 */
+/* 922 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14744,7 +14780,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(640);
+var AsyncScheduler_1 = __webpack_require__(641);
 var AsapScheduler = (function (_super) {
     __extends(AsapScheduler, _super);
     function AsapScheduler() {
@@ -14777,7 +14813,7 @@ exports.AsapScheduler = AsapScheduler;
 //# sourceMappingURL=AsapScheduler.js.map
 
 /***/ }),
-/* 924 */
+/* 923 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14787,7 +14823,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(639);
+var AsyncAction_1 = __webpack_require__(640);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -14832,7 +14868,7 @@ exports.QueueAction = QueueAction;
 //# sourceMappingURL=QueueAction.js.map
 
 /***/ }),
-/* 925 */
+/* 924 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14842,7 +14878,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(640);
+var AsyncScheduler_1 = __webpack_require__(641);
 var QueueScheduler = (function (_super) {
     __extends(QueueScheduler, _super);
     function QueueScheduler() {
@@ -14854,13 +14890,13 @@ exports.QueueScheduler = QueueScheduler;
 //# sourceMappingURL=QueueScheduler.js.map
 
 /***/ }),
-/* 926 */
+/* 925 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var AnimationFrameAction_1 = __webpack_require__(920);
-var AnimationFrameScheduler_1 = __webpack_require__(921);
+var AnimationFrameAction_1 = __webpack_require__(919);
+var AnimationFrameScheduler_1 = __webpack_require__(920);
 /**
  *
  * Animation Frame Scheduler
@@ -14895,7 +14931,7 @@ exports.animationFrame = new AnimationFrameScheduler_1.AnimationFrameScheduler(A
 //# sourceMappingURL=animationFrame.js.map
 
 /***/ }),
-/* 927 */
+/* 926 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14947,7 +14983,7 @@ applyMixins_1.applyMixins(ColdObservable, [SubscriptionLoggable_1.SubscriptionLo
 //# sourceMappingURL=ColdObservable.js.map
 
 /***/ }),
-/* 928 */
+/* 927 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15001,7 +15037,7 @@ applyMixins_1.applyMixins(HotObservable, [SubscriptionLoggable_1.SubscriptionLog
 //# sourceMappingURL=HotObservable.js.map
 
 /***/ }),
-/* 929 */
+/* 928 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15013,8 +15049,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(4);
 var Notification_1 = __webpack_require__(392);
-var ColdObservable_1 = __webpack_require__(927);
-var HotObservable_1 = __webpack_require__(928);
+var ColdObservable_1 = __webpack_require__(926);
+var HotObservable_1 = __webpack_require__(927);
 var SubscriptionLog_1 = __webpack_require__(670);
 var VirtualTimeScheduler_1 = __webpack_require__(667);
 var defaultMaxFrame = 750;
@@ -15230,7 +15266,7 @@ exports.TestScheduler = TestScheduler;
 //# sourceMappingURL=TestScheduler.js.map
 
 /***/ }),
-/* 930 */
+/* 929 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15270,7 +15306,7 @@ exports.AnimationFrame = new RequestAnimationFrameDefinition(root_1.root);
 //# sourceMappingURL=AnimationFrame.js.map
 
 /***/ }),
-/* 931 */
+/* 930 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15307,7 +15343,7 @@ exports.FastMap = FastMap;
 //# sourceMappingURL=FastMap.js.map
 
 /***/ }),
-/* 932 */
+/* 931 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15522,18 +15558,18 @@ exports.Immediate = new ImmediateDefinition(root_1.root);
 //# sourceMappingURL=Immediate.js.map
 
 /***/ }),
-/* 933 */
+/* 932 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var root_1 = __webpack_require__(33);
-var MapPolyfill_1 = __webpack_require__(934);
+var MapPolyfill_1 = __webpack_require__(933);
 exports.Map = root_1.root.Map || (function () { return MapPolyfill_1.MapPolyfill; })();
 //# sourceMappingURL=Map.js.map
 
 /***/ }),
-/* 934 */
+/* 933 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15586,7 +15622,7 @@ exports.MapPolyfill = MapPolyfill;
 //# sourceMappingURL=MapPolyfill.js.map
 
 /***/ }),
-/* 935 */
+/* 934 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15625,7 +15661,7 @@ exports.Set = root_1.root.Set || minimalSetImpl();
 //# sourceMappingURL=Set.js.map
 
 /***/ }),
-/* 936 */
+/* 935 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15657,7 +15693,7 @@ exports.assign = getAssign(root_1.root);
 //# sourceMappingURL=assign.js.map
 
 /***/ }),
-/* 937 */
+/* 936 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15674,7 +15710,7 @@ exports.not = not;
 //# sourceMappingURL=not.js.map
 
 /***/ }),
-/* 938 */
+/* 937 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15706,26 +15742,28 @@ Accountmanagement = __decorate([
 //# sourceMappingURL=accountmanagement.component.js.map
 
 /***/ }),
-/* 939 */
+/* 938 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(639);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_businessDataService_businessData_service__ = __webpack_require__(955);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_businessDataService_businessData__ = __webpack_require__(956);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeNegociation_service__ = __webpack_require__(1001);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_typeNegociation__ = __webpack_require__(1002);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeMachine_service__ = __webpack_require__(686);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_anchorage_service__ = __webpack_require__(980);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_anchorage__ = __webpack_require__(981);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_category_service__ = __webpack_require__(982);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_listPrices_service__ = __webpack_require__(988);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_listPrices__ = __webpack_require__(989);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_cache__ = __webpack_require__(646);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_businessDataService_businessData_service__ = __webpack_require__(953);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_businessDataService_businessData__ = __webpack_require__(954);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeNegociation_service__ = __webpack_require__(1000);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_typeNegociation__ = __webpack_require__(1001);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeMachine_service__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_typeGlass_service__ = __webpack_require__(999);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_genericoParametro__ = __webpack_require__(636);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_anchorage_service__ = __webpack_require__(978);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_anchorage__ = __webpack_require__(979);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_category_service__ = __webpack_require__(980);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_listPrices_service__ = __webpack_require__(986);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_listPrices__ = __webpack_require__(987);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__theme_services_cache__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Businessdata; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -15751,8 +15789,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 var Businessdata = (function () {
-    function Businessdata(route, router, _businessDataService, _typeNegociationDataService, _typeMachineDataService, _listPricesDataService, _categoryDataService, _anchorageDataService, cache) {
+    function Businessdata(route, router, _businessDataService, _typeNegociationDataService, _typeMachineDataService, _listPricesDataService, _categoryDataService, _anchorageDataService, cache, utilidades, _typeGlass) {
         this.route = route;
         this.router = router;
         this._businessDataService = _businessDataService;
@@ -15762,18 +15802,23 @@ var Businessdata = (function () {
         this._categoryDataService = _categoryDataService;
         this._anchorageDataService = _anchorageDataService;
         this.cache = cache;
+        this.utilidades = utilidades;
+        this._typeGlass = _typeGlass;
+        this.mostrarCampoPrecios = false;
         this.businessData = new __WEBPACK_IMPORTED_MODULE_4__theme_services_businessDataService_businessData__["a" /* BusinessData */]();
-        this.typeMachineData = new __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_genericoParametro__["a" /* ParametroGenerico */]();
-        this.listPricesData = new __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_listPrices__["a" /* ListPricesData */]();
-        this.categoryData = new __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_genericoParametro__["a" /* ParametroGenerico */]();
-        this.anchorageData = new __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_anchorage__["a" /* AnchorageData */]();
+        this.typeMachineData = new __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_genericoParametro__["a" /* ParametroGenerico */]();
+        this.listPricesData = new __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_listPrices__["a" /* ListPricesData */]();
+        this.categoryData = new __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_genericoParametro__["a" /* ParametroGenerico */]();
+        this.anchorageData = new __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_anchorage__["a" /* AnchorageData */]();
         this.typeNegociationData = new __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_typeNegociation__["a" /* TypeNegociationData */]();
         this.cliente = new __WEBPACK_IMPORTED_MODULE_4__theme_services_businessDataService_businessData__["a" /* BusinessData */]();
+        this.otroPrecio = new __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_listPrices__["a" /* ListPricesData */]();
         this.ngOnitInit();
         this.loadAnchorage();
         this.loadCategory();
         this.loadListPrices();
         this.loadTypeMachine();
+        this.loadTypeGlass();
         this.loadTypeNegociation();
         this.loadInformationBusiness();
     }
@@ -15786,12 +15831,12 @@ var Businessdata = (function () {
         this.loadInformationBusiness();
     };
     Businessdata.prototype.resetForm = function () {
-        if (confirm("¿Desea cancelar la acción?") == true) {
+        if (confirm('¿Desea cancelar la acción?')) {
             this.businessData = new __WEBPACK_IMPORTED_MODULE_4__theme_services_businessDataService_businessData__["a" /* BusinessData */]();
         }
     };
     Businessdata.prototype.goContacts = function () {
-        if (confirm("¿Desea guardar y agregar un contacto?") == true) {
+        if (confirm('¿Desea guardar y agregar un contacto?')) {
             //this.saveBusinessData();
             var link = ['pages/accountmanagement/contacts'];
             this.router.navigate(link);
@@ -15800,53 +15845,68 @@ var Businessdata = (function () {
     };
     Businessdata.prototype.loadTypeMachine = function () {
         var _this = this;
-        this._typeMachineDataService.getTypeMachine()
-            .subscribe(function (typeMachineDatas) { return _this.typeMachineDatas = typeMachineDatas; }, function (error) { return _this.msgError = error; });
+        this._typeMachineDataService
+            .getTypeMachine()
+            .subscribe(function (typeMachineDatas) { return (_this.typeMachineDatas = typeMachineDatas); }, function (error) { return (_this.msgError = error); });
+    };
+    Businessdata.prototype.loadTypeGlass = function () {
+        var _this = this;
+        this._typeGlass
+            .getAll()
+            .subscribe(function (typeGlass) { return (_this.typeGlass = typeGlass); }, function (error) { return (_this.msgError = error); });
     };
     Businessdata.prototype.loadTypeNegociation = function () {
         var _this = this;
-        this._typeNegociationDataService.getTypeNegociation()
+        this._typeNegociationDataService
+            .getTypeNegociation()
             .subscribe(function (typeNegociationDatas) {
-            return _this.typeNegociationDatas = typeNegociationDatas;
-        }, function (error) { return _this.msgError = error; });
+            return (_this.typeNegociationDatas = typeNegociationDatas);
+        }, function (error) { return (_this.msgError = error); });
     };
     Businessdata.prototype.loadCategory = function () {
         var _this = this;
-        this._categoryDataService.getCategory()
-            .subscribe(function (categoryDatas) { return _this.categoryDatas = categoryDatas; }, function (error) { return _this.msgError = error; });
+        this._categoryDataService
+            .getCategory()
+            .subscribe(function (categoryDatas) { return (_this.categoryDatas = categoryDatas); }, function (error) { return (_this.msgError = error); });
     };
     Businessdata.prototype.loadAnchorage = function () {
         var _this = this;
-        this._anchorageDataService.getAnchorage()
-            .subscribe(function (anchorageDatas) { return _this.anchorageDatas = anchorageDatas; }, function (error) { return _this.msgError = error; });
+        this._anchorageDataService
+            .getAnchorage()
+            .subscribe(function (anchorageDatas) { return (_this.anchorageDatas = anchorageDatas); }, function (error) { return (_this.msgError = error); });
     };
     Businessdata.prototype.loadListPrices = function () {
         var _this = this;
-        this._listPricesDataService.getListPrices()
-            .subscribe(function (listPricesDatas) { return _this.listPricesDatas = listPricesDatas; }, function (error) { return _this.msgError = error; });
+        this._listPricesDataService
+            .getListPrices()
+            .subscribe(function (listPricesDatas) { return (_this.listPricesDatas = listPricesDatas); }, function (error) { return (_this.msgError = error); });
     };
     Businessdata.prototype.loadInformationBusiness = function () {
         var _this = this;
         this.cliente.clienteid = this.cache.getid();
-        this._businessDataService.getClienteBusinessData(this.cliente)
-            .subscribe(function (businessLists) { return _this.businessLists = businessLists; }, function (error) { return _this.msgError = error; });
+        this._businessDataService
+            .getClienteBusinessData(this.cliente)
+            .subscribe(function (businessLists) { return (_this.businessLists = businessLists); }, function (error) { return (_this.msgError = error); });
     };
     Businessdata.prototype.saveBusinessData = function () {
         var _this = this;
-        if (confirm("¿Desea guardar un Negocio?") == true) {
+        if (confirm('¿Desea guardar un Negocio?')) {
             this.businessData.clienteid = this.cache.getid();
-            this._businessDataService.addBusinessData(this.businessData)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
+            this._businessDataService
+                .addBusinessData(this.businessData)
+                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return (_this.msgError = error); }, function () { return console.log('Terminado'); });
         }
     };
     Businessdata.prototype.actualizar = function (data) {
         this.loadInformationBusiness();
+        this.businessData = new __WEBPACK_IMPORTED_MODULE_4__theme_services_businessDataService_businessData__["a" /* BusinessData */]();
     };
     Businessdata.prototype.eliminar = function (data) {
         var _this = this;
-        if (confirm('¿Desea eliminar la Sede?')) {
-            this._businessDataService.deleteBusinessData(data)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
+        if (confirm('¿Desea eliminar el negocio?')) {
+            this._businessDataService
+                .deleteBusinessData(data)
+                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return (_this.msgError = error); }, function () { return console.log('Terminado'); });
         }
     };
     Businessdata.prototype.editar = function (data) {
@@ -15902,42 +15962,110 @@ var Businessdata = (function () {
         });
         return seleccion;
     };
+    Businessdata.prototype.validarNumeroMaquina = function () {
+        this.businessData.numeromaquina = this.utilidades.validarTelefono(this.businessData.numeromaquina);
+        $('#celphone').val(this.businessData.numeromaquina).change();
+    };
+    Businessdata.prototype.validarVenta = function () {
+        this.businessData.totalsale = this.utilidades.validarTelefono(this.businessData.totalsale);
+        $('#totalsale').val(this.businessData.totalsale).change();
+    };
+    Businessdata.prototype.validaTipoNegociacionValor = function () {
+        this.businessData.valorTipoNegociacion = this.utilidades.validarTelefono(this.businessData.valorTipoNegociacion);
+        $('#valorTipoNegocio').val(this.businessData.valorTipoNegociacion).change();
+    };
+    Businessdata.prototype.validaOtroPrecio = function () {
+        this.otroPrecio.descripcion = this.utilidades.validarTextoNumeros(this.otroPrecio.descripcion);
+        $('#addOtroValor').val(this.otroPrecio.descripcion).change();
+    };
+    Businessdata.prototype.mostrarXtipoVaso = function () {
+        if (this.businessData.tipoMaquina != null && this.businessData.tipoMaquina.id === 1) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    Businessdata.prototype.mostrarCantidadTipoNegociacion = function () {
+        if ((this.businessData.tipoNegociacion !== null && this.businessData.tipoNegociacion !== undefined) &&
+            (this.businessData.tipoNegociacion.id === 3 || this.businessData.tipoNegociacion.id === 5)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    Businessdata.prototype.mostrarOtroPrecio = function () {
+        if ((this.businessData.listaPrecio !== null && this.businessData.listaPrecio !== undefined) &&
+            (this.businessData.listaPrecio.id === 17)) {
+            this.mostrarCampoPrecios = true;
+        }
+        else {
+            this.mostrarCampoPrecios = false;
+        }
+    };
+    Businessdata.prototype.adicionarAListaPrecio = function () {
+        var _this = this;
+        this.otroPrecio.codigo = 'add';
+        this._listPricesDataService
+            .add(this.otroPrecio)
+            .subscribe(function (rt) { return _this.precioAdicionado(rt); }, function (error) { return (_this.msgError = error); });
+    };
+    Businessdata.prototype.precioAdicionado = function (val) {
+        var _this = this;
+        this.otroPrecio = new __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_listPrices__["a" /* ListPricesData */]();
+        alert('Guardado exitoso');
+        this.loadListPrices();
+        setTimeout(function () {
+            _this.seleccionarPrecioIngresado(val.id);
+        }, 1000);
+    };
+    Businessdata.prototype.seleccionarPrecioIngresado = function (id) {
+        var valor = null;
+        this.listPricesDatas.forEach(function (element) {
+            if (element.id === id) {
+                valor = element;
+            }
+        });
+        this.businessData.listaPrecio = valor;
+        this.mostrarCampoPrecios = false;
+    };
     return Businessdata;
 }());
 Businessdata = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'businessdata',
         template: __webpack_require__(1121),
-        styles: [__webpack_require__(1045)]
+        styles: [__webpack_require__(1046)],
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__theme_services_businessDataService_businessData_service__["a" /* BusinessDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__theme_services_businessDataService_businessData_service__["a" /* BusinessDataService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeNegociation_service__["a" /* TypeNegociationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeNegociation_service__["a" /* TypeNegociationService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeMachine_service__["a" /* TypeMachineService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeMachine_service__["a" /* TypeMachineService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_listPrices_service__["a" /* ListPricesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_listPrices_service__["a" /* ListPricesService */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_category_service__["a" /* CategoryService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_category_service__["a" /* CategoryService */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_anchorage_service__["a" /* AnchorageService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_anchorage_service__["a" /* AnchorageService */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_14__theme_services_cache__["a" /* cache */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_14__theme_services_cache__["a" /* cache */]) === "function" && _j || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__theme_services_businessDataService_businessData_service__["a" /* BusinessDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__theme_services_businessDataService_businessData_service__["a" /* BusinessDataService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeNegociation_service__["a" /* TypeNegociationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeNegociation_service__["a" /* TypeNegociationService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeMachine_service__["a" /* TypeMachineService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeMachine_service__["a" /* TypeMachineService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_listPrices_service__["a" /* ListPricesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_listPrices_service__["a" /* ListPricesService */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_category_service__["a" /* CategoryService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_category_service__["a" /* CategoryService */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_anchorage_service__["a" /* AnchorageService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_anchorage_service__["a" /* AnchorageService */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_15__theme_services_cache__["a" /* cache */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_15__theme_services_cache__["a" /* cache */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_16__theme_services_Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_16__theme_services_Utilidades_service__["a" /* Utilidades */]) === "function" && _k || Object, typeof (_l = typeof __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_typeGlass_service__["a" /* TypeGlass */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_typeGlass_service__["a" /* TypeGlass */]) === "function" && _l || Object])
 ], Businessdata);
 
-var _a, _b, _c, _d, _e, _f, _g, _h, _j;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
 //# sourceMappingURL=businessdata.component.js.map
 
 /***/ }),
-/* 940 */
+/* 939 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(639);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_contactsService_contacts_service__ = __webpack_require__(959);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_contactsService_contactoHseq_service__ = __webpack_require__(958);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_contactsService_contactoCartera_service__ = __webpack_require__(957);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_contactsService_contactsData__ = __webpack_require__(961);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_contactsService_contactsHseqData__ = __webpack_require__(962);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_contactsService_contactsCarteraData__ = __webpack_require__(960);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_purse_service__ = __webpack_require__(993);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_purse__ = __webpack_require__(994);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_cache__ = __webpack_require__(646);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_Modo_service__ = __webpack_require__(975);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_InfluenciaCompra_service__ = __webpack_require__(974);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_GradoInfluencia_service__ = __webpack_require__(973);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__theme_services_Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_contactsService_contacts_service__ = __webpack_require__(957);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_contactsService_contactoHseq_service__ = __webpack_require__(956);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_contactsService_contactoCartera_service__ = __webpack_require__(955);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_contactsService_contactsData__ = __webpack_require__(959);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_contactsService_contactsHseqData__ = __webpack_require__(960);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_contactsService_contactsCarteraData__ = __webpack_require__(958);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_purse_service__ = __webpack_require__(991);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_purse__ = __webpack_require__(992);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_cache__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_Modo_service__ = __webpack_require__(973);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_InfluenciaCompra_service__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_GradoInfluencia_service__ = __webpack_require__(971);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Contacts; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -16000,7 +16128,7 @@ var Contacts = (function () {
     };
     Contacts.prototype.loadContacts = function () {
         var _this = this;
-        if (this.cache.getid() != null && this.cache.getid() != undefined) {
+        if (this.cache.getid() !== null && this.cache.getid() !== undefined) {
             this.dato.clienteid = this.cache.getid();
             this._contactsDataService.getContact(this.dato)
                 .subscribe(function (contactData) { return _this.contactDatas = contactData; }, function (error) { return _this.msgError = error; });
@@ -16008,7 +16136,7 @@ var Contacts = (function () {
     };
     Contacts.prototype.loadContactsCartera = function () {
         var _this = this;
-        if (this.cache.getid() != null && this.cache.getid() != undefined) {
+        if (this.cache.getid() !== null && this.cache.getid() !== undefined) {
             this.dato.clienteid = this.cache.getid();
             this.contactoCarteraService.getContact(this.dato)
                 .subscribe(function (contactsCartera) { return _this.contactoCartera = contactsCartera; }, function (error) { return _this.msgError = error; });
@@ -16016,15 +16144,15 @@ var Contacts = (function () {
     };
     Contacts.prototype.validarNombre = function () {
         this.contactsData.nombre = this.utilidades.validarTexto(this.contactsData.nombre);
-        $("#contactsName").val(this.contactsData.nombre).change();
+        $('#contactsName').val(this.contactsData.nombre).change();
     };
     Contacts.prototype.validarTelefono = function () {
         this.contactsData.telefono = this.utilidades.validarTelefono(this.contactsData.telefono);
-        $("#telephone").val(this.contactsData.telefono).change();
+        $('#telephone').val(this.contactsData.telefono).change();
     };
     Contacts.prototype.validarCelular = function () {
         this.contactsData.celular = this.utilidades.validarTelefono(this.contactsData.celular);
-        $("#telephone").val(this.contactsData.celular).change();
+        $('#telephone').val(this.contactsData.celular).change();
     };
     Contacts.prototype.validarEmail = function (valor) {
         if (this.utilidades.validarEmail(valor)) {
@@ -16034,29 +16162,29 @@ var Contacts = (function () {
     /* Informacion cartera */
     Contacts.prototype.validarNombreCartera = function () {
         this.contactsCartera.nombre = this.utilidades.validarTexto(this.contactsCartera.nombre);
-        $("#financialContact").val(this.contactsCartera.nombre).change();
+        $('#financialContact').val(this.contactsCartera.nombre).change();
     };
     Contacts.prototype.validarTelefonoCartera = function () {
         this.contactsCartera.telefono = this.utilidades.validarTelefono(this.contactsCartera.telefono);
-        $("#financialTelephone").val(this.contactsCartera.telefono).change();
+        $('#financialTelephone').val(this.contactsCartera.telefono).change();
     };
     Contacts.prototype.validarCelularCartera = function () {
         this.contactsData.celular = this.utilidades.validarTelefono(this.contactsData.celular);
-        $("#financialCelphone").val(this.contactsData.celular).change();
+        $('#financialCelphone').val(this.contactsData.celular).change();
     };
     /* ************************* */
     Contacts.prototype.validarNombreHSEQ = function () {
         this.contactsHseq.nombre = this.utilidades.validarTexto(this.contactsHseq.nombre);
-        $("#hseqName").val(this.contactsHseq.nombre).change();
+        $('#hseqName').val(this.contactsHseq.nombre).change();
     };
     Contacts.prototype.validarTelefonoHseq = function () {
         this.contactsHseq.telefono = this.utilidades.validarTelefono(this.contactsHseq.telefono);
-        $("#hseqTelephone").val(this.contactsHseq.telefono).change();
+        $('#hseqTelephone').val(this.contactsHseq.telefono).change();
     };
     /* */
     Contacts.prototype.loadcontactoHseq = function () {
         var _this = this;
-        if (this.cache.getid() != null && this.cache.getid() != undefined) {
+        if (this.cache.getid() !== null && this.cache.getid() !== undefined) {
             this.dato.clienteid = this.cache.getid();
             this.contactoHseqService.getContact(this.dato)
                 .subscribe(function (contactoHseq) { return _this.contactoHseq = contactoHseq; }, function (error) { return _this.msgError = error; });
@@ -16090,11 +16218,21 @@ var Contacts = (function () {
     Contacts.prototype.saveContactsData = function () {
         var _this = this;
         if (confirm('¿Desea guardar un Contacto?')) {
-            this.contactsData.fechacumpleanos = this.convertirFecha(this.contactsData);
-            this.contactsData.clienteid = this.cache.getid();
-            this._contactsDataService.addContacts(this.contactsData)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return _this.limpiar(); });
+            if (this.validarFormulario()) {
+                this.contactsData.clienteid = this.cache.getid();
+                this._contactsDataService.addContacts(this.contactsData)
+                    .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return _this.limpiar(); });
+            }
         }
+    };
+    Contacts.prototype.validarFormulario = function () {
+        var estado = true;
+        if (this.contactsData.telefono === null || this.contactsData.telefono === undefined
+            || this.contactsData.celular === null || this.contactsData.celular === undefined) {
+            estado = false;
+            alert('Es necesario Ingresar telefono o celular');
+        }
+        return estado;
     };
     Contacts.prototype.actualizar = function (datos) {
         this.loadContacts();
@@ -16104,15 +16242,12 @@ var Contacts = (function () {
     Contacts.prototype.limpiar = function () {
         this.contactsData = new __WEBPACK_IMPORTED_MODULE_6__theme_services_contactsService_contactsData__["a" /* ContactsData */]();
     };
-    Contacts.prototype.convertirFecha = function (datos) {
-        return datos.fechacumpleanos.jsdate;
-    };
     Contacts.prototype.saveContactsCateraData = function () {
         var _this = this;
         if (confirm('¿Desea guardar un Contacto de cartera?')) {
             this.contactsCartera.clienteid = this.cache.getid();
             this.contactoCarteraService.addContacts(this.contactsCartera)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
+                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; });
         }
     };
     Contacts.prototype.saveContactsHseqData = function () {
@@ -16120,55 +16255,71 @@ var Contacts = (function () {
         if (confirm('¿Desea guardar un Contacto de Hseq?')) {
             this.contactsHseq.clienteid = this.cache.getid();
             this.contactoHseqService.addContacts(this.contactsHseq)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
+                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; });
         }
     };
     Contacts.prototype.removeContactsCatera = function (data) {
         var _this = this;
         if (confirm('¿Desea eliminar un Contacto de cartera?')) {
             this.contactoCarteraService.deleteContacts(data)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
+                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; });
         }
     };
     Contacts.prototype.removeContactsHseq = function (data) {
         var _this = this;
         if (confirm('¿Desea eliminar un Contacto de Hseq?')) {
             this.contactoHseqService.deleteContacts(data)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
+                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; });
         }
     };
     Contacts.prototype.removeContact = function (data) {
         var _this = this;
         if (confirm('¿Desea eliminar un Contacto?')) {
             this._contactsDataService.deleteContacts(data)
-                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
+                .subscribe(function (rt) { return _this.actualizar(rt); }, function (error) { return _this.msgError = error; });
         }
     };
     Contacts.prototype.editarContacto = function (dato) {
-        this.contactsData.influenciaCompra = this.cargarDatoLista(dato.influenciaCompra, this.influenciaCompra);
-        this.contactsData.gradoInfluencia = this.cargarDatoLista(dato.gradoInfluencia, this.gradoInfluencia);
-        this.contactsData.modo = this.cargarDatoLista(dato.modo, this.modos);
-        this.contactsData.fechacumpleanos = this.crearFechaDate(dato.fechacumpleanos);
+        var _this = this;
         this.contactsData = dato;
+        setTimeout(function () {
+            _this.contactsData.influenciaCompra = _this.cargarInfluencia(dato.influenciaCompra);
+            _this.contactsData.gradoInfluencia = _this.cargargradoInfluencia(dato.gradoInfluencia);
+            _this.contactsData.modo = _this.cargarmodos(dato.modo);
+        }, 500);
     };
-    Contacts.prototype.editarContactoCartera = function (dato) {
-        this.contactsCartera = dato;
-    };
-    Contacts.prototype.editarContactoHseq = function (dato) {
-        this.contactsHseq = dato;
-    };
-    Contacts.prototype.cargarDatoLista = function (data, lista) {
+    Contacts.prototype.cargarmodos = function (data) {
         var res;
-        lista.forEach(function (element) {
+        this.modos.forEach(function (element) {
             if (data.id === element.id) {
                 res = element;
             }
         });
         return res;
     };
-    Contacts.prototype.crearFechaDate = function (formater) {
-        var dato = new Date(formater);
-        return dato;
+    Contacts.prototype.cargargradoInfluencia = function (data) {
+        var res;
+        this.gradoInfluencia.forEach(function (element) {
+            if (data.id === element.id) {
+                res = element;
+            }
+        });
+        return res;
+    };
+    Contacts.prototype.cargarInfluencia = function (data) {
+        var res;
+        this.influenciaCompra.forEach(function (element) {
+            if (data.id === element.id) {
+                res = element;
+            }
+        });
+        return res;
+    };
+    Contacts.prototype.editarContactoCartera = function (dato) {
+        this.contactsCartera = dato;
+    };
+    Contacts.prototype.editarContactoHseq = function (dato) {
+        this.contactsHseq = dato;
     };
     return Contacts;
 }());
@@ -16179,7 +16330,7 @@ __decorate([
 Contacts = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'contacts',
-        styles: [__webpack_require__(1046)],
+        styles: [__webpack_require__(1047)],
         template: __webpack_require__(1122),
     }),
     __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__theme_services_contactsService_contacts_service__["a" /* ContactsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__theme_services_contactsService_contacts_service__["a" /* ContactsService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_purse_service__["a" /* PurseService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_purse_service__["a" /* PurseService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_11__theme_services_cache__["a" /* cache */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__theme_services_cache__["a" /* cache */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_Modo_service__["a" /* ModoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_Modo_service__["a" /* ModoService */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_InfluenciaCompra_service__["a" /* InfluenciaCompra */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_InfluenciaCompra_service__["a" /* InfluenciaCompra */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_GradoInfluencia_service__["a" /* GradoInfluencia */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_GradoInfluencia_service__["a" /* GradoInfluencia */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_4__theme_services_contactsService_contactoHseq_service__["a" /* ContactoHseqService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__theme_services_contactsService_contactoHseq_service__["a" /* ContactoHseqService */]) === "function" && _k || Object, typeof (_l = typeof __WEBPACK_IMPORTED_MODULE_5__theme_services_contactsService_contactoCartera_service__["a" /* contactoCarteraService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__theme_services_contactsService_contactoCartera_service__["a" /* contactoCarteraService */]) === "function" && _l || Object, typeof (_m = typeof __WEBPACK_IMPORTED_MODULE_15__theme_services_Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_15__theme_services_Utilidades_service__["a" /* Utilidades */]) === "function" && _m || Object])
@@ -16189,28 +16340,28 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
 //# sourceMappingURL=contacts.component.js.map
 
 /***/ }),
-/* 941 */
+/* 940 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(639);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_generalDataService_generalData__ = __webpack_require__(964);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_generalDataService_generalData_service__ = __webpack_require__(963);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_headQuartersService_headQuarters__ = __webpack_require__(685);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_headQuartersService_headQuarters_service__ = __webpack_require__(684);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_keyAccount_service__ = __webpack_require__(987);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_EjecutivoCuenta__ = __webpack_require__(970);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_regionals_service__ = __webpack_require__(995);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_regionals__ = __webpack_require__(996);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_EjecutivoNegocios_service__ = __webpack_require__(971);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_EjecutivoNegocios__ = __webpack_require__(972);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_TipoCliente__ = __webpack_require__(978);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_TipoCliente_service__ = __webpack_require__(977);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__theme_services_cache__ = __webpack_require__(646);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__theme_services_Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_generalDataService_generalData__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_generalDataService_generalData_service__ = __webpack_require__(961);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_headQuartersService_headQuarters__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_headQuartersService_headQuarters_service__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_keyAccount_service__ = __webpack_require__(985);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_EjecutivoCuenta__ = __webpack_require__(968);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_regionals_service__ = __webpack_require__(993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_regionals__ = __webpack_require__(994);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_EjecutivoNegocios_service__ = __webpack_require__(969);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_EjecutivoNegocios__ = __webpack_require__(970);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_totalService_TipoCliente__ = __webpack_require__(976);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_TipoCliente_service__ = __webpack_require__(975);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__theme_services_cache__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Generaldata; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -16277,17 +16428,14 @@ var Generaldata = (function () {
     Generaldata.prototype.resetForm = function () {
         if (confirm('¿Desea cancelar la acción?')) {
             this.generalData = new __WEBPACK_IMPORTED_MODULE_3__theme_services_generalDataService_generalData__["a" /* GeneralData */]();
-            this.generalData.fechaFinObjeto = null;
-            this.generalData.fechaInicioObjeto = null;
             this.dataEdicion = false;
+            this.cache.setid = null;
         }
     };
     Generaldata.prototype.goSedes = function () {
         if (confirm('¿Desea guardar y agregar una Sede?')) {
             if (this.validarFormulario()) {
-                this.cache.setid(this.generalData.id);
-                var link = ['pages/accountmanagement/headquarters'];
-                this.router.navigate(link);
+                this.guardar(true);
             }
         }
     };
@@ -16320,24 +16468,33 @@ var Generaldata = (function () {
             .subscribe(function (tipoCliente) { return _this.tipoClientes = tipoCliente; }, function (error) { return _this.msgError = error; });
     };
     Generaldata.prototype.saveGeneralData = function () {
-        var _this = this;
         if (confirm('¿Desea guardar?')) {
-            this.generalData.fechafin = this.generalData.fechaFinObjeto.formatted;
-            this.generalData.fechainicio = this.generalData.fechaInicioObjeto.formatted;
             if (this.validarFormulario()) {
-                this._generalDataService.addGeneralData(this.generalData)
-                    .subscribe(function (rt) { return console.log(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
-                alert('Cliente Guardado Con exito');
+                this.guardar(false);
             }
         }
         this.dataEdicion = true;
+    };
+    Generaldata.prototype.guardar = function (llamado) {
+        var _this = this;
+        this._generalDataService.addGeneralData(this.generalData)
+            .subscribe(function (rt) { return _this.redirigir(rt, llamado); }, function (error) { return _this.msgError = error; });
+    };
+    Generaldata.prototype.redirigir = function (rt, valor) {
+        alert('Cliente Guardado Con exito');
+        if (valor) {
+            this.cache.setid(rt.id);
+            var link = ['pages/accountmanagement/headquarters'];
+            this.router.navigate(link);
+        }
+        else {
+            this.generalData = new __WEBPACK_IMPORTED_MODULE_3__theme_services_generalDataService_generalData__["a" /* GeneralData */]();
+        }
     };
     Generaldata.prototype.cargarConsulta = function (datos) {
         this.cache.setid(datos.id);
         this.dataEdicion = true;
         this.generalData = datos;
-        this.generalData.fechaFinObjeto = this.crearFechaDate(datos.fechafin);
-        this.generalData.fechaInicioObjeto = this.crearFechaDate(datos.fechainicio);
         this.generalData.tipoCliente = this.seleccionarTipoCliente(this.generalData.tipoCliente);
         this.generalData.ejecutivoNegocio = this.seleccionarEjecutivoNegocio(this.generalData.ejecutivoNegocio);
         this.generalData.ejecutivoCuenta = this.seleccionarEjecutivoCuenta(this.generalData.ejecutivoCuenta);
@@ -16351,20 +16508,6 @@ var Generaldata = (function () {
             }
         });
         return tipoClienteSeleccion;
-    };
-    Generaldata.prototype.crearFechaDate = function (formater) {
-        var dato = new Date(formater);
-        var fecha = {
-            'date': {
-                'year': dato.getFullYear(),
-                'month': dato.getMonth() + 1,
-                'day': dato.getDate(),
-            },
-            'jsdate': formater + 'T05:00:00.000Z',
-            'formatted': formater,
-            'epoc': 1507438800,
-        };
-        return fecha;
     };
     Generaldata.prototype.seleccionarEjecutivoNegocio = function (ejecutivo) {
         var seleccion;
@@ -16401,6 +16544,7 @@ var Generaldata = (function () {
     };
     Generaldata.prototype.clienteNuevoCliente = function () {
         this.mostrarDataCliente = true;
+        this.dataEdicion = false;
         this.generalData = new __WEBPACK_IMPORTED_MODULE_3__theme_services_generalDataService_generalData__["a" /* GeneralData */]();
     };
     Generaldata.prototype.consultarId = function () {
@@ -16409,20 +16553,24 @@ var Generaldata = (function () {
         this._generalDataService.getGeneralData(this.cache.getid())
             .subscribe(function (rt) { return _this.cargarConsulta(rt); }, function (error) { return _this.msgError = error; }, function () { return console.log('Terminado'); });
     };
+    Generaldata.prototype.validarCodigoSap = function () {
+        this.generalData.codigosap = this.utilidades.validarNumerosDocumentos(this.generalData.codigosap);
+        $("#codsap").val(this.generalData.codigosap).change();
+    };
     Generaldata.prototype.validarNombre = function () {
         this.generalData.razonsocial = this.utilidades.validarTexto(this.generalData.razonsocial);
         $("#nameComercial").val(this.generalData.razonsocial).change();
     };
     Generaldata.prototype.validarNit = function () {
-        this.generalData.nit = this.utilidades.validarTelefono(this.generalData.nit);
+        this.generalData.nit = this.utilidades.validarNumerosDocumentos(this.generalData.nit);
         $("#nit").val(this.generalData.nit).change();
     };
     Generaldata.prototype.validarDireccion = function () {
-        this.generalData.direccion = this.utilidades.validarTexto(this.generalData.direccion);
+        this.generalData.direccion = this.utilidades.validarTextoNumeros(this.generalData.direccion);
         $("#address").val(this.generalData.direccion).change();
     };
     Generaldata.prototype.validarBarrio = function () {
-        this.generalData.barrio = this.utilidades.validarTexto(this.generalData.barrio);
+        this.generalData.barrio = this.utilidades.validarTextoNumeros(this.generalData.barrio);
         $("#barrio").val(this.generalData.barrio).change();
     };
     Generaldata.prototype.validarTelefono = function () {
@@ -16438,17 +16586,25 @@ var Generaldata = (function () {
             alert('Email: Campo requerido');
         }
     };
+    Generaldata.prototype.validarObjetosVenta = function () {
+        this.generalData.objetivoanual = this.utilidades.validarTelefono(this.generalData.objetivoanual);
+        $("#objetiveyear").val(this.generalData.objetivoanual).change();
+    };
+    Generaldata.prototype.validarObjetosMensual = function () {
+        this.generalData.objetivomensual = this.utilidades.validarTelefono(this.generalData.objetivomensual);
+        $("#objetiveyear").val(this.generalData.objetivomensual).change();
+    };
     Generaldata.prototype.validarVigenciaContrato = function () {
-        if (this.generalData.fechaFinObjeto === null || this.generalData.fechaFinObjeto === undefined) {
+        if (this.generalData.fechainicio === null || this.generalData.fechainicio === undefined) {
             alert('La fecha de inicio debe ser ingresada');
             return false;
         }
-        if (this.generalData.fechaFinObjeto === null || this.generalData.fechaFinObjeto === undefined) {
+        if (this.generalData.fechafin === null || this.generalData.fechafin === undefined) {
             alert('La fecha de fin debe ser ingresada');
             return false;
         }
-        var dateObj = new Date(this.generalData.fechaInicioObjeto.formatted);
-        var dateFin = new Date(this.generalData.fechaFinObjeto.formatted);
+        var dateObj = new Date(this.generalData.fechainicio);
+        var dateFin = new Date(this.generalData.fechafin);
         if (dateObj > dateFin) {
             alert('La fecha de inicio no puede ser mayor, que la fecha fin del contrato');
             return false;
@@ -16461,7 +16617,7 @@ Generaldata = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'generaldata',
         template: __webpack_require__(1123),
-        styles: [__webpack_require__(1047)],
+        styles: [__webpack_require__(1048)],
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__theme_services_generalDataService_generalData_service__["a" /* GeneralDataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__theme_services_generalDataService_generalData_service__["a" /* GeneralDataService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_keyAccount_service__["a" /* KeyAccountService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_keyAccount_service__["a" /* KeyAccountService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_EjecutivoNegocios_service__["a" /* EjecutivoNegociosService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_EjecutivoNegocios_service__["a" /* EjecutivoNegociosService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_6__theme_services_headQuartersService_headQuarters_service__["a" /* HeadQuartersService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__theme_services_headQuartersService_headQuarters_service__["a" /* HeadQuartersService */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_regionals_service__["a" /* RegionalsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_regionals_service__["a" /* RegionalsService */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_TipoCliente_service__["a" /* TipoClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_14__theme_services_totalService_TipoCliente_service__["a" /* TipoClienteService */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_15__theme_services_cache__["a" /* cache */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_15__theme_services_cache__["a" /* cache */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_16__theme_services_Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_16__theme_services_Utilidades_service__["a" /* Utilidades */]) === "function" && _k || Object])
 ], Generaldata);
@@ -16470,22 +16626,22 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 //# sourceMappingURL=generaldata.component.js.map
 
 /***/ }),
-/* 942 */
+/* 941 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(639);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_headQuartersService_headQuarters_service__ = __webpack_require__(684);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_headQuartersService_headQuarters__ = __webpack_require__(685);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_sector_service__ = __webpack_require__(998);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_SectorData__ = __webpack_require__(976);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeEmployees_service__ = __webpack_require__(1000);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_TipoEmpleadoData__ = __webpack_require__(979);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__ = __webpack_require__(646);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_headQuartersService_headQuarters_service__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_headQuartersService_headQuarters__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_sector_service__ = __webpack_require__(996);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_SectorData__ = __webpack_require__(974);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeEmployees_service__ = __webpack_require__(998);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_TipoEmpleadoData__ = __webpack_require__(977);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Headquarters; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -16619,7 +16775,7 @@ Headquarters = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'headquarters',
         template: __webpack_require__(1124),
-        styles: [__webpack_require__(1048)],
+        styles: [__webpack_require__(1049)],
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__theme_services_headQuartersService_headQuarters_service__["a" /* HeadQuartersService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__theme_services_headQuartersService_headQuarters_service__["a" /* HeadQuartersService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_sector_service__["a" /* SectorService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_sector_service__["a" /* SectorService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeEmployees_service__["a" /* TypeEmployeesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_typeEmployees_service__["a" /* TypeEmployeesService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__["a" /* cache */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__["a" /* cache */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_10__theme_services_Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__theme_services_Utilidades_service__["a" /* Utilidades */]) === "function" && _g || Object])
 ], Headquarters);
@@ -16628,21 +16784,21 @@ var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=headquarters.component.js.map
 
 /***/ }),
-/* 943 */
+/* 942 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(639);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_oppositionService_opposition_service__ = __webpack_require__(965);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_oppositionService_opposition__ = __webpack_require__(966);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeMachine_service__ = __webpack_require__(686);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_categoryOpposition_service__ = __webpack_require__(983);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_oppositionService_opposition_service__ = __webpack_require__(963);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_oppositionService_opposition__ = __webpack_require__(964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeMachine_service__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_categoryOpposition_service__ = __webpack_require__(981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__ = __webpack_require__(646);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__ = __webpack_require__(638);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Opposition; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -16760,7 +16916,7 @@ Opposition = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'opposition',
         template: __webpack_require__(1125),
-        styles: [__webpack_require__(1049)]
+        styles: [__webpack_require__(1050)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__theme_services_oppositionService_opposition_service__["a" /* OppositionService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__theme_services_oppositionService_opposition_service__["a" /* OppositionService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_categoryOpposition_service__["a" /* CategoryOppositionService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_categoryOpposition_service__["a" /* CategoryOppositionService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeMachine_service__["a" /* TypeMachineService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_typeMachine_service__["a" /* TypeMachineService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__["a" /* Utilidades */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__["a" /* cache */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__theme_services_cache__["a" /* cache */]) === "function" && _g || Object])
 ], Opposition);
@@ -16769,26 +16925,26 @@ var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=opposition.component.js.map
 
 /***/ }),
-/* 944 */
+/* 943 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__(639);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_serviceLevelsService_serviceLevels_service__ = __webpack_require__(968);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_serviceLevelsService_serviceLevels__ = __webpack_require__(969);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_correctivos_service__ = __webpack_require__(984);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_fumigaciones_service__ = __webpack_require__(986);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_preventivos_service__ = __webpack_require__(992);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_tipoVenta_service__ = __webpack_require__(999);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_plazoCartera_service__ = __webpack_require__(991);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_plazoArriendo_service__ = __webpack_require__(990);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_cruceCartera_service__ = __webpack_require__(985);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_requiereCompra_service__ = __webpack_require__(997);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_cache__ = __webpack_require__(646);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_services_serviceLevelsService_serviceLevels_service__ = __webpack_require__(966);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_serviceLevelsService_serviceLevels__ = __webpack_require__(967);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_correctivos_service__ = __webpack_require__(982);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_fumigaciones_service__ = __webpack_require__(984);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_preventivos_service__ = __webpack_require__(990);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_tipoVenta_service__ = __webpack_require__(997);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_plazoCartera_service__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_plazoArriendo_service__ = __webpack_require__(988);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_cruceCartera_service__ = __webpack_require__(983);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_requiereCompra_service__ = __webpack_require__(995);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__theme_services_cache__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Servicelevels; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -16979,7 +17135,7 @@ var Servicelevels = (function () {
 Servicelevels = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'servicelevels',
-        styles: [__webpack_require__(1050)],
+        styles: [__webpack_require__(1051)],
         template: __webpack_require__(1126),
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__theme_services_serviceLevelsService_serviceLevels_service__["a" /* ServiceLevelsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__theme_services_serviceLevelsService_serviceLevels_service__["a" /* ServiceLevelsService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_correctivos_service__["a" /* CorrectivosService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__theme_services_totalService_correctivos_service__["a" /* CorrectivosService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_fumigaciones_service__["a" /* FumigacionesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__theme_services_totalService_fumigaciones_service__["a" /* FumigacionesService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_preventivos_service__["a" /* PreventivosService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__theme_services_totalService_preventivos_service__["a" /* PreventivosService */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_tipoVenta_service__["a" /* TipoVentaService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__theme_services_totalService_tipoVenta_service__["a" /* TipoVentaService */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_plazoCartera_service__["a" /* PlazoCarteraService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__theme_services_totalService_plazoCartera_service__["a" /* PlazoCarteraService */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_plazoArriendo_service__["a" /* PlazoArriendoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__theme_services_totalService_plazoArriendo_service__["a" /* PlazoArriendoService */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_cruceCartera_service__["a" /* CruceCarteraService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__theme_services_totalService_cruceCartera_service__["a" /* CruceCarteraService */]) === "function" && _k || Object, typeof (_l = typeof __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_requiereCompra_service__["a" /* RequiereCompraService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_12__theme_services_totalService_requiereCompra_service__["a" /* RequiereCompraService */]) === "function" && _l || Object, typeof (_m = typeof __WEBPACK_IMPORTED_MODULE_13__theme_services_cache__["a" /* cache */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_13__theme_services_cache__["a" /* cache */]) === "function" && _m || Object, typeof (_o = typeof __WEBPACK_IMPORTED_MODULE_14__theme_services_Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_14__theme_services_Utilidades_service__["a" /* Utilidades */]) === "function" && _o || Object])
@@ -16989,6 +17145,7 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
 //# sourceMappingURL=servicelevels.component.js.map
 
 /***/ }),
+/* 944 */,
 /* 945 */,
 /* 946 */,
 /* 947 */,
@@ -16997,16 +17154,14 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
 /* 950 */,
 /* 951 */,
 /* 952 */,
-/* 953 */,
-/* 954 */,
-/* 955 */
+/* 953 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__businessData__ = __webpack_require__(956);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__businessData__ = __webpack_require__(954);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17014,7 +17169,7 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BusinessDataService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17084,7 +17239,7 @@ var _a, _b;
 //# sourceMappingURL=businessData.service.js.map
 
 /***/ }),
-/* 956 */
+/* 954 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17098,14 +17253,14 @@ var BusinessData = (function () {
 //# sourceMappingURL=businessData.js.map
 
 /***/ }),
-/* 957 */
+/* 955 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contactsCarteraData__ = __webpack_require__(960);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contactsCarteraData__ = __webpack_require__(958);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17113,7 +17268,7 @@ var BusinessData = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return contactoCarteraService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17190,14 +17345,14 @@ var _a, _b;
 //# sourceMappingURL=contactoCartera.service.js.map
 
 /***/ }),
-/* 958 */
+/* 956 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contactsHseqData__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contactsHseqData__ = __webpack_require__(960);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17205,7 +17360,7 @@ var _a, _b;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactoHseqService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17282,14 +17437,14 @@ var _a, _b;
 //# sourceMappingURL=contactoHseq.service.js.map
 
 /***/ }),
-/* 959 */
+/* 957 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contactsData__ = __webpack_require__(961);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contactsData__ = __webpack_require__(959);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17297,7 +17452,7 @@ var _a, _b;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactsService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17374,7 +17529,7 @@ var _a, _b;
 //# sourceMappingURL=contacts.service.js.map
 
 /***/ }),
-/* 960 */
+/* 958 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17388,7 +17543,7 @@ var ContactsCarteraData = (function () {
 //# sourceMappingURL=contactsCarteraData.js.map
 
 /***/ }),
-/* 961 */
+/* 959 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17402,7 +17557,7 @@ var ContactsData = (function () {
 //# sourceMappingURL=contactsData.js.map
 
 /***/ }),
-/* 962 */
+/* 960 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17416,14 +17571,14 @@ var ContactsHseqData = (function () {
 //# sourceMappingURL=contactsHseqData.js.map
 
 /***/ }),
-/* 963 */
+/* 961 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__generalData__ = __webpack_require__(964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__generalData__ = __webpack_require__(962);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17431,7 +17586,7 @@ var ContactsHseqData = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GeneralDataService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17524,7 +17679,7 @@ var _a, _b;
 //# sourceMappingURL=generalData.service.js.map
 
 /***/ }),
-/* 964 */
+/* 962 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17538,14 +17693,14 @@ var GeneralData = (function () {
 //# sourceMappingURL=generalData.js.map
 
 /***/ }),
-/* 965 */
+/* 963 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__opposition__ = __webpack_require__(966);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__opposition__ = __webpack_require__(964);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17553,7 +17708,7 @@ var GeneralData = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OppositionService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17623,7 +17778,7 @@ var _a, _b;
 //# sourceMappingURL=opposition.service.js.map
 
 /***/ }),
-/* 966 */
+/* 964 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17637,15 +17792,15 @@ var OppositionData = (function () {
 //# sourceMappingURL=opposition.js.map
 
 /***/ }),
-/* 967 */,
-/* 968 */
+/* 965 */,
+/* 966 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__serviceLevels__ = __webpack_require__(969);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__serviceLevels__ = __webpack_require__(967);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17653,7 +17808,7 @@ var OppositionData = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_services_Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServiceLevelsService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17732,7 +17887,7 @@ var _a, _b;
 //# sourceMappingURL=serviceLevels.service.js.map
 
 /***/ }),
-/* 969 */
+/* 967 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17746,7 +17901,7 @@ var ServiceLevelsData = (function () {
 //# sourceMappingURL=serviceLevels.js.map
 
 /***/ }),
-/* 970 */
+/* 968 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17760,14 +17915,14 @@ var EjecutivoCuenta = (function () {
 //# sourceMappingURL=EjecutivoCuenta.js.map
 
 /***/ }),
-/* 971 */
+/* 969 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__EjecutivoNegocios__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__EjecutivoNegocios__ = __webpack_require__(970);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17854,7 +18009,7 @@ var _a;
 //# sourceMappingURL=EjecutivoNegocios.service.js.map
 
 /***/ }),
-/* 972 */
+/* 970 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17868,14 +18023,14 @@ var EjecutivoNegocios = (function () {
 //# sourceMappingURL=EjecutivoNegocios.js.map
 
 /***/ }),
-/* 973 */
+/* 971 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -17950,14 +18105,14 @@ var _a, _b;
 //# sourceMappingURL=GradoInfluencia.service.js.map
 
 /***/ }),
-/* 974 */
+/* 972 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -18032,14 +18187,14 @@ var _a, _b;
 //# sourceMappingURL=InfluenciaCompra.service.js.map
 
 /***/ }),
-/* 975 */
+/* 973 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -18114,7 +18269,7 @@ var _a, _b;
 //# sourceMappingURL=Modo.service.js.map
 
 /***/ }),
-/* 976 */
+/* 974 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18128,14 +18283,14 @@ var SectorData = (function () {
 //# sourceMappingURL=SectorData.js.map
 
 /***/ }),
-/* 977 */
+/* 975 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TipoCliente__ = __webpack_require__(978);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TipoCliente__ = __webpack_require__(976);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -18216,7 +18371,7 @@ var _a;
 //# sourceMappingURL=TipoCliente.service.js.map
 
 /***/ }),
-/* 978 */
+/* 976 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18230,7 +18385,7 @@ var TipoCliente = (function () {
 //# sourceMappingURL=TipoCliente.js.map
 
 /***/ }),
-/* 979 */
+/* 977 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18244,14 +18399,14 @@ var TipoEmpleadoData = (function () {
 //# sourceMappingURL=TipoEmpleadoData.js.map
 
 /***/ }),
-/* 980 */
+/* 978 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__anchorage__ = __webpack_require__(981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__anchorage__ = __webpack_require__(979);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -18338,7 +18493,7 @@ var _a;
 //# sourceMappingURL=anchorage.service.js.map
 
 /***/ }),
-/* 981 */
+/* 979 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18352,16 +18507,16 @@ var AnchorageData = (function () {
 //# sourceMappingURL=anchorage.js.map
 
 /***/ }),
-/* 982 */
+/* 980 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_first__ = __webpack_require__(632);
@@ -18450,16 +18605,16 @@ var _a, _b;
 //# sourceMappingURL=category.service.js.map
 
 /***/ }),
-/* 983 */
+/* 981 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_first__ = __webpack_require__(632);
@@ -18548,15 +18703,15 @@ var _a, _b;
 //# sourceMappingURL=categoryOpposition.service.js.map
 
 /***/ }),
-/* 984 */
+/* 982 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -18639,15 +18794,15 @@ var _a, _b;
 //# sourceMappingURL=correctivos.service.js.map
 
 /***/ }),
-/* 985 */
+/* 983 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -18730,15 +18885,15 @@ var _a, _b;
 //# sourceMappingURL=cruceCartera.service.js.map
 
 /***/ }),
-/* 986 */
+/* 984 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -18821,14 +18976,14 @@ var _a, _b;
 //# sourceMappingURL=fumigaciones.service.js.map
 
 /***/ }),
-/* 987 */
+/* 985 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__EjecutivoCuenta__ = __webpack_require__(970);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__EjecutivoCuenta__ = __webpack_require__(968);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -18915,14 +19070,14 @@ var _a;
 //# sourceMappingURL=keyAccount.service.js.map
 
 /***/ }),
-/* 988 */
+/* 986 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__listPrices__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__listPrices__ = __webpack_require__(987);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -18930,6 +19085,7 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPricesService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -18947,42 +19103,50 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var ListPricesService = (function () {
-    function ListPricesService(http) {
+    function ListPricesService(http, util) {
         this.http = http;
-        this.url = 'http://45.55.95.110:7070/listPrices';
+        this.util = util;
+        this.url = '/listPrices';
         this.headers = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
         this.listPricesData = new __WEBPACK_IMPORTED_MODULE_1__listPrices__["a" /* ListPricesData */]();
+        this.url = util.getServidor + this.url;
     }
     ListPricesService.prototype.deleteListPrices = function (id) {
         var url = this.url + "/delete/" + id;
-        return this.http.delete(url)
+        return this.http
+            .delete(url)
             .map(function (r) { return r.json(); })
             .catch(this.handleError);
     };
     ListPricesService.prototype.getListPrices = function () {
         var url = this.url + "/findall";
-        return this.http.get(url)
+        return this.http
+            .get(url)
             .map(function (r) { return r.json(); })
             .catch(this.handleError);
     };
     ListPricesService.prototype.getListPricesData = function (id) {
         var url = this.url + "/find/" + id;
-        return this.http.get(url)
+        return this.http
+            .get(url)
             .map(function (r) { return r.json(); })
             .catch(this.handleError);
     };
-    ListPricesService.prototype.addListPrices = function (listPricesData) {
-        var url = this.url + "/save";
+    ListPricesService.prototype.add = function (listPricesData) {
+        var url = this.url + "/add";
         var iJson = JSON.stringify(listPricesData);
-        return this.http.post(url, iJson, { headers: this.headers })
+        return this.http
+            .post(url, iJson, { headers: this.headers })
             .map(function (r) { return r.json(); })
             .catch(this.handleError);
     };
     ListPricesService.prototype.putListPrices = function (listPricesData) {
         var url = this.url + "/edit/" + listPricesData.id;
         var iJson = JSON.stringify(listPricesData);
-        return this.http.put(url, iJson, { headers: this.headers })
+        return this.http
+            .put(url, iJson, { headers: this.headers })
             .map(function (r) { return r.json(); })
             .catch(this.handleError);
     };
@@ -19002,14 +19166,14 @@ var ListPricesService = (function () {
 }());
 ListPricesService = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__["a" /* Utilidades */]) === "function" && _b || Object])
 ], ListPricesService);
 
-var _a;
+var _a, _b;
 //# sourceMappingURL=listPrices.service.js.map
 
 /***/ }),
-/* 989 */
+/* 987 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19023,15 +19187,15 @@ var ListPricesData = (function () {
 //# sourceMappingURL=listPrices.js.map
 
 /***/ }),
-/* 990 */
+/* 988 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -19114,15 +19278,15 @@ var _a, _b;
 //# sourceMappingURL=plazoArriendo.service.js.map
 
 /***/ }),
-/* 991 */
+/* 989 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -19205,15 +19369,15 @@ var _a, _b;
 //# sourceMappingURL=plazoCartera.service.js.map
 
 /***/ }),
-/* 992 */
+/* 990 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -19296,14 +19460,14 @@ var _a, _b;
 //# sourceMappingURL=preventivos.service.js.map
 
 /***/ }),
-/* 993 */
+/* 991 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__purse__ = __webpack_require__(994);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__purse__ = __webpack_require__(992);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -19390,7 +19554,7 @@ var _a;
 //# sourceMappingURL=purse.service.js.map
 
 /***/ }),
-/* 994 */
+/* 992 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19404,14 +19568,14 @@ var PurseData = (function () {
 //# sourceMappingURL=purse.js.map
 
 /***/ }),
-/* 995 */
+/* 993 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__regionals__ = __webpack_require__(996);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__regionals__ = __webpack_require__(994);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -19498,7 +19662,7 @@ var _a;
 //# sourceMappingURL=regionals.service.js.map
 
 /***/ }),
-/* 996 */
+/* 994 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19512,15 +19676,15 @@ var RegionalsData = (function () {
 //# sourceMappingURL=regionals.js.map
 
 /***/ }),
-/* 997 */
+/* 995 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -19603,14 +19767,14 @@ var _a, _b;
 //# sourceMappingURL=requiereCompra.service.js.map
 
 /***/ }),
-/* 998 */
+/* 996 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__SectorData__ = __webpack_require__(976);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__SectorData__ = __webpack_require__(974);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -19697,15 +19861,15 @@ var _a;
 //# sourceMappingURL=sector.service.js.map
 
 /***/ }),
-/* 999 */
+/* 997 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__genericoParametro__ = __webpack_require__(636);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Utilidades_service__ = __webpack_require__(633);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
@@ -19788,14 +19952,14 @@ var _a, _b;
 //# sourceMappingURL=tipoVenta.service.js.map
 
 /***/ }),
-/* 1000 */
+/* 998 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TipoEmpleadoData__ = __webpack_require__(979);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TipoEmpleadoData__ = __webpack_require__(977);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -19882,14 +20046,112 @@ var _a;
 //# sourceMappingURL=typeEmployees.service.js.map
 
 /***/ }),
-/* 1001 */
+/* 999 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__typeNegociation__ = __webpack_require__(1002);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(634);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Utilidades_service__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_services_totalService_genericoParametro__ = __webpack_require__(636);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_first__ = __webpack_require__(632);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_first__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__ = __webpack_require__(631);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_catch__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TypeGlass; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var TypeGlass = (function () {
+    function TypeGlass(http, util) {
+        this.http = http;
+        this.util = util;
+        this.url = '/tipoVaso';
+        this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
+        this.typeMachineData = new __WEBPACK_IMPORTED_MODULE_4__theme_services_totalService_genericoParametro__["a" /* ParametroGenerico */]();
+        this.url = util.getServidor + this.url;
+    }
+    TypeGlass.prototype.delete = function (id) {
+        var url = this.url + "/delete/" + id;
+        return this.http.delete(url)
+            .map(function (r) { return r.json(); })
+            .catch(this.handleError);
+    };
+    TypeGlass.prototype.getAll = function () {
+        var url = this.url + "/findall";
+        return this.http.get(url)
+            .map(function (r) { return r.json(); })
+            .catch(this.handleError);
+    };
+    TypeGlass.prototype.getId = function (id) {
+        var url = this.url + "/find/" + id;
+        return this.http.get(url)
+            .map(function (r) { return r.json(); })
+            .catch(this.handleError);
+    };
+    TypeGlass.prototype.add = function (type) {
+        var url = this.url + "/save";
+        var iJson = JSON.stringify(type);
+        return this.http.post(url, iJson, { headers: this.headers })
+            .map(function (r) { return r.json(); })
+            .catch(this.handleError);
+    };
+    TypeGlass.prototype.putTypeMachine = function (typeMachineData) {
+        var url = this.url + "/edit/" + typeMachineData.id;
+        var iJson = JSON.stringify(typeMachineData);
+        return this.http.put(url, iJson, { headers: this.headers })
+            .map(function (r) { return r.json(); })
+            .catch(this.handleError);
+    };
+    TypeGlass.prototype.handleError = function (error) {
+        var errMsg;
+        if (error instanceof __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Response */]) {
+            var body = error.json() || '';
+            var err = body.error || JSON.stringify(body);
+            errMsg = error.status + " - " + (error.statusText || '') + " " + err;
+        }
+        else {
+            errMsg = error.message ? error.message : error.toString();
+        }
+        return __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__["Observable"].throw(errMsg);
+    };
+    return TypeGlass;
+}());
+TypeGlass = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Http */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__Utilidades_service__["a" /* Utilidades */]) === "function" && _b || Object])
+], TypeGlass);
+
+var _a, _b;
+//# sourceMappingURL=typeGlass.service.js.map
+
+/***/ }),
+/* 1000 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__typeNegociation__ = __webpack_require__(1001);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__ = __webpack_require__(634);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -19897,6 +20159,7 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_first__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__ = __webpack_require__(631);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_catch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__ = __webpack_require__(633);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TypeNegociationService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -19914,12 +20177,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var TypeNegociationService = (function () {
-    function TypeNegociationService(http) {
+    function TypeNegociationService(http, util) {
         this.http = http;
-        this.url = 'http://45.55.95.110:7070/typeNegociation';
+        this.util = util;
+        this.url = '/typeNegociation';
         this.headers = new __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
         this.typeNegociationData = new __WEBPACK_IMPORTED_MODULE_1__typeNegociation__["a" /* TypeNegociationData */]();
+        this.url = util.getServidor + this.url;
     }
     TypeNegociationService.prototype.deleteTypeNEgociation = function (id) {
         var url = this.url + "/delete/" + id;
@@ -19969,14 +20235,14 @@ var TypeNegociationService = (function () {
 }());
 TypeNegociationService = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["d" /* Http */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__["a" /* Utilidades */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__Utilidades_service__["a" /* Utilidades */]) === "function" && _b || Object])
 ], TypeNegociationService);
 
-var _a;
+var _a, _b;
 //# sourceMappingURL=typeNegociation.service.js.map
 
 /***/ }),
-/* 1002 */
+/* 1001 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19990,10 +20256,12 @@ var TypeNegociationData = (function () {
 //# sourceMappingURL=typeNegociation.js.map
 
 /***/ }),
+/* 1002 */,
 /* 1003 */,
 /* 1004 */,
 /* 1005 */,
-/* 1006 */
+/* 1006 */,
+/* 1007 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20025,7 +20293,7 @@ exports.AddPipe = AddPipe;
 //# sourceMappingURL=add.pipe.js.map
 
 /***/ }),
-/* 1007 */
+/* 1008 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20133,7 +20401,7 @@ var CalendarPipe_1;
 //# sourceMappingURL=calendar.pipe.js.map
 
 /***/ }),
-/* 1008 */
+/* 1009 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20170,7 +20438,7 @@ exports.DateFormatPipe = DateFormatPipe;
 //# sourceMappingURL=date-format.pipe.js.map
 
 /***/ }),
-/* 1009 */
+/* 1010 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20203,7 +20471,7 @@ exports.DifferencePipe = DifferencePipe;
 //# sourceMappingURL=difference.pipe.js.map
 
 /***/ }),
-/* 1010 */
+/* 1011 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20238,7 +20506,7 @@ exports.DurationPipe = DurationPipe;
 //# sourceMappingURL=duration.pipe.js.map
 
 /***/ }),
-/* 1011 */
+/* 1012 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20274,7 +20542,7 @@ exports.FromUnixPipe = FromUnixPipe;
 //# sourceMappingURL=from-unix.pipe.js.map
 
 /***/ }),
-/* 1012 */
+/* 1013 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20304,7 +20572,7 @@ exports.LocalTimePipe = LocalTimePipe;
 //# sourceMappingURL=local.pipe.js.map
 
 /***/ }),
-/* 1013 */
+/* 1014 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20334,7 +20602,7 @@ exports.LocalePipe = LocalePipe;
 //# sourceMappingURL=locale.pipe.js.map
 
 /***/ }),
-/* 1014 */
+/* 1015 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20364,7 +20632,7 @@ exports.ParsePipe = ParsePipe;
 //# sourceMappingURL=parse.pipe.js.map
 
 /***/ }),
-/* 1015 */
+/* 1016 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20396,7 +20664,7 @@ exports.SubtractPipe = SubtractPipe;
 //# sourceMappingURL=subtract.pipe.js.map
 
 /***/ }),
-/* 1016 */
+/* 1017 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20499,7 +20767,7 @@ exports.TimeAgoPipe = TimeAgoPipe;
 //# sourceMappingURL=time-ago.pipe.js.map
 
 /***/ }),
-/* 1017 */
+/* 1018 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20529,7 +20797,7 @@ exports.UtcPipe = UtcPipe;
 //# sourceMappingURL=utc.pipe.js.map
 
 /***/ }),
-/* 1018 */
+/* 1019 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21292,7 +21560,6 @@ var MyDatePicker = (function () {
 //# sourceMappingURL=my-date-picker.component.js.map
 
 /***/ }),
-/* 1019 */,
 /* 1020 */,
 /* 1021 */,
 /* 1022 */,
@@ -21301,18 +21568,19 @@ var MyDatePicker = (function () {
 /* 1025 */,
 /* 1026 */,
 /* 1027 */,
-/* 1028 */
+/* 1028 */,
+/* 1029 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accountmanagement_component__ = __webpack_require__(938);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_headquarters_headquarters_component__ = __webpack_require__(942);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_opposition_opposition_component__ = __webpack_require__(943);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_businessdata_businessdata_component__ = __webpack_require__(939);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_contacts_contacts_component__ = __webpack_require__(940);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_generaldata_generaldata_component__ = __webpack_require__(941);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_servicelevels_servicelevels_component__ = __webpack_require__(944);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accountmanagement_component__ = __webpack_require__(937);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_headquarters_headquarters_component__ = __webpack_require__(941);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_opposition_opposition_component__ = __webpack_require__(942);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_businessdata_businessdata_component__ = __webpack_require__(938);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_contacts_contacts_component__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_generaldata_generaldata_component__ = __webpack_require__(940);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_servicelevels_servicelevels_component__ = __webpack_require__(943);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -21342,7 +21610,6 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 //# sourceMappingURL=accountmanagement.routing.js.map
 
 /***/ }),
-/* 1029 */,
 /* 1030 */,
 /* 1031 */,
 /* 1032 */,
@@ -21351,7 +21618,8 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 /* 1035 */,
 /* 1036 */,
 /* 1037 */,
-/* 1038 */
+/* 1038 */,
+/* 1039 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21392,7 +21660,7 @@ ValidarNumero = __decorate([
 //# sourceMappingURL=validarNumero.pipe.js.map
 
 /***/ }),
-/* 1039 */
+/* 1040 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21433,9 +21701,9 @@ ValidarTexto = __decorate([
 //# sourceMappingURL=validarTexto.pipe.js.map
 
 /***/ }),
-/* 1040 */,
 /* 1041 */,
-/* 1042 */
+/* 1042 */,
+/* 1043 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21468,41 +21736,41 @@ exports.FromUtcPipe = FromUtcPipe;
 //# sourceMappingURL=from-utc.pipe.js.map
 
 /***/ }),
-/* 1043 */
+/* 1044 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var add_pipe_1 = __webpack_require__(1006);
+var add_pipe_1 = __webpack_require__(1007);
 exports.AddPipe = add_pipe_1.AddPipe;
-var calendar_pipe_1 = __webpack_require__(1007);
+var calendar_pipe_1 = __webpack_require__(1008);
 exports.CalendarPipe = calendar_pipe_1.CalendarPipe;
-var date_format_pipe_1 = __webpack_require__(1008);
+var date_format_pipe_1 = __webpack_require__(1009);
 exports.DateFormatPipe = date_format_pipe_1.DateFormatPipe;
-var difference_pipe_1 = __webpack_require__(1009);
+var difference_pipe_1 = __webpack_require__(1010);
 exports.DifferencePipe = difference_pipe_1.DifferencePipe;
-var duration_pipe_1 = __webpack_require__(1010);
+var duration_pipe_1 = __webpack_require__(1011);
 exports.DurationPipe = duration_pipe_1.DurationPipe;
-var from_unix_pipe_1 = __webpack_require__(1011);
+var from_unix_pipe_1 = __webpack_require__(1012);
 exports.FromUnixPipe = from_unix_pipe_1.FromUnixPipe;
-var parse_pipe_1 = __webpack_require__(1014);
+var parse_pipe_1 = __webpack_require__(1015);
 exports.ParsePipe = parse_pipe_1.ParsePipe;
-var moment_module_1 = __webpack_require__(1044);
+var moment_module_1 = __webpack_require__(1045);
 exports.MomentModule = moment_module_1.MomentModule;
-var subtract_pipe_1 = __webpack_require__(1015);
+var subtract_pipe_1 = __webpack_require__(1016);
 exports.SubtractPipe = subtract_pipe_1.SubtractPipe;
-var time_ago_pipe_1 = __webpack_require__(1016);
+var time_ago_pipe_1 = __webpack_require__(1017);
 exports.TimeAgoPipe = time_ago_pipe_1.TimeAgoPipe;
-var utc_pipe_1 = __webpack_require__(1017);
+var utc_pipe_1 = __webpack_require__(1018);
 exports.UtcPipe = utc_pipe_1.UtcPipe;
-var local_pipe_1 = __webpack_require__(1012);
+var local_pipe_1 = __webpack_require__(1013);
 exports.LocalTimePipe = local_pipe_1.LocalTimePipe;
-var locale_pipe_1 = __webpack_require__(1013);
+var locale_pipe_1 = __webpack_require__(1014);
 exports.LocalePipe = locale_pipe_1.LocalePipe;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1044 */
+/* 1045 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21514,19 +21782,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = __webpack_require__(0);
-var add_pipe_1 = __webpack_require__(1006);
-var calendar_pipe_1 = __webpack_require__(1007);
-var date_format_pipe_1 = __webpack_require__(1008);
-var difference_pipe_1 = __webpack_require__(1009);
-var duration_pipe_1 = __webpack_require__(1010);
-var from_unix_pipe_1 = __webpack_require__(1011);
-var parse_pipe_1 = __webpack_require__(1014);
-var subtract_pipe_1 = __webpack_require__(1015);
-var time_ago_pipe_1 = __webpack_require__(1016);
-var utc_pipe_1 = __webpack_require__(1017);
-var from_utc_pipe_1 = __webpack_require__(1042);
-var local_pipe_1 = __webpack_require__(1012);
-var locale_pipe_1 = __webpack_require__(1013);
+var add_pipe_1 = __webpack_require__(1007);
+var calendar_pipe_1 = __webpack_require__(1008);
+var date_format_pipe_1 = __webpack_require__(1009);
+var difference_pipe_1 = __webpack_require__(1010);
+var duration_pipe_1 = __webpack_require__(1011);
+var from_unix_pipe_1 = __webpack_require__(1012);
+var parse_pipe_1 = __webpack_require__(1015);
+var subtract_pipe_1 = __webpack_require__(1016);
+var time_ago_pipe_1 = __webpack_require__(1017);
+var utc_pipe_1 = __webpack_require__(1018);
+var from_utc_pipe_1 = __webpack_require__(1043);
+var local_pipe_1 = __webpack_require__(1013);
+var locale_pipe_1 = __webpack_require__(1014);
 var ANGULAR_MOMENT_PIPES = [
     add_pipe_1.AddPipe,
     calendar_pipe_1.CalendarPipe,
@@ -21557,7 +21825,7 @@ exports.MomentModule = MomentModule;
 //# sourceMappingURL=moment.module.js.map
 
 /***/ }),
-/* 1045 */
+/* 1046 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(false);
@@ -21574,7 +21842,7 @@ exports.push([module.i, ".box-shadow-border {\n  border-bottom: 1px solid rgba(0
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 1046 */
+/* 1047 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(false);
@@ -21591,23 +21859,6 @@ exports.push([module.i, ".box-shadow-border {\n  border-bottom: 1px solid rgba(0
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 1047 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".box-shadow-border {\n  border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.12);\n  width: calc(100% + 44px);\n  margin-left: -22px; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
 /* 1048 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21616,7 +21867,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, ":host /deep/ .widgets .basic-btns {\n  padding-top: 8px;\n  margin-bottom: -8px; }\n  :host /deep/ .widgets .basic-btns h5 {\n    line-height: 35px;\n    font-size: 12px; }\n    :host /deep/ .widgets .basic-btns h5.row-sm {\n      line-height: 30px; }\n    :host /deep/ .widgets .basic-btns h5.row-xs {\n      line-height: 22px; }\n  :host /deep/ .widgets .basic-btns > .row {\n    padding-bottom: 4px; }\n\n:host /deep/ .widgets .btns-row > div {\n  margin-bottom: 12px; }\n\n:host /deep/ .widgets .btns-same-width-sm .btn {\n  width: 48px; }\n\n:host /deep/ .widgets .btns-same-width-md .btn {\n  width: 79px; }\n\n:host /deep/ .widgets .btns-same-width-lg .btn {\n  width: 112px; }\n\n:host /deep/ .widgets ul.btn-list {\n  margin: 0 0 0 -18px;\n  padding: 0;\n  padding-top: 6px;\n  clear: both; }\n  :host /deep/ .widgets ul.btn-list li {\n    margin: 0px 0 12px 18px;\n    padding: 0;\n    list-style: none;\n    float: left; }\n\n:host /deep/ .widgets .btn-group-wrapper {\n  margin-bottom: 12px; }\n\n:host /deep/ .widgets .btn-icon {\n  width: 34px;\n  height: 34px;\n  line-height: 34px;\n  padding: 0;\n  text-align: center; }\n\n:host /deep/ .widgets .btn-group-example {\n  float: left;\n  margin-right: 30px;\n  margin-bottom: 12px; }\n\n:host /deep/ .widgets .btn-toolbar-example {\n  float: left; }\n\n:host /deep/ .widgets .progress-buttons-container {\n  text-align: center;\n  font-size: 16px; }\n  :host /deep/ .widgets .progress-buttons-container span.button-title {\n    display: inline-block;\n    width: 100%;\n    line-height: 1;\n    font-size: 14px;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  :host /deep/ .widgets .progress-buttons-container .row + .row {\n    margin-top: 30px; }\n\n:host /deep/ .widgets .button-panel {\n  height: 315px; }\n  :host /deep/ .widgets .button-panel .btn {\n    width: 150px; }\n\n:host /deep/ .widgets .large-buttons-panel {\n  height: 202px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-xs {\n  width: 60px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-sm {\n  width: 90px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-mm {\n  width: 120px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-md {\n  width: 150px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-xm {\n  width: 175px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-lg {\n  width: 200px; }\n\n:host /deep/ .widgets .button-wrapper {\n  text-align: center;\n  margin: 5px 0; }\n\n:host /deep/ .widgets .btn-group.flex-dropdown {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n", ""]);
+exports.push([module.i, ".box-shadow-border {\n  border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.12);\n  width: calc(100% + 44px);\n  margin-left: -22px; }\n", ""]);
 
 // exports
 
@@ -21650,6 +21901,23 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
+exports.push([module.i, ":host /deep/ .widgets .basic-btns {\n  padding-top: 8px;\n  margin-bottom: -8px; }\n  :host /deep/ .widgets .basic-btns h5 {\n    line-height: 35px;\n    font-size: 12px; }\n    :host /deep/ .widgets .basic-btns h5.row-sm {\n      line-height: 30px; }\n    :host /deep/ .widgets .basic-btns h5.row-xs {\n      line-height: 22px; }\n  :host /deep/ .widgets .basic-btns > .row {\n    padding-bottom: 4px; }\n\n:host /deep/ .widgets .btns-row > div {\n  margin-bottom: 12px; }\n\n:host /deep/ .widgets .btns-same-width-sm .btn {\n  width: 48px; }\n\n:host /deep/ .widgets .btns-same-width-md .btn {\n  width: 79px; }\n\n:host /deep/ .widgets .btns-same-width-lg .btn {\n  width: 112px; }\n\n:host /deep/ .widgets ul.btn-list {\n  margin: 0 0 0 -18px;\n  padding: 0;\n  padding-top: 6px;\n  clear: both; }\n  :host /deep/ .widgets ul.btn-list li {\n    margin: 0px 0 12px 18px;\n    padding: 0;\n    list-style: none;\n    float: left; }\n\n:host /deep/ .widgets .btn-group-wrapper {\n  margin-bottom: 12px; }\n\n:host /deep/ .widgets .btn-icon {\n  width: 34px;\n  height: 34px;\n  line-height: 34px;\n  padding: 0;\n  text-align: center; }\n\n:host /deep/ .widgets .btn-group-example {\n  float: left;\n  margin-right: 30px;\n  margin-bottom: 12px; }\n\n:host /deep/ .widgets .btn-toolbar-example {\n  float: left; }\n\n:host /deep/ .widgets .progress-buttons-container {\n  text-align: center;\n  font-size: 16px; }\n  :host /deep/ .widgets .progress-buttons-container span.button-title {\n    display: inline-block;\n    width: 100%;\n    line-height: 1;\n    font-size: 14px;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  :host /deep/ .widgets .progress-buttons-container .row + .row {\n    margin-top: 30px; }\n\n:host /deep/ .widgets .button-panel {\n  height: 315px; }\n  :host /deep/ .widgets .button-panel .btn {\n    width: 150px; }\n\n:host /deep/ .widgets .large-buttons-panel {\n  height: 202px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-xs {\n  width: 60px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-sm {\n  width: 90px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-mm {\n  width: 120px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-md {\n  width: 150px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-xm {\n  width: 175px; }\n\n:host /deep/ .widgets .button-panel.df-size-button-panel .btn-lg {\n  width: 200px; }\n\n:host /deep/ .widgets .button-wrapper {\n  text-align: center;\n  margin: 5px 0; }\n\n:host /deep/ .widgets .btn-group.flex-dropdown {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 1051 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(false);
+// imports
+
+
+// module
 exports.push([module.i, ":host /deep/ .slim-loading-bar-block button {\n  margin-bottom: 10px; }\n\n.box-shadow-border {\n  border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.12);\n  width: calc(100% + 44px);\n  margin-left: -22px; }\n", ""]);
 
 // exports
@@ -21659,7 +21927,6 @@ exports.push([module.i, ":host /deep/ .slim-loading-bar-block button {\n  margin
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 1051 */,
 /* 1052 */,
 /* 1053 */,
 /* 1054 */,
@@ -21793,7 +22060,7 @@ var FocusDirective = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__my_date_picker_component__ = __webpack_require__(1018);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__my_date_picker_component__ = __webpack_require__(1019);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_my_date_picker_focus_directive__ = __webpack_require__(1059);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyDatePickerModule; });
 
@@ -22394,7 +22661,7 @@ var UtilService = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dist_my_date_picker_module__ = __webpack_require__(1074);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "MyDatePickerModule", function() { return __WEBPACK_IMPORTED_MODULE_0__dist_my_date_picker_module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dist_my_date_picker_component__ = __webpack_require__(1018);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dist_my_date_picker_component__ = __webpack_require__(1019);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dist_interfaces_my_date_interface__ = __webpack_require__(1063);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dist_interfaces_my_date_interface___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__dist_interfaces_my_date_interface__);
@@ -22502,25 +22769,25 @@ var UtilService = (function () {
 /* 1121 */
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\n  <form class=\"form-horizontal\">\n    <div class=\"container-fluid\">\n      <div class=\"form-group row\">\n        <h4>Información General del Negocio </h4>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"typeMachine\" class=\"control-label col-md-12\">Tipo Máquina:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"typeMachine\" name=\"typeMachine\" [(ngModel)]=\"businessData.tipoMaquina\" #typemachine=\"ngModel\"\n                required>\n\t\t\t\t\t\t\t\t\t\t\t  <option *ngFor = \"let typeMachineData of typeMachineDatas\" [ngValue]=  \"typeMachineData\">{{typeMachineData.nombre}}</option>\n\t\t\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"typemachine.errors\">\n                <div *ngIf=\"typemachine.touched && !typemachine.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6\">\n          <label for=\"numberMachine\" class=\"control-label col-md-12\">No Máquinas:</label>\n          <div class=\"col-md-12\">\n            <input type=\"number\" class=\"form-control\" name=\"numberMachine\" id=\"numberMachine\" placeholder=\"No Máquinas\" [(ngModel)]=\"businessData.numeromaquina\"\n              #numbermachine=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"numbermachine.errors\">\n              <div *ngIf=\"numbermachine.touched && !numbermachine.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"typeGlass\" class=\"control-label col-md-12\">Tipo de Vaso:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"typeGlass\" name=\"typeGlass\" [(ngModel)]=\"businessData.tipoVasoId\" #typeglass=\"ngModel\" required>\n\t\t\t\t\t\t\t\t\t\t\t  <option value = \"1\">Cartón</option>\n\t\t\t\t\t\t\t\t\t\t\t  <option value = \"2\">Plástico</option>\n\t\t\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"typeglass.errors\">\n                <div *ngIf=\"typeglass.touched && !typeglass.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"anclaje\" class=\"control-label col-md-12\">Anclaje:</label>\n          <div class=\"col-md-12\">\n\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"anclaje\" name=\"anclaje\" [(ngModel)]=\"businessData.anclaje\" #anchorage=\"ngModel\" required>\n\t\t\t\t\t\t\t\t\t\t\t\t  <option *ngFor = \"let anchorageData of anchorageDatas\" [ngValue]=  \"anchorageData\">{{anchorageData.nombre}}</option>\n\t\t\t\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"anchorage.errors\">\n                <div *ngIf=\"anchorage.touched && !anchorage.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row \">\n        <div class=\"form-group col-md-6\">\n          <label for=\"listPrecies\" class=\"control-label col-md-12\">Lista de Precios:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"listPrecies\" name=\"lastPrecies\" [(ngModel)]=\"businessData.listaPrecio\" #listprices=\"ngModel\"\n                required>\n\t\t\t\t\t\t\t\t\t\t\t  <option *ngFor = \"let listPricesData of listPricesDatas\" [ngValue] = \"listPricesData\">{{listPricesData.descripcion}}</option>\n\t\t\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"listprices.errors\">\n                <div *ngIf=\"listprices.touched && !listprecies.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n\n        <div class=\"form-group col-md-6\">\n          <label for=\"typenegociation\" class=\"control-label col-md-12\">Tipo Negociación:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"typenegociation\" name=\"typenegociation\" [(ngModel)]=\"businessData.tipoNegociacion\" #typenegociation=\"ngModel\"\n                required>\n\t\t\t\t\t\t\t\t\t\t\t  <option *ngFor = \"let typeNegociationData of typeNegociationDatas\" [ngValue]= \"typeNegociationData\">{{typeNegociationData.nombre}}</option>\n\t\t\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"typenegociation.errors\">\n                <div *ngIf=\"typenegociation.touched && !typenegociation.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"category\" class=\"control-label col-md-12\">Categoría:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"category\" name=\"category\" [(ngModel)]=\"businessData.categoria\" #category=\"ngModel\" required>\n\t\t\t\t\t\t\t\t\t\t\t  <option *ngFor = \"let categoryData of categoryDatas\" [ngValue]= \"categoryData\">{{categoryData.nombre}}</option>\n\t\t\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"category.errors\">\n                <div *ngIf=\"category.touched && !category.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"totalsale\" class=\"control-label col-md-12\">Venta Total:</label>\n          <div class=\"col-md-12\">\n            <input type=\"number\" class=\"form-control\" name=\"totalsale\" id=\"totalsale\" placeholder=\"Venta total\" [(ngModel)]=\"businessData.totalsale\"\n              #totalsale=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"totalsale.errors\">\n              <div *ngIf=\"totalsale.touched && !totalsale.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"box-shadow-border\"></div>\n      <br>\n\n      <div class=\"form-group row\">\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n\n          <div *ngIf=\"typemachine.errors || numbermachine.errors || typeglass.errors || anchorage.errors || listprices.errors || typenegociation.errors\n\t\t\t\t\t\t|| category.errors || totalsale.errors \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goContacts()\" disabled>Contactos</button>\n            <button class=\"btn btn-success\" (click)=\"saveBusinessData()\" disabled=\"\">Guardar</button>\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n          <div *ngIf=\"!typemachine.errors && !numbermachine.errors && !typeglass.errors && !anchorage.errors && !listprices.errors && !typenegociation.errors\n\t\t\t\t\t\t\t&& !category.errors && !totalsale.errors \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goContacts()\">Contactos</button>\n            <button class=\"btn btn-success\" (click)=\"saveBusinessData()\">Guardar</button>\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n\n        </div>\n      </div>\n    </div>\n    <div class=\"panel panel-default\" *ngIf=\"businessLists!=null && businessLists.length>0\">\n      <div class=\"panel-heading\">Información de Negocios</div>\n      <table class=\"table table-striped\">\n        <thead>\n          <tr>\n            <th>\n              Tipo Maquina:\n            </th>\n            <th>\n              No Maquinas:\n            </th>\n            <th >\n              Tipo vaso:\n            </th>\n            <th >\n              Anclaje:\n            </th>\n            <th >\n              Precio:\n            </th>\n            <th >\n              Tipo Negociación:\n            </th>\n            <th >\n              Categoría:\n            </th>\n            <th >\n              Venta Total:\n            </th>\n            <th >\n              Acción:\n            </th>\n            <tr>\n        </thead>\n        <tbody>\n          <tr *ngFor=\"let data of businessLists\">\n            <td>{{data.tipoMaquina.nombre}}</td>\n            <td> {{data.numeromaquina}}</td>\n            <td> {{data.tipoVasoId}}</td>\n            <td> {{data.anclaje.nombre}}</td>\n            <td> {{data.listaPrecio.descripcion}}</td>\n            <td> {{data.tipoNegociacion.nombre}}</td>\n            <td> {{data.categoria.nombre}}</td>\n            <td> {{data.totalsale}}</td>\n\n            <td>\n              <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"eliminar(data)\" name=\"eliminarNegocio\"><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\n              <button class=\".glyphicon-trash btn btn-info\" (click)=\"editar(data)\" name=\"editarNegocio\"><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\n\n            </td>\n          </tr>\n        </tbody>\n\n      </table>\n\n    </div>\n  </form>\n</ba-card>\n"
+module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\n  <form #myForm=\"ngForm\" class=\"form-horizontal\">\n    <div class=\"container-fluid\">\n      <div class=\"form-group row\">\n        <h4>Información General del Negocio </h4>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"typeMachine\" class=\"control-label col-md-12\">Tipo Máquina:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"typeMachine\" name=\"typeMachine\" [(ngModel)]=\"businessData.tipoMaquina\" #typemachine=\"ngModel\"\n                required>\n                <option *ngFor=\"let typeMachineData of typeMachineDatas\" [ngValue]=\"typeMachineData\">{{typeMachineData.nombre}}</option>\n              </select>\n              <div *ngIf=\"typemachine.errors\">\n                <div *ngIf=\"typemachine.touched && !typemachine.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6\">\n          <label for=\"numberMachine\" class=\"control-label col-md-12\">No Máquinas:</label>\n          <div class=\"col-md-12\">\n            <input type=\"number\" (input)=\"validarNumeroMaquina()\" class=\"form-control\" name=\"numberMachine\" id=\"numberMachine\" placeholder=\"No Máquinas\"\n              [(ngModel)]=\"businessData.numeromaquina\" #numbermachine=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"numbermachine.errors\">\n              <div *ngIf=\"numbermachine.touched && !numbermachine.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\" *ngIf=\"mostrarXtipoVaso()\">\n          <label for=\"typeGlass\" class=\"control-label col-md-12\">Tipo de Vaso:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"typeGlass\" name=\"typeGlass\" [(ngModel)]=\"businessData.tipoVaso\" #typeglass=\"ngModel\" required>\n                <option *ngFor=\"let data of typeGlass\" [ngValue]=\"data\">{{data.nombre}}</option>\n\n              </select>\n              <div *ngIf=\"typeglass.errors\">\n                <div *ngIf=\"typeglass.touched && !typeglass.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"anclaje\" class=\"control-label col-md-12\">Anclaje:</label>\n          <div class=\"col-md-12\">\n\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"anclaje\" name=\"anclaje\" [(ngModel)]=\"businessData.anclaje\" #anchorage=\"ngModel\" required>\n                <option *ngFor=\"let anchorageData of anchorageDatas\" [ngValue]=\"anchorageData\">{{anchorageData.nombre}}</option>\n              </select>\n              <div *ngIf=\"anchorage.errors\">\n                <div *ngIf=\"anchorage.touched && !anchorage.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row \">\n        <div class=\"form-group col-md-6\">\n          <label for=\"listPrecies\" class=\"control-label col-md-12\">Lista de Precios:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" (change)=\"mostrarOtroPrecio()\" id=\"listPrecies\" name=\"lastPrecies\" [(ngModel)]=\"businessData.listaPrecio\" #listprices=\"ngModel\"\n                required>\n                <option *ngFor=\"let listPricesData of listPricesDatas\" [ngValue]=\"listPricesData\">{{listPricesData.descripcion}}</option>\n              </select>\n              <div *ngIf=\"listprices.errors\">\n                <div *ngIf=\"listprices.touched && !listprecies.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n\n        <div class=\"form-group col-md-6\">\n          <label for=\"typenegociation\" class=\"control-label col-md-12\">Tipo Negociación:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"typenegociation\" name=\"typenegociation\" [(ngModel)]=\"businessData.tipoNegociacion\" #typenegociation=\"ngModel\"\n                required>\n                <option *ngFor=\"let typeNegociationData of typeNegociationDatas\" [ngValue]=\"typeNegociationData\">{{typeNegociationData.nombre}}</option>\n              </select>\n              <div *ngIf=\"typenegociation.errors\">\n                <div *ngIf=\"typenegociation.touched && !typenegociation.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group row \">\n        <div class=\"form-group col-md-6\" *ngIf=\"mostrarCampoPrecios\" (change)=\"mostrarOtroPrecio()\">\n          <label for=\"listPrecies\" class=\"control-label col-md-12\">Otro Precio:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <input type=\"text\" (input)=\"validaTipoNegociacionValor()\" class=\"form-control\" name=\"addOtroValor\" id=\"addOtroValor\"\n                placeholder=\"Otro Precio\" [(ngModel)]=\"otroPrecio.descripcion\" #addOtroValor=\"ngModel\"\n                required maxlength=\"200\" minlength=\"3\">\n              <button class=\"btn btn-succ\" (click)=\"adicionarAListaPrecio()\">Adicionar</button>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6\" *ngIf=\"mostrarCantidadTipoNegociacion() \">\n          <label for=\"listPrecies\" class=\"control-label col-md-12\">Valor Tipo Negociación:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <input type=\"number\" (input)=\"validaTipoNegociacionValor()\" class=\"form-control\" name=\"valorTipoNegocio\" id=\"valorTipoNegocio\"\n                placeholder=\"valor Tipo Negociación\" [(ngModel)]=\"businessData.valorTipoNegociacion\" #valorTipoNegocio=\"ngModel\"\n                required maxlength=\"200\" minlength=\"3\">\n\n              <div *ngIf=\"valorTipoNegocio.errors\">\n                <div *ngIf=\"valorTipoNegocio.touched && !valorTipoNegocio.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"category\" class=\"control-label col-md-12\">Categoría:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"category\" name=\"category\" [(ngModel)]=\"businessData.categoria\" #category=\"ngModel\" required>\n                <option *ngFor=\"let categoryData of categoryDatas\" [ngValue]=\"categoryData\">{{categoryData.nombre}}</option>\n              </select>\n              <div *ngIf=\"category.errors\">\n                <div *ngIf=\"category.touched && !category.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"totalsale\" class=\"control-label col-md-12\">Venta Total:</label>\n          <div class=\"col-md-12\">\n            <input type=\"number\" (input)=\"validarVenta()\" class=\"form-control\" name=\"totalsale\" id=\"totalsale\" placeholder=\"Venta total\"\n              [(ngModel)]=\"businessData.totalsale\" #totalsale=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"totalsale.errors\">\n              <div *ngIf=\"totalsale.touched && !totalsale.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"box-shadow-border\"></div>\n      <br>\n\n      <div class=\"form-group row\">\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n\n          <div *ngIf=\"!myForm.valid \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goContacts()\" disabled>Contactos</button>\n            <button class=\"btn btn-success\" (click)=\"saveBusinessData()\" disabled=\"\">Guardar</button>\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n          <div *ngIf=\"myForm.valid \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goContacts()\">Contactos</button>\n            <button class=\"btn btn-success\" (click)=\"saveBusinessData()\">Guardar</button>\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n\n        </div>\n      </div>\n    </div>\n    <div class=\"panel panel-default\" *ngIf=\"businessLists!=null && businessLists.length>0\">\n      <div class=\"panel-heading\">Información de Negocios</div>\n      <table class=\"table table-striped\">\n        <thead>\n          <tr>\n            <th>\n              Tipo Maquina:\n            </th>\n            <th>\n              No Maquinas:\n            </th>\n            <th>\n              Tipo vaso:\n            </th>\n            <th>\n              Anclaje:\n            </th>\n            <th>\n              Precio:\n            </th>\n            <th>\n              Tipo Negociación:\n            </th>\n            <th>\n              Categoría:\n            </th>\n            <th>\n              Venta Total:\n            </th>\n            <th>\n              Acción:\n            </th>\n            <tr>\n        </thead>\n        <tbody>\n          <tr *ngFor=\"let data of businessLists\">\n            <td>{{data.tipoMaquina!=null?data.tipoMaquina.nombre:\"\"}}</td>\n            <td> {{data.numeromaquina}}</td>\n            <td> {{data.tipoVaso!=null?data.tipoVaso.nombre:\"\"}}</td>\n            <td> {{data.anclaje!=null?data.anclaje.nombre:\"\"}}</td>\n            <td> {{data.listaPrecio!=null?data.listaPrecio.descripcion:\"\"}}</td>\n            <td> {{data.tipoNegociacion!=null?data.tipoNegociacion.nombre:\"\"}}</td>\n            <td> {{data.categoria!=null?data.categoria.nombre:\"\"}}</td>\n            <td> {{data.totalsale}}</td>\n\n            <td>\n              <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"eliminar(data)\" name=\"eliminarNegocio\">\n                <i class=\"fa fa-eraser\" aria-hidden=\"true\"></i>\n              </button>\n              <button class=\".glyphicon-trash btn btn-info\" (click)=\"editar(data)\" name=\"editarNegocio\">\n                <i class=\"fa fa-pencil\" aria-hidden=\"true\"></i>\n              </button>\n\n            </td>\n          </tr>\n        </tbody>\n\n      </table>\n\n    </div>\n  </form>\n</ba-card>\n"
 
 /***/ }),
 /* 1122 */
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\n  <form class=\"form-horizontal\">\n    <div class=\"container-fluid\">\n      <div class=\"form-group row\">\n        <h4>Información de contacto 1 </h4>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"contactname\" class=\"control-label col-md-12\">Nombres:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"contactsName\" placeholder=\"Nombres\" name=\"contactsName\"\n             [(ngModel)]=\"contactsData.nombre\" (input)=\"validarNombre()\" pattern=\"[a-zA-Z ]*\"\n              #contactsName=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"contactsName.errors\">\n              <div *ngIf=\"contactsName.touched && !contactsName.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!contactsName.validator.minlength && contactsName.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6\">\n          <label for=\"influence\" class=\"control-label col-md-12\">Influencia Compradora:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"influence\" name=\"influence\" [(ngModel)]=\"contactsData.influenciaCompra\" #influence=\"ngModel\"\n                required>\n                <option *ngFor = \"let modo of influenciaCompra\" [ngValue]= \"modo\">{{modo.nombre}}</option>\n\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"influence.errors\">\n                <div *ngIf=\"influence.touched && !influence.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"gradeinfluence\" class=\"control-label col-md-12\">Grado Influencia:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"gradeInfluence\" name=\"gradeInfluence\" [(ngModel)]=\"contactsData.gradoInfluencia\" #gradeInfluence=\"ngModel\"\n                required>\n                <option *ngFor = \"let grado of gradoInfluencia\" [ngValue]= \"grado\">{{grado.nombre}}</option>\n\n\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"gradeInfluence.errors\">\n                <div *ngIf=\"gradeInfluence.touched && !gradeInfluence.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"telephone\" class=\"control-label col-md-12\">Teléfono:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"telephone\" (input)=\"validarTelefono()\"\n            placeholder=\"Teléfono\" name=\"telephone\"   pattern=\"[0-9]*\" [(ngModel)]=\"contactsData.telefono\"\n              #contactsTelephone=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"contactsTelephone.errors\">\n              <div *ngIf=\"contactsTelephone.touched && !contactsTelephone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!contactsTelephone.validator.minlength && contactsTelephone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres y debe ser númerico\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row \">\n        <div class=\"form-group col-md-6\">\n          <label for=\"celphone\" class=\"control-label col-md-12\">Celular:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"celphone\" placeholder=\"Celular\" name=\"contactsCelphone\"\n            [(ngModel)]=\"contactsData.celular\"  pattern=\"[0-9]*\"\n              #contactsCelphone=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"contactsCelphone.errors\">\n              <div *ngIf=\"contactsCelphone.touched && !contactsCelphone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!contactsCelphone.validator.minlength && contactsCelphone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"form-group col-md-6\">\n          <label for=\"contactsMode\" class=\"control-label col-md-12\">Modo:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"contactsMode\" name=\"contactsMode\" [(ngModel)]=\"contactsData.modo\" #contactsMode=\"ngModel\"\n                required>\n                <option *ngFor = \"let modo of modos\" [ngValue]= \"modo\">{{modo.nombre}}</option>\n\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"contactsMode.errors\">\n                <div *ngIf=\"contactsMode.touched && !contactsMode.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group row\">\n\n\n        <div class=\"form-group col-md-6\">\n          <label for=\"birthday\" class=\"control-label col-md-12\">Fecha Cumpleaños:</label>\n          <div class=\"container col-md-12\">\n              <div class=\"row\">\n                  <div class='col-sm-6'>\n                      <input type=\"date\" class=\"form-control\" name=\"birthday\" [(ngModel)]=\"contactsData.fechacumpleanos\" #birthday=\"ngModel\" size=\"50\" required />\n\n                  </div>\n                  <div *ngIf=\"birthday.errors\">\n                      <div *ngIf=\"birthday.touched && !birthday.valid\" class=\"alert alert-danger\">\n                        <strong>Warning!</strong>Campo requerido.\n                      </div>\n                    </div>\n\n              </div>\n          </div>\n\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"email\" class=\"control-label col-md-12\">Correo:</label>\n          <div class=\"col-md-12\">\n            <input type=\"email\" class=\"form-control\"\n             name=\"email\" id=\"email\" placeholder=\"Email\" [(ngModel)]=\"contactsData.email\" #email=\"ngModel\"\n              ng-required=\"emailObligatorio\" maxlength=\"200\" minlength=\"3\"  (change)=\"validarEmail(contactsData.email)\">\n            <div *ngIf=\"email.errors\">\n              <div *ngIf=\"emailObligatorio\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!email.validator.minlength && email.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <br>\n        <h4>Agregar contacto</h4>\n        <br>\n        <div>\n          <button class=\"btn btn-primary\" (click)=\"  saveContactsData()\">Agregar</button>\n        </div>\n\n      </div>\n      <div class=\"panel panel-default\" *ngIf=\"contactDatas!=null && contactDatas.length>0\">\n        <div class=\"panel-heading\">Información de Contactos</div>\n        <table class=\"table table-striped\">\n          <thead>\n            <tr>\n              <th>\n                Nombre:\n              </th>\n              <th>\n                Influencia Compradora:\n              </th>\n              <th>\n                Grado influencia:\n              </th>\n\n              <th>\n                Teléfono:\n              </th>\n              <th>\n                Celular:\n              </th>\n              <th>\n                Modo:\n              </th>\n              <th>\n                Fecha Cumpleaños::\n              </th>\n              <th>\n                Correo:\n              </th>\n              <tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let data of contactDatas\">\n              <td>{{data.nombre}}</td>\n              <td> {{data.influenciaCompra.nombre}}</td>\n              <td> {{data.gradoInfluencia.nombre}}%</td>\n              <td> {{data.telefono}}</td>\n              <td> {{data.celular}}</td>\n              <td> {{data.modo.nombre}}</td>\n              <td> {{data.fechacumpleanos}}</td>\n              <td> {{data.email}}</td>\n              <td>\n                <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"removeContact(data)\" name=\"eliminarSector\"><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\n                <button class=\".glyphicon-trash btn btn-info\" (click)=\"editarContacto(data)\" name=\"editarSector\"><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n      <div class=\"box-shadow-border\"></div>\n      <br>\n      <h4>Información Cartera</h4>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"financialContact\" class=\"control-label col-md-12\">Contacto Tesoreria:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" placeholder=\"Contacto Tesoreria\" name=\"financialContact\" id=\"financialContact\" (input)=\"validarNombreCartera()\" [(ngModel)]=\"contactsCartera.nombre\"\n              #financialName=\"ngModel\" required maxlength=\"200\" minlength=\"3\"pattern=\"[a-zA-Z ]*\">\n            <div *ngIf=\"financialName.errors\">\n              <div *ngIf=\"financialName.touched && !financialName.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialName.validator.minlength && financialName.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"form-group col-md-6 \">\n          <label for=\"financialTelephone\" class=\"control-label col-md-12\">Teléfono:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"financialTelephone\"  placeholder=\"Teléfono\" name=\"financialTelephone\" [(ngModel)]=\"contactsCartera.telefono\"\n              #financialTelephone=\"ngModel\"  pattern=\"[0-9]*\"  required maxlength=\"200\" minlength=\"3\" (input)=\"validarTelefonoCartera()\">\n            <div *ngIf=\"financialTelephone.errors\">\n              <div *ngIf=\"financialTelephone.touched && !financialTelephone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialTelephone.validator.minlength && financialTelephone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"financialCelphone\" class=\"control-label col-md-12\">Celular:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"financialCelphone\" placeholder=\"Celular\"\n             name=\"financialCelphone\"  pattern=\"[0-9]*\" [(ngModel)]=\"contactsCartera.celular\" (input)=\"validarCelularCartera()\"\n              #financialCelphone=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"financialCelphone.errors\">\n              <div *ngIf=\"financialCelphone.touched && !financialCelphone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialCelphone.validator.minlength && financialCelphone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"financialEmail\" class=\"control-label col-md-12\">Correo:</label>\n          <div class=\"col-md-12\">\n            <input type=\"email\" class=\"form-control\" id=\"financialEmail\" placeholder=\"Correo\" name=\"financialEmail\" [(ngModel)]=\"contactsCartera.email\"\n              #financialEmail=\"ngModel\" required maxlength=\"200\" minlength=\"3\" (change)=\"validarEmail(contactsCartera.email)\">\n            <div *ngIf=\"financialEmail.errors\">\n              <div *ngIf=\"financialEmail.touched && !financialEmail.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialEmail.validator.minlength && financialEmail.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"box-shadow-border\"></div>\n\n        <div class=\"form-group col-md-6 \">\n          <br>\n          <h4>Agregar contacto cartera</h4>\n          <br>\n          <div>\n            <button class=\"btn btn-primary\" (click)=\"saveContactsCateraData()\">Agregar</button>\n          </div>\n        </div>\n\n      </div>\n\n      <div class=\"panel panel-default\" *ngIf=\"contactoCartera!=null && contactoCartera.length>0\">\n        <div class=\"panel-heading\">Información de contactos Cartera</div>\n        <table class=\"table table-striped\">\n          <thead>\n            <tr>\n              <th>\n                Nombre:\n              </th>\n              <th>\n                Teléfono:\n              </th>\n              <th>\n                Celular:\n              </th>\n              <th>\n                Correo:\n              </th>\n              <tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let data of contactoCartera\">\n              <td>{{data.nombre}}</td>\n              <td> {{data.telefono}}</td>\n              <td> {{data.celular}}</td>\n              <td> {{data.email}}</td>\n              <td>\n                <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"removeContactsCatera(data)\" name=\"eliminarSector\"><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\n                <button class=\".glyphicon-trash btn btn-info\" (click)=\"editarContactoCartera(data)\" name=\"editarSector\"><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\n\n              </td>\n            </tr>\n          </tbody>\n\n        </table>\n\n      </div>\n      <br>\n      <div class=\"box-shadow-border\"></div>\n      <br>\n      <h4>Información Contacto HSEQ</h4>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"hseqName\" class=\"control-label col-md-12\">Nombres:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"hseqName\" placeholder=\"Nombres\" pattern=\"[a-zA-Z ]*\" name=\"hseqName\" [(ngModel)]=\"contactsHseq.nombre\" (input)=\"validarNombreHSEQ()\"\n              #hseqName=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"hseqName.errors\">\n              <div *ngIf=\"hseqName.touched && !hseqName.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!hseqName.validator.minlength && hseqName.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"hseqTelephone\" class=\"control-label col-md-12\">Teléfono:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"hseqTelephone\" placeholder=\"Teléfono\" pattern=\"[0-9]*\" name=\"hseqTelephone\" [(ngModel)]=\"contactsHseq.telefono\"\n              #hseqTelephone=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"hseqTelephone.errors\">\n              <div *ngIf=\"hseqTelephone.touched && !hseqTelephone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!hseqTelephone.validator.minlength && hseqTelephone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"box-shadow-border\"></div>\n        <br>\n        <h4>Agregar otro contacto Hseq</h4>\n        <br>\n        <div>\n        </div>\n\n        <button class=\"btn btn-primary\" (click)=\"saveContactsHseqData()\">Agregar</button>\n      </div>\n      <div class=\"panel panel-default\" *ngIf=\"contactoHseq!=null && contactoHseq.length>0\">\n        <div class=\"panel-heading\">Información de contactos Hseq</div>\n        <table class=\"table table-striped\">\n          <thead>\n            <tr>\n              <th>\n                Nombre:\n              </th>\n              <th>\n                Teléfono:\n              </th>\n              <tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let data of contactoHseq\">\n              <td>{{data.nombre}}</td>\n              <td> {{data.telefono}}</td>\n              <td>\n                <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"removeContactsHseq(data)\" name=\"eliminarSector\"><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\n                <button class=\".glyphicon-trash btn btn-info\" (click)=\"editarContactoHseq(data)\" name=\"editarSector\"><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\n\n              </td>\n            </tr>\n          </tbody>\n\n        </table>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n\n\n          <div *ngIf=\"contactsName.errors || influence.errors || gradeInfluence.errors || contactsTelephone.errors ||contactsCelphone.errors || contactsMode.errors\n\t\t\t\t\t|| birthday.errors || email.errors  || email.errors || financialName.errors || financialTelephone.errors || financialCelphone.errors\n\t\t\t\t\t || financialEmail.errors || hseqName.errors || hseqTelephone.errors \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSLA()\" disabled>Negocio</button>\n            <!--<button class=\"btn btn-success\" (click)=\"saveContactsData()\" disabled=\"\">Guardar</button>-->\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n          <div *ngIf=\"!contactsName.errors && !influence.errors && !gradeInfluence.errors && !contactsTelephone.errors && !contactsCelphone.errors && !contactsMode.errors\n\t\t\t\t\t\t&& !birthday.errors && !email.errors  && !email.errors && !financialName.errors && !financialTelephone.errors && !financialCelphone.errors\n\t\t\t\t\t\t&& !financialEmail.errors && !hseqName.errors && !hseqTelephone.errors \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSLA()\">Negocio</button>\n           <!-- <button class=\"btn btn-success\" (click)=\"saveContactsData()\">Guardar</button>-->\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n        </div>\n      </div>\n    </div>\n  </form>\n</ba-card>\n"
+module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\n  <form class=\"form-horizontal\">\n    <div class=\"container-fluid\">\n      <div class=\"form-group row\">\n        <h4>Información de contacto 1 </h4>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"contactname\" class=\"control-label col-md-12\">Nombres:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"contactsName\" placeholder=\"Nombres\" name=\"contactsName\"\n             [(ngModel)]=\"contactsData.nombre\" (input)=\"validarNombre()\"\n              #contactsName=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"contactsName.errors\">\n              <div *ngIf=\"contactsName.touched && !contactsName.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!contactsName.validator.minlength && contactsName.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6\">\n          <label for=\"influence\" class=\"control-label col-md-12\">Influencia Compradora:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"influence\" name=\"influence\" [(ngModel)]=\"contactsData.influenciaCompra\" #influence=\"ngModel\"\n                required>\n                <option *ngFor = \"let modo of influenciaCompra\" [ngValue]= \"modo\">{{modo.nombre}}</option>\n\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"influence.errors\">\n                <div *ngIf=\"influence.touched && !influence.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"gradeinfluence\" class=\"control-label col-md-12\">Grado Influencia:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"gradeInfluence\" name=\"gradeInfluence\" [(ngModel)]=\"contactsData.gradoInfluencia\" #gradeInfluence=\"ngModel\"\n                required>\n                <option *ngFor = \"let grado of gradoInfluencia\" [ngValue]= \"grado\">{{grado.nombre}}</option>\n\n\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"gradeInfluence.errors\">\n                <div *ngIf=\"gradeInfluence.touched && !gradeInfluence.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"telephone\" class=\"control-label col-md-12\">Teléfono:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"telephone\" (input)=\"validarTelefono()\"\n            placeholder=\"Teléfono\" name=\"telephone\"   pattern=\"[0-9]*\" [(ngModel)]=\"contactsData.telefono\"\n              #contactsTelephone=\"ngModel\" maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"contactsTelephone.errors\">\n              <div *ngIf=\"contactsTelephone.touched && !contactsTelephone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!contactsTelephone.validator.minlength && contactsTelephone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres y debe ser númerico\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"form-group row \">\n        <div class=\"form-group col-md-6\">\n          <label for=\"celphone\" class=\"control-label col-md-12\">Celular:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"celphone\" placeholder=\"Celular\" name=\"contactsCelphone\"\n            [(ngModel)]=\"contactsData.celular\"  pattern=\"[0-9]*\"\n              #contactsCelphone=\"ngModel\"  maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"contactsCelphone.errors\">\n              <div *ngIf=\"contactsCelphone.touched && !contactsCelphone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!contactsCelphone.validator.minlength && contactsCelphone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"form-group col-md-6\">\n          <label for=\"contactsMode\" class=\"control-label col-md-12\">Modo:</label>\n          <div class=\"col-md-12\">\n            <div class=\"form-group\">\n              <select class=\"form-control\" id=\"contactsMode\" name=\"contactsMode\" [(ngModel)]=\"contactsData.modo\" #contactsMode=\"ngModel\"\n                required>\n                <option *ngFor = \"let modo of modos\" [ngValue]= \"modo\">{{modo.nombre}}</option>\n\t\t\t\t\t\t\t</select>\n              <div *ngIf=\"contactsMode.errors\">\n                <div *ngIf=\"contactsMode.touched && !contactsMode.valid\" class=\"alert alert-danger\">\n                  <strong>Warning!</strong>Campo requerido.\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group row\">\n\n\n        <div class=\"form-group col-md-6\">\n          <label for=\"birthday\" class=\"control-label col-md-12\">Fecha Cumpleaños:</label>\n          <div class=\"container col-md-12\">\n              <div class=\"row\">\n                  <div class='col-sm-6'>\n                      <input type=\"date\" class=\"form-control\" name=\"birthday\" [(ngModel)]=\"contactsData.fechacumpleanos\" #birthday=\"ngModel\" size=\"50\" required />\n\n                  </div>\n                  <div *ngIf=\"birthday.errors\">\n                      <div *ngIf=\"birthday.touched && !birthday.valid\" class=\"alert alert-danger\">\n                        <strong>Warning!</strong>Campo requerido.\n                      </div>\n                    </div>\n\n              </div>\n          </div>\n\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"email\" class=\"control-label col-md-12\">Correo:</label>\n          <div class=\"col-md-12\">\n            <input type=\"email\" class=\"form-control\"\n             name=\"email\" id=\"email\" placeholder=\"Email\" [(ngModel)]=\"contactsData.email\" #email=\"ngModel\"\n              ng-required=\"emailObligatorio\" maxlength=\"200\" minlength=\"3\"  pattern = \"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\"\n              (change)=\"validarEmail(contactsData.email)\">\n            <div *ngIf=\"email.errors\">\n              <div *ngIf=\"emailObligatorio\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!email.validator.minlength && email.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <br>\n        <h4>Agregar contacto</h4>\n        <br>\n        <div>\n          <button class=\"btn btn-primary\" (click)=\"  saveContactsData()\">Agregar</button>\n        </div>\n\n      </div>\n      <div class=\"panel panel-default\" *ngIf=\"contactDatas!=null && contactDatas.length>0\">\n        <div class=\"panel-heading\">Información de Contactos</div>\n        <table class=\"table table-striped\">\n          <thead>\n            <tr>\n              <th>\n                Nombre:\n              </th>\n              <th>\n                Influencia Compradora:\n              </th>\n              <th>\n                Grado influencia:\n              </th>\n\n              <th>\n                Teléfono:\n              </th>\n              <th>\n                Celular:\n              </th>\n              <th>\n                Modo:\n              </th>\n              <th>\n                Fecha Cumpleaños::\n              </th>\n              <th>\n                Correo:\n              </th>\n              <tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let data of contactDatas\">\n              <td>{{data.nombre}}</td>\n              <td> {{data.influenciaCompra.nombre}}</td>\n              <td> {{data.gradoInfluencia.nombre}}%</td>\n              <td> {{data.telefono}}</td>\n              <td> {{data.celular}}</td>\n              <td> {{data.modo.nombre}}</td>\n              <td> {{data.fechacumpleanos}}</td>\n              <td> {{data.email}}</td>\n              <td>\n                <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"removeContact(data)\" name=\"eliminarSector\"><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\n                <button class=\".glyphicon-trash btn btn-info\" (click)=\"editarContacto(data)\" name=\"editarSector\"><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n      <div class=\"box-shadow-border\"></div>\n      <br>\n      <h4>Información Cartera</h4>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"financialContact\" class=\"control-label col-md-12\">Contacto Tesoreria:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" placeholder=\"Contacto Tesoreria\" name=\"financialContact\" id=\"financialContact\" (input)=\"validarNombreCartera()\" [(ngModel)]=\"contactsCartera.nombre\"\n              #financialName=\"ngModel\" required maxlength=\"200\" minlength=\"3\"pattern=\"[a-zA-Z ]*\">\n            <div *ngIf=\"financialName.errors\">\n              <div *ngIf=\"financialName.touched && !financialName.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialName.validator.minlength && financialName.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"form-group col-md-6 \">\n          <label for=\"financialTelephone\" class=\"control-label col-md-12\">Teléfono:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"financialTelephone\"  placeholder=\"Teléfono\" name=\"financialTelephone\" [(ngModel)]=\"contactsCartera.telefono\"\n              #financialTelephone=\"ngModel\"  pattern=\"[0-9]*\"  required maxlength=\"200\" minlength=\"3\" (input)=\"validarTelefonoCartera()\">\n            <div *ngIf=\"financialTelephone.errors\">\n              <div *ngIf=\"financialTelephone.touched && !financialTelephone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialTelephone.validator.minlength && financialTelephone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"financialCelphone\" class=\"control-label col-md-12\">Celular:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"financialCelphone\" placeholder=\"Celular\"\n             name=\"financialCelphone\"  pattern=\"[0-9]*\" [(ngModel)]=\"contactsCartera.celular\" (input)=\"validarCelularCartera()\"\n              #financialCelphone=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"financialCelphone.errors\">\n              <div *ngIf=\"financialCelphone.touched && !financialCelphone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialCelphone.validator.minlength && financialCelphone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"financialEmail\" class=\"control-label col-md-12\">Correo:</label>\n          <div class=\"col-md-12\">\n            <input type=\"email\" class=\"form-control\" id=\"financialEmail\" placeholder=\"Correo\" name=\"financialEmail\" [(ngModel)]=\"contactsCartera.email\"\n              #financialEmail=\"ngModel\" required maxlength=\"200\" minlength=\"3\" (change)=\"validarEmail(contactsCartera.email)\">\n            <div *ngIf=\"financialEmail.errors\">\n              <div *ngIf=\"financialEmail.touched && !financialEmail.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!financialEmail.validator.minlength && financialEmail.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"box-shadow-border\"></div>\n\n        <div class=\"form-group col-md-6 \">\n          <br>\n          <h4>Agregar contacto cartera</h4>\n          <br>\n          <div>\n            <button class=\"btn btn-primary\" (click)=\"saveContactsCateraData()\">Agregar</button>\n          </div>\n        </div>\n\n      </div>\n\n      <div class=\"panel panel-default\" *ngIf=\"contactoCartera!=null && contactoCartera.length>0\">\n        <div class=\"panel-heading\">Información de contactos Cartera</div>\n        <table class=\"table table-striped\">\n          <thead>\n            <tr>\n              <th>\n                Nombre:\n              </th>\n              <th>\n                Teléfono:\n              </th>\n              <th>\n                Celular:\n              </th>\n              <th>\n                Correo:\n              </th>\n              <tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let data of contactoCartera\">\n              <td>{{data.nombre}}</td>\n              <td> {{data.telefono}}</td>\n              <td> {{data.celular}}</td>\n              <td> {{data.email}}</td>\n              <td>\n                <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"removeContactsCatera(data)\" name=\"eliminarSector\"><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\n                <button class=\".glyphicon-trash btn btn-info\" (click)=\"editarContactoCartera(data)\" name=\"editarSector\"><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\n\n              </td>\n            </tr>\n          </tbody>\n\n        </table>\n\n      </div>\n      <br>\n      <div class=\"box-shadow-border\"></div>\n      <br>\n      <h4>Información Contacto HSEQ</h4>\n      <div class=\"form-group row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"hseqName\" class=\"control-label col-md-12\">Nombres:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"hseqName\" placeholder=\"Nombres\" pattern=\"[a-zA-Z ]*\" name=\"hseqName\" [(ngModel)]=\"contactsHseq.nombre\" (input)=\"validarNombreHSEQ()\"\n              #hseqName=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"hseqName.errors\">\n              <div *ngIf=\"hseqName.touched && !hseqName.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!hseqName.validator.minlength && hseqName.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group col-md-6 \">\n          <label for=\"hseqTelephone\" class=\"control-label col-md-12\">Teléfono:</label>\n          <div class=\"col-md-12\">\n            <input type=\"text\" class=\"form-control\" id=\"hseqTelephone\" placeholder=\"Teléfono\" pattern=\"[0-9]*\" name=\"hseqTelephone\" [(ngModel)]=\"contactsHseq.telefono\"\n              #hseqTelephone=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\n            <div *ngIf=\"hseqTelephone.errors\">\n              <div *ngIf=\"hseqTelephone.touched && !hseqTelephone.valid\" class=\"alert alert-danger\">\n                <strong>Warning!</strong>Campo requerido.\n              </div>\n              <div *ngIf=\"!hseqTelephone.validator.minlength && hseqTelephone.touched\" class=\"alert alert-danger \">\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"box-shadow-border\"></div>\n        <br>\n        <h4>Agregar otro contacto Hseq</h4>\n        <br>\n        <div>\n        </div>\n\n        <button class=\"btn btn-primary\" (click)=\"saveContactsHseqData()\">Agregar</button>\n      </div>\n      <div class=\"panel panel-default\" *ngIf=\"contactoHseq!=null && contactoHseq.length>0\">\n        <div class=\"panel-heading\">Información de contactos Hseq</div>\n        <table class=\"table table-striped\">\n          <thead>\n            <tr>\n              <th>\n                Nombre:\n              </th>\n              <th>\n                Teléfono:\n              </th>\n              <tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let data of contactoHseq\">\n              <td>{{data.nombre}}</td>\n              <td> {{data.telefono}}</td>\n              <td>\n                <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"removeContactsHseq(data)\" name=\"eliminarSector\"><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\n                <button class=\".glyphicon-trash btn btn-info\" (click)=\"editarContactoHseq(data)\" name=\"editarSector\"><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\n\n              </td>\n            </tr>\n          </tbody>\n\n        </table>\n\n      </div>\n\n      <div class=\"form-group row\">\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n        </div>\n        <div class=\"col-md-4\">\n\n\n          <div *ngIf=\"contactsName.errors || influence.errors || gradeInfluence.errors || contactsTelephone.errors ||contactsCelphone.errors || contactsMode.errors\n\t\t\t\t\t|| birthday.errors || email.errors  || email.errors || financialName.errors || financialTelephone.errors || financialCelphone.errors\n\t\t\t\t\t || financialEmail.errors || hseqName.errors || hseqTelephone.errors \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSLA()\" disabled>Negocio</button>\n            <!--<button class=\"btn btn-success\" (click)=\"saveContactsData()\" disabled=\"\">Guardar</button>-->\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n          <div *ngIf=\"!contactsName.errors && !influence.errors && !gradeInfluence.errors && !contactsTelephone.errors && !contactsCelphone.errors && !contactsMode.errors\n\t\t\t\t\t\t&& !birthday.errors && !email.errors  && !email.errors && !financialName.errors && !financialTelephone.errors && !financialCelphone.errors\n\t\t\t\t\t\t&& !financialEmail.errors && !hseqName.errors && !hseqTelephone.errors \">\n            <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSLA()\">Negocio</button>\n           <!-- <button class=\"btn btn-success\" (click)=\"saveContactsData()\">Guardar</button>-->\n            <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\n          </div>\n        </div>\n      </div>\n    </div>\n  </form>\n</ba-card>\n"
 
 /***/ }),
 /* 1123 */
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\r\n  <form class=\"form-horizontal\">\r\n    <div class=\"container-fluid\">\r\n      <div class=\"form-group row\">\r\n        <h4>Información General </h4>\r\n      </div>\r\n      <div class=\"form-group row\">\r\n        <div class=\"form-group col-md-6\">\r\n          <label for=\"codsap\" class=\"control-label col-md-12\">Código cliente SAP o Nit:</label>\r\n          <div class=\"col-md-12\">\r\n            <input type=\"text\" class=\"form-control\" name=\"codsap2\" id=\"codsap2\" placeholder=\"Cod Sap\" [(ngModel)]=\"generalData.codigosap\"\r\n              #codsap=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n            <div *ngIf=\"codsap.errors\">\r\n              <div *ngIf=\"codsap.touched && !codsap.valid\" class=\"alert alert-danger\">\r\n                <strong>Warning!</strong>Campo requerido.\r\n              </div>\r\n              <div *ngIf=\"!codsap.validator.minlength && codsap.touched\" class=\"alert alert-danger \">\r\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group col-md-6 \">\r\n          <label for=\"typeCustomer\" class=\"control-label col-md-12\">Tipo de cliente:</label>\r\n          <div class=\"col-md-12\">\r\n            <div class=\"form-group\">\r\n              <select class=\"form-control\" id=\"typecustomer\" name=\"typecustomer\" [(ngModel)]=\"generalData.tipoBusqueda\" #typecustomer=\"ngModel\"\r\n                required>\r\n                <option [ngValue]=\"1\">Sap</option>\r\n                <option [ngValue]=\"1\">Nit</option>\r\n\r\n              </select>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group col-md-6 \">\r\n          <button class=\"btn btn-success\" (click)=\"consultarCliente()\">Consultar Cliente</button>\r\n        </div>\r\n        <div class=\"form-group col-md-6 \">\r\n          <button class=\"btn btn-success\" (click)=\"clienteNuevoCliente()\">Nuevo Cliente</button>\r\n        </div>\r\n      </div>\r\n\r\n      <br>\r\n      <div *ngIf=\"mostrarDataCliente\">\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"codsap\" class=\"control-label col-md-12\">Código cliente SAP:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" name=\"codsap\" id=\"codsap\" [disabled]=\"dataEdicion\" placeholder=\"Cod Sap\" [(ngModel)]=\"generalData.codigosap\"\r\n                #codsap=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"codsap.errors\">\r\n                <div *ngIf=\"codsap.touched && !codsap.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n                <div *ngIf=\"!codsap.validator.minlength && codsap.touched\" class=\"alert alert-danger \">\r\n                  <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"typeCustomer\" class=\"control-label col-md-12\">Tipo de cliente:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"typecustomer\" name=\"typecustomer\" [(ngModel)]=\"generalData.tipoCliente\" #typecustomer=\"ngModel\"\r\n                  required>\r\n                  <option *ngFor=\"let tipo of tipoClientes\" [ngValue]=\"tipo\">{{tipo.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"typecustomer.errors\">\r\n                  <div *ngIf=\"typecustomer.touched && !typecustomer.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"kBName\" class=\"control-label col-md-12\">Ejecutivo Negocio:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"kBName\" name=\"kBName\" [(ngModel)]=\"generalData.ejecutivoNegocio\" #kBName=\"ngModel\" required>\r\n                  <option *ngFor=\"let ejecutivoNegocios of keyBusinessDatas\" [ngValue]=\"ejecutivoNegocios\">{{ejecutivoNegocios.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"kBName.errors\">\r\n                  <div *ngIf=\"kBName.touched && !kBName.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"kAName\" class=\"control-label col-md-12\">Ejecutivo Cuenta:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"kAName\" name=\"kAName\" [(ngModel)]=\"generalData.ejecutivoCuenta\" #kAName=\"ngModel\">\r\n                  <option *ngFor=\"let datos of keyAccountDatas\" [ngValue]=\"datos\">{{datos.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"kAName.errors\">\r\n                  <div *ngIf=\"kAName.touched && !kAName.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"form-group row \">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"regional\" class=\"control-label col-md-12\">Regional:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"regional\" name=\"regional\" [(ngModel)]=\"generalData.regional\" #regionals=\"ngModel\" required>\r\n                  <option *ngFor=\"let regionalsData of regionalsDatas\" [ngValue]=\"regionalsData\">{{regionalsData.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"regionals.errors\">\r\n                  <div *ngIf=\"regionals.touched && !regionals.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"nameComercial\" class=\"control-label col-md-12\">Razón Social:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" name=\"nameComercial\" id=\"nameComercial\" placeholder=\"Razón Social\" [(ngModel)]=\"generalData.razonsocial\"\r\n                #nameComercial=\"ngModel\" (input)=\"validarNombre()\" required maxlength=\"200\" minlength=\"3\" pattern=\"[a-zA-Z ]*\">\r\n              <div *ngIf=\"nameComercial.errors\">\r\n                <div *ngIf=\"nameComercial.touched && !nameCommercial.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"nit\" class=\"control-label col-md-12\">NIT:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" name=\"nit\" id=\"nit\" pattern=\"[0-9]*\" [disabled]=\"dataEdicion\" placeholder=\"Nit\" [(ngModel)]=\"generalData.nit\"\r\n                #nit=\"ngModel\" required maxlength=\"200\" minlength=\"3\" (input)=\"validarNit()\">\r\n              <div *ngIf=\"nit.errors\">\r\n                <div *ngIf=\"nit.touched && !nit.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"address\" class=\"control-label col-md-12\">Dirección:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" (input)=\"validarDireccion()\" class=\"form-control\" name=\"address\" id=\"address\" placeholder=\"Dirección\"\r\n                [(ngModel)]=\"generalData.direccion\" #address=\"ngModel\" required maxlength=\"200\" minlength=\"3\" pattern=\"[a-zA-Z ]*\">\r\n              <div *ngIf=\"address.errors\">\r\n                <div *ngIf=\"address.touched && !address.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"barrio\" class=\"control-label col-md-12\">Barrio:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" (input)=\"validarBarrio()\" pattern=\"[a-zA-Z ]*\" name=\"barrio\" id=\"barrio\" placeholder=\"Barrio\"\r\n                [(ngModel)]=\"generalData.barrio\" #barrio=\"ngModel\" maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"barrio.errors\">\r\n                <div *ngIf=\"barrio.touched && !barrio.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"email\" class=\"control-label col-md-12\">Correo:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"email\" class=\"form-control\" name=\"email\" id=\"email\" placeholder=\"Email\" [(ngModel)]=\"generalData.email\" #email=\"ngModel\"\r\n                (change)=\"validarEmail(generalData.email)\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"email.errors\">\r\n                <div *ngIf=\"email.touched && !emailvalid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"telephone\" class=\"control-label col-md-12\">Teléfono Fijo:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" pattern=\"[0-9]*\" name=\"telephone\" id=\"telephone\" placeholder=\"Teléfono\" [(ngModel)]=\"generalData.telfonofijo\"\r\n                (input)=\"validarTelefono()\" #telephone=\"ngModel\" maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"telephone.errors\">\r\n                <div *ngIf=\"telephone.touched && !telephone.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"numberSedes\" class=\"control-label col-md-12\">No Sedes:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"number\" class=\"form-control\" pattern=\"[0-9]*\" name=\"sedes\" id=\"sedes\" placeholder=\"sedes\" [(ngModel)]=\"generalData.numbersedes\"\r\n                #numberSedes=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"numberSedes.errors\">\r\n                <div *ngIf=\"numberSedes.touched && !numberSedes.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"celphone\" class=\"control-label col-md-12\">Celular:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" pattern=\"[0-9]*\" name=\"celphone\" id=\"celphone\" placeholder=\"Celular\" [(ngModel)]=\"generalData.numerocelular\"\r\n                #celphone=\"ngModel\" required maxlength=\"200\" minlength=\"3\" (input)=\"validarCelular()\">\r\n              <div *ngIf=\"celphone.errors\">\r\n                <div *ngIf=\"celphone.touched && !celphone.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n\r\n          </div>\r\n        </div>\r\n        <div class=\"box-shadow-border\"></div>\r\n        <br>\r\n        <h4>Vigencia Contrato</h4>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"contractStart\" class=\"control-label col-md-12\">Fecha Inicio:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"input-group date\">\r\n                <my-date-picker name=\"contractStart\" [options]=\"myDatePickerOptions\" [(ngModel)]=\"generalData.fechaInicioObjeto\" #contractStart=\"ngModel\"\r\n                  required></my-date-picker>\r\n              </div>\r\n              <div *ngIf=\"contractStart.errors\">\r\n                <div *ngIf=\"contractStart.touched && !contractStart.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"contractEnd\" class=\"control-label col-md-12\">Fecha Fin:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"input-group date\">\r\n                <my-date-picker name=\"contractend\" [options]=\"myDatePickerOptions\" [(ngModel)]=\"generalData.fechaFinObjeto\" #contractEnd=\"ngModel\"\r\n                  required></my-date-picker>\r\n              </div>\r\n              <div *ngIf=\"contractEnd.errors\">\r\n                <div *ngIf=\"contractEnd.touched && !contractEnd.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"box-shadow-border\"></div>\r\n        <br>\r\n        <h4>Objetivos Singular de Venta</h4>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"objetiveyear\" class=\"control-label col-md-12\">Anual:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"number\" class=\"form-control\" name=\"objetiveyear\" pattern=\"[0-9]*\" id=\"objetiveyear\" placeholder=\"Objetivo anual\"\r\n                [(ngModel)]=\"generalData.objetivoanual\" #objetiveyear=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"objetiveyear.errors\">\r\n                <div *ngIf=\"objetiveyear.touched && !objetiveyear.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"objetivemonth\" class=\"control-label col-md-12\">Mensual:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"number\" class=\"form-control\" pattern=\"[0-9]*\" name=\"objetivemonth\" id=\"objetivemonth\" placeholder=\"Objetivo Mensual\"\r\n                [(ngModel)]=\"generalData.objetivomensual\" #objetivemonth=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"objetivemonth.errors\">\r\n                <div *ngIf=\"objetivemonth.touched && !objetivemonth.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n\r\n\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"form-group row\">\r\n          <div class=\"col-md-4\">\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n\r\n            <div *ngIf=\"kBName.errors || kAName.errors || codsap.errors || typecustomer.errors || nameComercial.errors || regionals.errors\r\n\t\t\t\t\t\t|| nit.errors || address.errors || barrio.errors || email.errors || telephone.errors || numberSedes.errors || celphone.errors\r\n\t\t\t\t\t\t || objetiveyear.errors || objetivemonth.errors || contractStart.errors || contractEnd.errors\">\r\n              <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSedes()\" disabled>Sedes</button>\r\n              <button class=\"btn btn-success\" (click)=\"saveGeneralData()\" disabled=\"\">Guardar</button>\r\n              <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\r\n            </div>\r\n            <div *ngIf=\"!kBName.errors && !kAName.errors && !codsap.errors && !typecustomer.errors && !nameComercial.errors && !regionals.errors\r\n\t\t\t\t\t\t\t&& !nit.errors && !address.errors && !barrio.errors && !email.errors && !telephone.errors && !numberSedes.errors && !celphone.errors\r\n\t\t\t\t\t\t\t&& !contractStart.errors && !contractEnd.errors && !objetiveyear.errors && !objetivemonth.errors\">\r\n              <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSedes()\">Sede</button>\r\n              <button class=\"btn btn-success\" (click)=\"saveGeneralData()\">Guardar</button>\r\n              <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </form>\r\n</ba-card>\r\n"
+module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\r\n  <form class=\"form-horizontal\">\r\n    <div class=\"container-fluid\">\r\n      <div class=\"form-group row\">\r\n        <h4>Información General </h4>\r\n      </div>\r\n      <div class=\"form-group row\">\r\n        <div class=\"form-group col-md-6\">\r\n          <label for=\"codsap\" class=\"control-label col-md-12\">Código cliente SAP o Nit:</label>\r\n          <div class=\"col-md-12\">\r\n            <input type=\"text\" class=\"form-control\" name=\"codsap2\" id=\"codsap2\" placeholder=\"Cod Sap\" [(ngModel)]=\"generalData.codigosap\"\r\n              #codsap=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n            <div *ngIf=\"codsap.errors\">\r\n              <div *ngIf=\"codsap.touched && !codsap.valid\" class=\"alert alert-danger\">\r\n                <strong>Warning!</strong>Campo requerido.\r\n              </div>\r\n              <div *ngIf=\"!codsap.validator.minlength && codsap.touched\" class=\"alert alert-danger \">\r\n                <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group col-md-6 \">\r\n          <label for=\"typeCustomer\" class=\"control-label col-md-12\">Tipo de cliente:</label>\r\n          <div class=\"col-md-12\">\r\n            <div class=\"form-group\">\r\n              <select class=\"form-control\" id=\"typecustomer\" name=\"typecustomer\" [(ngModel)]=\"generalData.tipoBusqueda\" #typecustomer=\"ngModel\"\r\n                required>\r\n                <option [ngValue]=\"1\">Sap</option>\r\n                <option [ngValue]=\"1\">Nit</option>\r\n\r\n              </select>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group col-md-6 \">\r\n          <button class=\"btn btn-success\" (click)=\"consultarCliente()\">Consultar Cliente</button>\r\n        </div>\r\n        <div class=\"form-group col-md-6 \">\r\n          <button class=\"btn btn-success\" (click)=\"clienteNuevoCliente()\">Nuevo Cliente</button>\r\n        </div>\r\n      </div>\r\n\r\n      <br>\r\n      <div *ngIf=\"mostrarDataCliente\">\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"codsap\" class=\"control-label col-md-12\">Código cliente SAP:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" (input)=\"validarCodigoSap()\" class=\"form-control\" name=\"codsap\" id=\"codsap\" [disabled]=\"dataEdicion\" placeholder=\"Cod Sap\"\r\n              [(ngModel)]=\"generalData.codigosap\"\r\n                #codsap=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"codsap.errors\">\r\n                <div *ngIf=\"codsap.touched && !codsap.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n                <div *ngIf=\"!codsap.validator.minlength && codsap.touched\" class=\"alert alert-danger \">\r\n                  <strong>Warning!</strong>Se Requieren mínimo 3 caracteres\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"typeCustomer\" class=\"control-label col-md-12\">Tipo de cliente:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"typecustomer\" name=\"typecustomer\" [(ngModel)]=\"generalData.tipoCliente\" #typecustomer=\"ngModel\"\r\n                  required>\r\n                  <option *ngFor=\"let tipo of tipoClientes\" [ngValue]=\"tipo\">{{tipo.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"typecustomer.errors\">\r\n                  <div *ngIf=\"typecustomer.touched && !typecustomer.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"kBName\" class=\"control-label col-md-12\">Ejecutivo Negocio:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"kBName\" name=\"kBName\" [(ngModel)]=\"generalData.ejecutivoNegocio\" #kBName=\"ngModel\" required>\r\n                  <option *ngFor=\"let ejecutivoNegocios of keyBusinessDatas\" [ngValue]=\"ejecutivoNegocios\">{{ejecutivoNegocios.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"kBName.errors\">\r\n                  <div *ngIf=\"kBName.touched && !kBName.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"kAName\" class=\"control-label col-md-12\">Ejecutivo Cuenta:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"kAName\" name=\"kAName\" [(ngModel)]=\"generalData.ejecutivoCuenta\" #kAName=\"ngModel\">\r\n                  <option *ngFor=\"let datos of keyAccountDatas\" [ngValue]=\"datos\">{{datos.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"kAName.errors\">\r\n                  <div *ngIf=\"kAName.touched && !kAName.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"form-group row \">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"regional\" class=\"control-label col-md-12\">Regional:</label>\r\n            <div class=\"col-md-12\">\r\n              <div class=\"form-group\">\r\n                <select class=\"form-control\" id=\"regional\" name=\"regional\" [(ngModel)]=\"generalData.regional\" #regionals=\"ngModel\" required>\r\n                  <option *ngFor=\"let regionalsData of regionalsDatas\" [ngValue]=\"regionalsData\">{{regionalsData.nombre}}</option>\r\n                </select>\r\n                <div *ngIf=\"regionals.errors\">\r\n                  <div *ngIf=\"regionals.touched && !regionals.valid\" class=\"alert alert-danger\">\r\n                    <strong>Warning!</strong>Campo requerido.\r\n                  </div>\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"nameComercial\" class=\"control-label col-md-12\">Razón Social:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" name=\"nameComercial\" id=\"nameComercial\" placeholder=\"Razón Social\" [(ngModel)]=\"generalData.razonsocial\"\r\n                #nameComercial=\"ngModel\" (input)=\"validarNombre()\" required maxlength=\"200\" minlength=\"3\" pattern=\"[a-zA-Z ]*\">\r\n              <div *ngIf=\"nameComercial.errors\">\r\n                <div *ngIf=\"nameComercial.touched && !nameCommercial.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"nit\" class=\"control-label col-md-12\">NIT:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" name=\"nit\" id=\"nit\"  [disabled]=\"dataEdicion\" placeholder=\"Nit\" [(ngModel)]=\"generalData.nit\"\r\n                #nit=\"ngModel\" required maxlength=\"200\" minlength=\"3\" (input)=\"validarNit()\">\r\n              <div *ngIf=\"nit.errors\">\r\n                <div *ngIf=\"nit.touched && !nit.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"address\" class=\"control-label col-md-12\">Dirección:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" (input)=\"validarDireccion()\" class=\"form-control\" name=\"address\" id=\"address\" placeholder=\"Dirección\"\r\n                [(ngModel)]=\"generalData.direccion\" #address=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"address.errors\">\r\n                <div *ngIf=\"address.touched && !address.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"barrio\" class=\"control-label col-md-12\">Barrio:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\" (input)=\"validarBarrio()\"  name=\"barrio\" id=\"barrio\" placeholder=\"Barrio\"\r\n                [(ngModel)]=\"generalData.barrio\" #barrio=\"ngModel\" maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"barrio.errors\">\r\n                <div *ngIf=\"barrio.touched && !barrio.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"email\" class=\"control-label col-md-12\">Correo:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"email\" class=\"form-control\" name=\"email\" id=\"email\" placeholder=\"Email\" [(ngModel)]=\"generalData.email\" #email=\"ngModel\"\r\n                (change)=\"validarEmail(generalData.email)\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"email.errors\">\r\n                <div *ngIf=\"email.touched && !emailvalid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"telephone\" class=\"control-label col-md-12\">Teléfono Fijo:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\"  name=\"telephone\" id=\"telephone\" placeholder=\"Teléfono\" [(ngModel)]=\"generalData.telfonofijo\"\r\n                (input)=\"validarTelefono()\" #telephone=\"ngModel\" maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"telephone.errors\">\r\n                <div *ngIf=\"telephone.touched && !telephone.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"numberSedes\" class=\"control-label col-md-12\">No Sedes:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"number\" class=\"form-control\"  name=\"sedes\" id=\"sedes\" placeholder=\"sedes\" [(ngModel)]=\"generalData.numbersedes\"\r\n                #numberSedes=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"numberSedes.errors\">\r\n                <div *ngIf=\"numberSedes.touched && !numberSedes.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"celphone\" class=\"control-label col-md-12\">Celular:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"text\" class=\"form-control\"  name=\"celphone\" id=\"celphone\" placeholder=\"Celular\" [(ngModel)]=\"generalData.numerocelular\"\r\n                #celphone=\"ngModel\" required maxlength=\"200\" minlength=\"3\" (input)=\"validarCelular()\">\r\n              <div *ngIf=\"celphone.errors\">\r\n                <div *ngIf=\"celphone.touched && !celphone.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n\r\n          </div>\r\n        </div>\r\n        <div class=\"box-shadow-border\"></div>\r\n        <br>\r\n        <h4>Vigencia Contrato</h4>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"contractStart\" class=\"control-label col-md-12\">Fecha Inicio:</label>\r\n            <div class=\"col-md-12\">\r\n              <div>\r\n                  <input type=\"date\" class=\"form-control\" name=\"contractStart\" [(ngModel)]=\"generalData.fechainicio\" #contractStart=\"ngModel\" size=\"50\" required />\r\n              </div>\r\n              <div *ngIf=\"contractStart.errors\">\r\n                <div *ngIf=\"contractStart.touched && !contractStart.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"contractEnd\" class=\"control-label col-md-12\">Fecha Fin:</label>\r\n            <div class=\"col-md-12\">\r\n              <div >\r\n                  <input type=\"date\" class=\"form-control\" name=\"contractEnd\" [(ngModel)]=\"generalData.fechafin\" #contractEnd=\"ngModel\" size=\"50\" required />\r\n              </div>\r\n              <div *ngIf=\"contractEnd.errors\">\r\n                <div *ngIf=\"contractEnd.touched && !contractEnd.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"box-shadow-border\"></div>\r\n        <br>\r\n        <h4>Objetivos Singular de Venta</h4>\r\n        <div class=\"form-group row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"objetiveyear\" class=\"control-label col-md-12\">Anual:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"number\" class=\"form-control\" (input)=\"validarObjetosVenta()\" name=\"objetiveyear\" pattern=\"[0-9]*\" id=\"objetiveyear\" placeholder=\"Objetivo anual\"\r\n                [(ngModel)]=\"generalData.objetivoanual\" #objetiveyear=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"objetiveyear.errors\">\r\n                <div *ngIf=\"objetiveyear.touched && !objetiveyear.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"form-group col-md-6 \">\r\n            <label for=\"objetivemonth\" class=\"control-label col-md-12\">Mensual:</label>\r\n            <div class=\"col-md-12\">\r\n              <input type=\"number\" class=\"form-control\" (input)=\"validarObjetosMensual()\" pattern=\"[0-9]*\" name=\"objetivemonth\" id=\"objetivemonth\" placeholder=\"Objetivo Mensual\"\r\n                [(ngModel)]=\"generalData.objetivomensual\" #objetivemonth=\"ngModel\" required maxlength=\"200\" minlength=\"3\">\r\n              <div *ngIf=\"objetivemonth.errors\">\r\n                <div *ngIf=\"objetivemonth.touched && !objetivemonth.valid\" class=\"alert alert-danger\">\r\n                  <strong>Warning!</strong>Campo requerido.\r\n                </div>\r\n\r\n              </div>\r\n\r\n\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"form-group row\">\r\n          <div class=\"col-md-4\">\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n\r\n            <div *ngIf=\"kBName.errors || kAName.errors || codsap.errors || typecustomer.errors || nameComercial.errors || regionals.errors\r\n\t\t\t\t\t\t|| nit.errors || address.errors || barrio.errors || email.errors || telephone.errors || numberSedes.errors || celphone.errors\r\n\t\t\t\t\t\t || objetiveyear.errors || objetivemonth.errors || contractStart.errors || contractEnd.errors\">\r\n              <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSedes()\" disabled>Sedes</button>\r\n              <button class=\"btn btn-success\" (click)=\"saveGeneralData()\" disabled=\"\">Guardar</button>\r\n              <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\r\n            </div>\r\n            <div *ngIf=\"!kBName.errors && !kAName.errors && !codsap.errors && !typecustomer.errors && !nameComercial.errors && !regionals.errors\r\n\t\t\t\t\t\t\t&& !nit.errors && !address.errors && !barrio.errors && !email.errors && !telephone.errors && !numberSedes.errors && !celphone.errors\r\n\t\t\t\t\t\t\t&& !contractStart.errors && !contractEnd.errors && !objetiveyear.errors && !objetivemonth.errors\">\r\n              <button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goSedes()\">Sede</button>\r\n              <button class=\"btn btn-success\" (click)=\"saveGeneralData()\">Guardar</button>\r\n              <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </form>\r\n</ba-card>\r\n"
 
 /***/ }),
 /* 1124 */
 /***/ (function(module, exports) {
 
-module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\r\n\t<form class=\"form-horizontal\">\r\n\t\t<div class=\"container-fluid\">\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t<h4>Información de Sedes </h4>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t\t<div class=\"form-group col-md-6\">\r\n\t\t\t\t\t\t<label for=\"typeemployees\" class=\"control-label col-md-12\">Tipo Empleados:</label>\r\n\t\t\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\r\n\t\t\t\t\t\t\t\t\t\t<select class=\"form-control\" id=\"typeemployees\" name=\"typeemployees\"\r\n\t\t\t\t\t\t\t\t\t\t[(ngModel)]=\"headQuarter.tipoempleado\" #typeEmployees=\"ngModel\"\r\n\t\t\t\t\t\t\t\t\t\t required>\r\n\t\t\t\t\t\t\t\t\t\t\t  <option *ngFor = \"let typeEmployeesData of typeEmployeesDatas\" [ngValue]= \"typeEmployeesData\">{{typeEmployeesData.nombre}}</option>\r\n\t\t\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t\t\t\t<div *ngIf=\"typeEmployees.errors\">\r\n\t\t\t\t\t\t\t\t\t\t\t<div *ngIf=\"typeEmployees.touched && !typeEmployees.valid\" class=\"alert alert-danger\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<strong>Warning!</strong>Campo requerido.\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t<div class=\"form-group col-md-6\">\r\n\t\t\t\t\t<label for=\"numberEmployees\" class=\"control-label col-md-12\">No Empleados:</label>\r\n\t\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t\t<input type=\"number\"class=\"form-control\" id=\"numberEmployees\" name=\"numberEmployees\"\r\n\t\t\t\t\t\t[(ngModel)]=\"headQuarter.cantidadempleados\" #numberEmployees=\"ngModel\"\r\n\t\t\t\t\t\t required>\r\n\t\t\t\t\t\t <div *ngIf=\"numberEmployees.errors\">\r\n\t\t\t\t\t\t\t<div *ngIf=\"numberEmployees.touched && !numberEmployees.valid\" class=\"alert alert-danger\">\r\n\t\t\t\t\t\t\t\t<strong>Warning!</strong>Campo requerido.\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t<div class=\"form-group col-md-6\">\r\n\t\t\t\t\t<label for=\"sectorName\" class=\"control-label col-md-12\">Sector:</label>\r\n\t\t\t\t\t<div class=\"col-md-12\">\r\n\r\n                <select class=\"form-control\" id=\"sectorName\" name=\"sectorName\"\r\n                [(ngModel)]=\"headQuarter.sector\" #sectorName=\"ngModel\"\r\n                 required>\r\n                    <option *ngFor = \"let sector of sectorDatas\" [ngValue]= \"sector\">{{sector.nombre}}</option>\r\n                </select>\r\n\r\n\t\t\t\t\t\t\t<div *ngIf=\"sectorName.errors\">\r\n\t\t\t\t\t\t\t\t<div *ngIf=\"sectorName.touched && !sectorName.valid\" class=\"alert alert-danger\">\r\n\t\t\t\t\t\t\t\t\t<strong>Warning!</strong>Campo requerido.\r\n\t\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"form-group col-md-6\">\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t<div class=\"col-md-4\">\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"col-md-4\">\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"col-md-4\">\r\n\r\n\t\t\t\t\t\t<div *ngIf=\"typeEmployees.errors || numberEmployees.errors || sectorName.errors \">\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goBusiness()\" disabled>Sedes</button>\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-success\" (click)=\"saveHeadQuarters()\" disabled=\"\">Guardar</button>\r\n                <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\r\n                <button class=\"btn btn-info\" (click)=\"consultaSectoresCliente()\">Actualizar</button>\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div *ngIf=\"!typeEmployees.errors && !numberEmployees.errors && !sectorName.errors \">\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goBusiness()\">Sedes</button>\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-success\" (click)=\"saveHeadQuarters()\">Guardar</button>\r\n                <button class=\"btn btn-info\" (click)=\"  consultaSectoresCliente()\">Cancelar</button>\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n    </div>\r\n    <div class=\"panel panel-default\" *ngIf=\"sectoresClientes!=null && sectoresClientes.length>0\">\r\n      <div class=\"panel-heading\">Información de sedes</div>\r\n      <table class=\"table table-striped\" >\r\n        <thead>\r\n          <tr>\r\n            <th style=\"width: 20%\">\r\n              Tipo Empleados:\r\n            </th>\r\n            <th style=\"width: 20%\">\r\n              No Empleados:\r\n            </th>\r\n            <th style=\"width: 20%\">\r\n              Sector:\r\n            </th>\r\n\r\n            <th style=\"width: 20%\">\r\n              Acción:\r\n            </th>\r\n          <tr>\r\n         </thead>\r\n        <tbody>\r\n          <tr *ngFor=\"let data of sectoresClientes\">\r\n            <td>{{data.tipoempleado.nombre}}</td>\r\n            <td> {{data.cantidadempleados}}</td>\r\n            <td> {{data.sector.nombre}}</td>\r\n            <td>\r\n              <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"eliminar(data)\" name=\"eliminarSector\"  ><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\r\n              <button class=\".glyphicon-trash btn btn-info\"  (click)=\"editar(data)\" name=\"editarSector\"  ><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\r\n\r\n            </td>\r\n          </tr>\r\n        </tbody>\r\n\r\n      </table>\r\n\r\n    </div>\r\n\t</form>\r\n</ba-card>\r\n"
+module.exports = "<ba-card cardTitle=\"Bienvenido al sistema de Gestión de Cuentas\" baCardClass=\"with-scroll\">\r\n\t<form class=\"form-horizontal\">\r\n\t\t<div class=\"container-fluid\">\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t<h4>Información de Sedes </h4>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t\t<div class=\"form-group col-md-6\">\r\n\t\t\t\t\t\t<label for=\"typeemployees\" class=\"control-label col-md-12\">Tipo Empleados:</label>\r\n\t\t\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\r\n\t\t\t\t\t\t\t\t\t\t<select class=\"form-control\" id=\"typeemployees\" name=\"typeemployees\"\r\n\t\t\t\t\t\t\t\t\t\t[(ngModel)]=\"headQuarter.tipoempleado\" #typeEmployees=\"ngModel\"\r\n\t\t\t\t\t\t\t\t\t\t required>\r\n\t\t\t\t\t\t\t\t\t\t\t  <option *ngFor = \"let typeEmployeesData of typeEmployeesDatas\" [ngValue]= \"typeEmployeesData\">{{typeEmployeesData.nombre}}</option>\r\n\t\t\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t\t\t\t<div *ngIf=\"typeEmployees.errors\">\r\n\t\t\t\t\t\t\t\t\t\t\t<div *ngIf=\"typeEmployees.touched && !typeEmployees.valid\" class=\"alert alert-danger\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<strong>Warning!</strong>Campo requerido.\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t<div class=\"form-group col-md-6\">\r\n\t\t\t\t\t<label for=\"numberEmployees\" class=\"control-label col-md-12\">No Empleados:</label>\r\n\t\t\t\t\t<div class=\"col-md-12\">\r\n\t\t\t\t\t\t<input type=\"number\"class=\"form-control\" (input)=\"validarNumero()\" id=\"numberEmployees\" name=\"numberEmployees\"\r\n\t\t\t\t\t\t[(ngModel)]=\"headQuarter.cantidadempleados\" #numberEmployees=\"ngModel\"\r\n\t\t\t\t\t\t required>\r\n\t\t\t\t\t\t <div *ngIf=\"numberEmployees.errors\">\r\n\t\t\t\t\t\t\t<div *ngIf=\"numberEmployees.touched && !numberEmployees.valid\" class=\"alert alert-danger\">\r\n\t\t\t\t\t\t\t\t<strong>Warning!</strong>Campo requerido.\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t<div class=\"form-group col-md-6\">\r\n\t\t\t\t\t<label for=\"sectorName\" class=\"control-label col-md-12\">Sector:</label>\r\n\t\t\t\t\t<div class=\"col-md-12\">\r\n\r\n                <select class=\"form-control\" id=\"sectorName\" name=\"sectorName\"\r\n                [(ngModel)]=\"headQuarter.sector\" #sectorName=\"ngModel\"\r\n                 required>\r\n                    <option *ngFor = \"let sector of sectorDatas\" [ngValue]= \"sector\">{{sector.nombre}}</option>\r\n                </select>\r\n\r\n\t\t\t\t\t\t\t<div *ngIf=\"sectorName.errors\">\r\n\t\t\t\t\t\t\t\t<div *ngIf=\"sectorName.touched && !sectorName.valid\" class=\"alert alert-danger\">\r\n\t\t\t\t\t\t\t\t\t<strong>Warning!</strong>Campo requerido.\r\n\t\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"form-group col-md-6\">\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\r\n\t\t\t<div class=\"form-group row\">\r\n\t\t\t\t<div class=\"col-md-4\">\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"col-md-4\">\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"col-md-4\">\r\n\r\n\t\t\t\t\t\t<div *ngIf=\"typeEmployees.errors || numberEmployees.errors || sectorName.errors \">\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goBusiness()\" disabled>Negocio</button>\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-success\" (click)=\"saveHeadQuarters()\" disabled=\"\">Guardar</button>\r\n                <button class=\"btn btn-info\" (click)=\"resetForm()\">Cancelar</button>\r\n                <button class=\"btn btn-info\" (click)=\"consultaSectoresCliente()\">Actualizar</button>\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div *ngIf=\"!typeEmployees.errors && !numberEmployees.errors && !sectorName.errors \">\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-primary\" name=\"buttonSave\" (click)=\"goBusiness()\">Negocio</button>\r\n\t\t\t\t\t\t\t\t<button class=\"btn btn-success\" (click)=\"saveHeadQuarters()\">Guardar</button>\r\n                <button class=\"btn btn-info\" (click)=\"  consultaSectoresCliente()\">Cancelar</button>\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n    </div>\r\n    <div class=\"panel panel-default\" *ngIf=\"sectoresClientes!=null && sectoresClientes.length>0\">\r\n      <div class=\"panel-heading\">Información de sedes</div>\r\n      <table class=\"table table-striped\" >\r\n        <thead>\r\n          <tr>\r\n            <th style=\"width: 20%\">\r\n              Tipo Empleados:\r\n            </th>\r\n            <th style=\"width: 20%\">\r\n              No Empleados:\r\n            </th>\r\n            <th style=\"width: 20%\">\r\n              Sector:\r\n            </th>\r\n\r\n            <th style=\"width: 20%\">\r\n              Acción:\r\n            </th>\r\n          <tr>\r\n         </thead>\r\n        <tbody>\r\n          <tr *ngFor=\"let data of sectoresClientes\">\r\n            <td>{{data.tipoempleado.nombre}}</td>\r\n            <td> {{data.cantidadempleados}}</td>\r\n            <td> {{data.sector.nombre}}</td>\r\n            <td>\r\n              <button class=\"glyphicon .glyphicon-trash btn btn-info\" (click)=\"eliminar(data)\" name=\"eliminarSector\"  ><i class=\"fa fa-eraser\" aria-hidden=\"true\"></i></button>\r\n              <button class=\".glyphicon-trash btn btn-info\"  (click)=\"editar(data)\" name=\"editarSector\"  ><i class=\"fa fa-pencil\" aria-hidden=\"true\"></i></button>\r\n\r\n            </td>\r\n          </tr>\r\n        </tbody>\r\n\r\n      </table>\r\n\r\n    </div>\r\n\t</form>\r\n</ba-card>\r\n"
 
 /***/ }),
 /* 1125 */

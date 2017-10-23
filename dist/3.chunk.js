@@ -1,12 +1,12 @@
 webpackJsonp([3,11],{
 
-/***/ 1033:
+/***/ 1034:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dynamicreports_component__ = __webpack_require__(948);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_reports_reports_component__ = __webpack_require__(947);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dynamicreports_component__ = __webpack_require__(947);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_reports_reports_component__ = __webpack_require__(946);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -26,7 +26,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 1053:
+/***/ 1054:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(false);
@@ -61,9 +61,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_nga_module__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dynamicreports_routing__ = __webpack_require__(1033);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dynamicreports_component__ = __webpack_require__(948);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_reports_reports_component__ = __webpack_require__(947);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dynamicreports_routing__ = __webpack_require__(1034);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dynamicreports_component__ = __webpack_require__(947);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_reports_reports_component__ = __webpack_require__(946);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DynamicreportsModule", function() { return DynamicreportsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -106,7 +106,7 @@ DynamicreportsModule = __decorate([
 
 /***/ }),
 
-/***/ 947:
+/***/ 946:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -131,7 +131,7 @@ Reports = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'reports',
         template: __webpack_require__(1129),
-        styles: [__webpack_require__(1053)]
+        styles: [__webpack_require__(1054)]
     }),
     __metadata("design:paramtypes", [])
 ], Reports);
@@ -140,7 +140,7 @@ Reports = __decorate([
 
 /***/ }),
 
-/***/ 948:
+/***/ 947:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
